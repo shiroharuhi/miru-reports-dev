@@ -1,0 +1,9 @@
+{
+  "date": "2026-05-01",
+  "type": "screening",
+  "status": "YELLOW",
+  "trend_count": 10,
+  "sell_count": 4,
+  "reversal_count": 0,
+  "timestamp": "2026-05-01T08:56:03.152639"
+}
