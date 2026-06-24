@@ -1,8 +1,8 @@
 {
   "date": "2026-06-25",
-  "pipeline_stage": "stage4_morning",
+  "pipeline_stage": "stage5_final",
   "created_at": "2026-06-24T17:34:24.301759+09:00",
-  "updated_at": "2026-06-25T07:47:22.952916+09:00",
+  "updated_at": "2026-06-25T08:31:16.293990+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
@@ -10,8 +10,8 @@
     "direction_confidence": "低",
     "morning_jiai": "YELLOW",
     "effective_jiai": "YELLOW",
-    "futures_direction": null,
-    "final_judgment": null
+    "futures_direction": "STRONG_UP",
+    "final_judgment": "⚪ 5分足3本まで様子見"
   },
   "market": {
     "nikkei_change": "-0.88%",
@@ -130,14 +130,14 @@
         "buy_change_4w": 6.9
       },
       "entry_current": {
-        "est_open": 3603,
-        "low": 3584,
-        "high": 3621
+        "est_open": 3615,
+        "low": 3596,
+        "high": 3633
       },
-      "stop_loss_current": 3534,
-      "target_current": 3711,
-      "lot_current": 1165,
-      "gap_pct": 2.8
+      "stop_loss_current": 3546,
+      "target_current": 3723,
+      "lot_current": 1161,
+      "gap_pct": 3.14
     },
     {
       "code": "4062",
@@ -213,14 +213,14 @@
         "buy_change_4w": 39.5
       },
       "entry_current": {
-        "est_open": 25479,
-        "low": 25351,
-        "high": 25606
+        "est_open": 25565,
+        "low": 25437,
+        "high": 25692
       },
-      "stop_loss_current": 24994,
-      "target_current": 26243,
+      "stop_loss_current": 25079,
+      "target_current": 26331,
       "lot_current": 164,
-      "gap_pct": 2.8
+      "gap_pct": 3.15
     },
     {
       "code": "6526",
@@ -302,14 +302,14 @@
         "buy_change_4w": -2.9
       },
       "entry_current": {
-        "est_open": 2724,
-        "low": 2710,
-        "high": 2737
+        "est_open": 2733,
+        "low": 2719,
+        "high": 2746
       },
-      "stop_loss_current": 2672,
-      "target_current": 2805,
-      "lot_current": 1541,
-      "gap_pct": 2.79
+      "stop_loss_current": 2681,
+      "target_current": 2814,
+      "lot_current": 1536,
+      "gap_pct": 3.13
     },
     {
       "code": "2264",
@@ -379,14 +379,14 @@
         "buy_change_4w": 35.9
       },
       "entry_current": {
-        "est_open": 5160,
-        "low": 5134,
-        "high": 5185
+        "est_open": 5178,
+        "low": 5152,
+        "high": 5203
       },
-      "stop_loss_current": 5061,
-      "target_current": 5314,
-      "lot_current": 813,
-      "gap_pct": 2.79
+      "stop_loss_current": 5079,
+      "target_current": 5333,
+      "lot_current": 811,
+      "gap_pct": 3.15
     },
     {
       "code": "6269",
@@ -468,14 +468,14 @@
         "buy_change_4w": -6.9
       },
       "entry_current": {
-        "est_open": 10444,
-        "low": 10391,
-        "high": 10496
+        "est_open": 10479,
+        "low": 10426,
+        "high": 10531
       },
-      "stop_loss_current": 10245,
-      "target_current": 10757,
-      "lot_current": 402,
-      "gap_pct": 2.8
+      "stop_loss_current": 10279,
+      "target_current": 10793,
+      "lot_current": 400,
+      "gap_pct": 3.14
     },
     {
       "code": "4578",
@@ -574,14 +574,14 @@
         "buy_change_4w": 77.0
       },
       "entry_current": {
-        "est_open": 11174,
-        "low": 11118,
-        "high": 11229
+        "est_open": 11212,
+        "low": 11155,
+        "high": 11268
       },
-      "stop_loss_current": 10961,
-      "target_current": 11509,
-      "lot_current": 375,
-      "gap_pct": 2.8
+      "stop_loss_current": 10998,
+      "target_current": 11548,
+      "lot_current": 374,
+      "gap_pct": 3.15
     },
     {
       "code": "6504",
@@ -656,14 +656,14 @@
         "buy_change_4w": -16.9
       },
       "entry_current": {
-        "est_open": 15101,
-        "low": 15025,
-        "high": 15176
+        "est_open": 15152,
+        "low": 15076,
+        "high": 15227
       },
-      "stop_loss_current": 14814,
-      "target_current": 15554,
-      "lot_current": 278,
-      "gap_pct": 2.8
+      "stop_loss_current": 14864,
+      "target_current": 15606,
+      "lot_current": 277,
+      "gap_pct": 3.14
     },
     {
       "code": "4503",
@@ -756,14 +756,14 @@
         "buy_change_4w": 5.2
       },
       "entry_current": {
-        "est_open": 2219,
-        "low": 2207,
-        "high": 2230
+        "est_open": 2226,
+        "low": 2214,
+        "high": 2237
       },
-      "stop_loss_current": 2176,
-      "target_current": 2285,
-      "lot_current": 1892,
-      "gap_pct": 2.78
+      "stop_loss_current": 2183,
+      "target_current": 2292,
+      "lot_current": 1886,
+      "gap_pct": 3.1
     },
     {
       "code": "6651",
@@ -838,14 +838,14 @@
         "buy_change_4w": 20.3
       },
       "entry_current": {
-        "est_open": 4898,
-        "low": 4873,
-        "high": 4922
+        "est_open": 4915,
+        "low": 4890,
+        "high": 4939
       },
-      "stop_loss_current": 4804,
-      "target_current": 5044,
-      "lot_current": 857,
-      "gap_pct": 2.79
+      "stop_loss_current": 4821,
+      "target_current": 5062,
+      "lot_current": 854,
+      "gap_pct": 3.15
     },
     {
       "code": "9706",
@@ -926,14 +926,14 @@
         "buy_change_4w": 14.2
       },
       "entry_current": {
-        "est_open": 5011,
-        "low": 4985,
-        "high": 5036
+        "est_open": 5028,
+        "low": 5002,
+        "high": 5053
       },
-      "stop_loss_current": 4915,
-      "target_current": 5161,
-      "lot_current": 838,
-      "gap_pct": 2.79
+      "stop_loss_current": 4932,
+      "target_current": 5178,
+      "lot_current": 835,
+      "gap_pct": 3.14
     },
     {
       "code": "6966",
@@ -1008,14 +1008,14 @@
         "buy_change_4w": 30.9
       },
       "entry_current": {
-        "est_open": 1078,
-        "low": 1072,
-        "high": 1083
+        "est_open": 1082,
+        "low": 1076,
+        "high": 1087
       },
-      "stop_loss_current": 1057,
-      "target_current": 1110,
-      "lot_current": 3896,
-      "gap_pct": 2.76
+      "stop_loss_current": 1061,
+      "target_current": 1114,
+      "lot_current": 3881,
+      "gap_pct": 3.15
     },
     {
       "code": "6387",
@@ -1096,14 +1096,14 @@
         "buy_change_4w": 8.7
       },
       "entry_current": {
-        "est_open": 14536,
-        "low": 14463,
-        "high": 14608
+        "est_open": 14585,
+        "low": 14512,
+        "high": 14657
       },
-      "stop_loss_current": 14259,
-      "target_current": 14972,
-      "lot_current": 288,
-      "gap_pct": 2.8
+      "stop_loss_current": 14307,
+      "target_current": 15022,
+      "lot_current": 287,
+      "gap_pct": 3.15
     },
     {
       "code": "6101",
@@ -1196,14 +1196,14 @@
         "buy_change_4w": 2.3
       },
       "entry_current": {
-        "est_open": 7668,
-        "low": 7629,
-        "high": 7706
+        "est_open": 7694,
+        "low": 7655,
+        "high": 7732
       },
-      "stop_loss_current": 7522,
-      "target_current": 7898,
-      "lot_current": 547,
-      "gap_pct": 2.79
+      "stop_loss_current": 7547,
+      "target_current": 7924,
+      "lot_current": 545,
+      "gap_pct": 3.14
     }
   ],
   "history": [
@@ -1256,6 +1256,11 @@
       "stage": "stage4",
       "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.55",
       "timestamp": "2026-06-25T07:47:22.952888+09:00"
+    },
+    {
+      "stage": "stage5",
+      "action": "最終確認: ⚪ 5分足3本まで様子見 先物+3.1% (active:5 standby:8)",
+      "timestamp": "2026-06-25T08:31:16.293489+09:00"
     }
   ],
   "stage_metadata": {
@@ -1276,7 +1281,11 @@
       "completed_at": "2026-06-25T07:47:22.947149+09:00"
     },
     "stage4_morning": {
-      "started_at": "2026-06-25T07:47:22.947155+09:00"
+      "started_at": "2026-06-25T07:47:22.947155+09:00",
+      "completed_at": "2026-06-25T08:31:15.991003+09:00"
+    },
+    "stage5_final": {
+      "started_at": "2026-06-25T08:31:15.991003+09:00"
     }
   },
   "g1_adopted_metadata": {
