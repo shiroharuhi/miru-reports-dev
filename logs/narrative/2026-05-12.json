@@ -1,0 +1,76 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東不安継続と日銀利上げ圧力の板挟み",
+  "risks": [
+    {
+      "topic": "中東情勢とホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "エネルギー",
+        "電力"
+      ],
+      "detail": "<cite index=\"1-2,5-3\">ホルムズ海峡の事実上封鎖が継続、原油価格高止まりで物価上昇圧力</cite>"
+    },
+    {
+      "topic": "トランプ関税によるインフレ圧力",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "電機"
+      ],
+      "detail": "<cite index=\"11-4,13-3\">関税影響が6ヶ月程度で本格化、実際の物価上昇率押し上げが懸念</cite>"
+    },
+    {
+      "topic": "日銀の利上げ圧力",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "建設"
+      ],
+      "detail": "<cite index=\"33-1,35-1\">物価上昇リスクで複数委員が早期追加利上げを主張、次回会合での可能性</cite>"
+    },
+    {
+      "topic": "FRBの政策不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "輸出"
+      ],
+      "detail": "<cite index=\"12-1,12-2\">関税インフレとFRBへの政治圧力でドル円相場の変動リスク拡大</cite>"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米中関税緩和期待",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "貿易",
+        "商社",
+        "製造業"
+      ],
+      "detail": "<cite index=\"28-1,28-3\">APEC会議での首脳会談で関税撤回や延期の可能性が一時合意</cite>"
+    },
+    {
+      "topic": "中国経済の底堅さ",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "商社",
+        "機械",
+        "素材"
+      ],
+      "detail": "<cite index=\"21-1,21-4\">中国1-3月GDP+5.0%で目標上限クリア、ハイテク関連輸出は堅調</cite>"
+    }
+  ],
+  "recommendation": "中東情勢の長期化とインフレ懸念が重石となる中、日銀の利上げ圧力も高まっている。短期的にはリスクオフの地合いが続く可能性が高いが、米中関係改善期待もあり様子見が適切。エネルギー関連と金利敏感セクターに注意。",
+  "date": "2026-05-12",
+  "timestamp": "2026-05-12T13:16:55.762216"
+}

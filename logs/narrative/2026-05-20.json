@@ -1,0 +1,86 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東・米中貿易戦争深刻化に日銀利上げ圧力",
+  "risks": [
+    {
+      "topic": "中東情勢",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "石油・ガス",
+        "海運",
+        "電力"
+      ],
+      "detail": "ホルムズ海峡封鎖継続で原油価格高止まり、エネルギー関連インフレ加速リスク"
+    },
+    {
+      "topic": "米中貿易戦争",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "機械",
+        "商社"
+      ],
+      "detail": "関税54%まで上昇で対中ビジネス企業の収益圧迫、サプライチェーン混乱"
+    },
+    {
+      "topic": "日銀利上げ",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "公益"
+      ],
+      "detail": "物価上振れ懸念から政策委員3人が利上げ要求、金利敏感銘柄への影響"
+    },
+    {
+      "topic": "長期金利上昇",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "保険",
+        "電線"
+      ],
+      "detail": "2.8%まで上昇し29年半ぶり高水準、グロース株の評価見直し圧力"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "中国経済",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "資源",
+        "商社",
+        "工作機械"
+      ],
+      "detail": "成長率4%割れ懸念で中国関連ビジネス企業の業績下振れリスク"
+    },
+    {
+      "topic": "半導体調整",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "IT"
+      ],
+      "detail": "米フィラデルフィア半導体指数2%安で国内関連株に売り圧力継続"
+    },
+    {
+      "topic": "銀行株見直し",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行"
+      ],
+      "detail": "金利上昇環境で利ざや改善期待、相対的な出遅れ感からの物色"
+    }
+  ],
+  "recommendation": "中東情勢とインフレ懸念が継続する中、日銀の利上げ圧力と長期金利上昇で成長株調整が進行。半導体関連は引き続き警戒が必要。一方で金融株など金利上昇メリット銘柄は物色対象。全体的にはリスクオフ継続でディフェンシブなポートフォリオが望ましい。",
+  "date": "2026-05-20",
+  "timestamp": "2026-05-20T13:47:07.181402"
+}

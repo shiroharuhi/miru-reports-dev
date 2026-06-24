@@ -1,0 +1,76 @@
+{
+  "narrative_status": "RED",
+  "headline": "中東緊迫・米中関税戦争・日銀利上げ見送りの三重苦",
+  "risks": [
+    {
+      "topic": "中東情勢・原油高",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "化学",
+        "海運",
+        "航空"
+      ],
+      "detail": "イラン・ホルムズ海峡封鎖継続、原油価格急騰で企業収益圧迫"
+    },
+    {
+      "topic": "米中貿易戦争",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "ハイテク",
+        "製造業",
+        "商社"
+      ],
+      "detail": "トランプ145%関税・米中対立激化でサプライチェーン混乱"
+    },
+    {
+      "topic": "FRB利下げ慎重",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "金融"
+      ],
+      "detail": "関税インフレ警戒でFRB利下げ見送り観測、ドル高・円安圧力"
+    },
+    {
+      "topic": "日銀利上げ見送り",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "保険",
+        "REIT"
+      ],
+      "detail": "中東情勢で経済影響見極め、金利正常化遅れ懸念"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "原油先物急騰",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "全般"
+      ],
+      "detail": "ホルムズ海峡封鎖でエネルギー調達コスト増、企業業績悪化"
+    },
+    {
+      "topic": "中国経済減速",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "電子部品",
+        "商社"
+      ],
+      "detail": "対中輸出依存企業の収益下振れリスク拡大"
+    }
+  ],
+  "recommendation": "中東有事によるエネルギー価格急騰と米中貿易戦争の激化により、明日の前場は大幅続落のリスク。特に原油・ガス関連コストの影響を受けやすいセクターは要警戒。防御的なポジション推奨。",
+  "date": "2026-05-05",
+  "timestamp": "2026-05-05T12:14:22.737602"
+}

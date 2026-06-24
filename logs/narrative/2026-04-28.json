@@ -1,0 +1,82 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "ホルムズ海峡交渉進展とFRB政策不透明感",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡再封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "素材"
+      ],
+      "detail": "イラン軍事当局が18日に再封鎖表明、米国との停戦期限迫る"
+    },
+    {
+      "topic": "FRB政策不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "為替"
+      ],
+      "detail": "トランプ政権とFRBの政策対立、関税インフレ影響が未確定"
+    },
+    {
+      "topic": "原油価格高騰",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "石油精製",
+        "電力"
+      ],
+      "detail": "中東情勢緊迫で価格上昇圧力、製造業コスト増懸念"
+    },
+    {
+      "topic": "日銀利上げ反対票増加",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "不動産"
+      ],
+      "detail": "3委員が利上げ提案、6月会合で政策転換の可能性"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "イラン和平交渉進展期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全業種"
+      ],
+      "detail": "パキスタン仲介による新提案、戦闘終結への期待高まる"
+    },
+    {
+      "topic": "半導体業績期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電子部品"
+      ],
+      "detail": "米半導体株18連騰、AI需要で日本関連株にも資金流入"
+    },
+    {
+      "topic": "日経平均6万円突破",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "内需",
+        "金融"
+      ],
+      "detail": "技術的節目突破で追加上昇期待、外国人投資家の買い継続"
+    }
+  ],
+  "recommendation": "中東和平進展期待で一時的なリスクオン、ただしホルムズ海峡再封鎖懸念とFRB政策不透明感で上値重い展開。半導体関連は強含みも過熱感に注意、エネルギー・素材株は中東情勢次第。",
+  "date": "2026-04-28",
+  "timestamp": "2026-04-28T12:59:04.035494"
+}

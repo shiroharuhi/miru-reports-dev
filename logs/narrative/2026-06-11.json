@@ -1,0 +1,12 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "LLM disabled",
+  "risks": [],
+  "catalysts": [],
+  "recommendation": "LLM 呼出が無効化されています。手動でニュースを確認してください。",
+  "llm_status": "disabled",
+  "llm_reason": "missing_api_key",
+  "source": "no_llm_fallback",
+  "date": "2026-06-11",
+  "timestamp": "2026-06-11T14:54:26.990522"
+}

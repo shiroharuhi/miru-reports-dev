@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-18",
+  "generated_at": "2026-05-18T07:14:19.151184+09:00",
+  "adopted_source": "legacy_stage4",
+  "fallback_used": true,
+  "fallback_reason": "g1_generated_too_old",
+  "direction": null,
+  "momentum": null,
+  "narrative": null,
+  "representative_set_id": null,
+  "representative_label": null,
+  "morning_guidance": null,
+  "g1_score": null,
+  "valid": false,
+  "legacy_effective_jiai": "YELLOW"
+}

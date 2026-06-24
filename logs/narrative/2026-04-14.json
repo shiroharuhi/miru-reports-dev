@@ -1,0 +1,93 @@
+{
+  "narrative_status": "RED",
+  "headline": "中東情勢緊迫化とホルムズ海峡封鎖長期化",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "石油化学",
+        "海運",
+        "建設"
+      ],
+      "detail": "封鎖継続でナフサ調達困難、TOTO受注停止も原油高続く"
+    },
+    {
+      "topic": "米国とイランの停戦協議決裂",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "全市場"
+      ],
+      "detail": "協議物別れで中東情勢再緊迫化、リスクオフの円高・株安要因"
+    },
+    {
+      "topic": "トランプのホルムズ逆封鎖宣言",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "商社",
+        "エネルギー"
+      ],
+      "detail": "イラン港湾出入り阻止で情勢さらに複雑化、物流混乱拡大"
+    },
+    {
+      "topic": "FRB政策不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "全市場"
+      ],
+      "detail": "トランプ圧力とパウエル抵抗で金融政策の読みにくさ"
+    },
+    {
+      "topic": "中国経済減速継続",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "機械",
+        "自動車",
+        "半導体"
+      ],
+      "detail": "米中関係改善も内需回復遅れ、製造業PMI悪化継続"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "停戦合意期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全市場"
+      ],
+      "detail": "トランプ「イランから連絡」発言で交渉継続期待浮上"
+    },
+    {
+      "topic": "米中関係安定化",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "半導体",
+        "商社"
+      ],
+      "detail": "関税停止・輸出規制緩和で貿易環境改善継続"
+    },
+    {
+      "topic": "日銀金融政策",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "中東情勢で利上げ観測後退、円安圧力継続の可能性"
+    }
+  ],
+  "recommendation": "中東情勢の緊迫化が最大のリスク要因。ホルムズ海峡封鎖長期化で原油・化学セクターへの直接的悪影響が継続。トランプの逆封鎖でさらに複雑化。停戦協議継続の期待材料もあるが、不透明感強く神経質な展開継続見込み。",
+  "date": "2026-04-14",
+  "timestamp": "2026-04-14T22:52:54.957909"
+}

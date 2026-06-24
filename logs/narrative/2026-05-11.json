@@ -1,0 +1,87 @@
+{
+  "narrative_status": "RED",
+  "headline": "中東ホルムズ海峡封鎖継続、米イラン停戦交渉決裂",
+  "risks": [
+    {
+      "topic": "中東情勢・ホルムズ海峡",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "商船",
+        "化学",
+        "電力"
+      ],
+      "detail": "原油輸送の要衝封鎖継続、原油価格高騰で即座に影響"
+    },
+    {
+      "topic": "トランプFRB圧力",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "FRB独立性への圧力でドル信認リスク、金融市場不安定化"
+    },
+    {
+      "topic": "米中貿易戦争再燃",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "ハイテク",
+        "自動車",
+        "商社"
+      ],
+      "detail": "100％追加関税協議、レアアース規制で供給網混乱懸念"
+    },
+    {
+      "topic": "日銀利上げ観測",
+      "severity": "low",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REITs"
+      ],
+      "detail": "植田総裁発言で追加利上げ期待、実質金利上昇圧力"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "AI関連決算好調",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "IT",
+        "機械"
+      ],
+      "detail": "イビデン等の好決算で半導体・AI関連株に物色継続"
+    },
+    {
+      "topic": "停戦期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "エネルギー",
+        "海運"
+      ],
+      "detail": "米イラン協議継続で停戦合意への期待、リスクオフ緩和"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸入関連",
+        "電力",
+        "食品"
+      ],
+      "detail": "158円台突入で輸入コスト上昇、企業収益圧迫"
+    }
+  ],
+  "recommendation": "中東情勢とFRB圧力による金融市場不安が最大リスク。AI関連は決算好調も利益確定売りに警戒。原油高とドル高円安のスタグフレーション懸念で慎重スタンス推奨。",
+  "date": "2026-05-11",
+  "timestamp": "2026-05-11T13:52:23.521967"
+}

@@ -1,0 +1,92 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東緩和期待と半導体過熱調整が拮抗",
+  "risks": [
+    {
+      "topic": "中東情勢エネルギー高騰",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "鉄鋼",
+        "化学"
+      ],
+      "detail": "原油価格高騰による物価上昇圧力と交易条件悪化"
+    },
+    {
+      "topic": "米FRB政策不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融"
+      ],
+      "detail": "トランプ関税でスタグフレーション懸念、利下げ困難"
+    },
+    {
+      "topic": "米中関税摩擦",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "ハイテク"
+      ],
+      "detail": "レアアース輸出規制と追加関税リスクが継続"
+    },
+    {
+      "topic": "日銀利上げ圧力",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "REIT"
+      ],
+      "detail": "物価上振れで複数委員が躊躇なき利上げ主張"
+    },
+    {
+      "topic": "半導体過熱調整",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "AI"
+      ],
+      "detail": "急ピッチ上昇後の利益確定売り圧力が顕在化"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "中東停戦交渉進展",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "石油"
+      ],
+      "detail": "ホルムズ海峡30日後開放案で原油安期待"
+    },
+    {
+      "topic": "AI投資ブーム継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "AI",
+        "ソフトバンクG"
+      ],
+      "detail": "OpenAI上場観測とマイクロン好決算で強気継続"
+    },
+    {
+      "topic": "政治安定効果",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "全般"
+      ],
+      "detail": "総選挙後の政策期待と海外投資家のアンダーウエート解消"
+    }
+  ],
+  "recommendation": "中東緊張緩和期待で下支えされるが、半導体関連の過熱調整と日銀利上げ圧力で上値重い展開。ホルムズ海峡交渉進展を見極めつつ、利益確定売りが一巡した銘柄を選別",
+  "date": "2026-05-27",
+  "timestamp": "2026-05-27T14:33:53.807015"
+}

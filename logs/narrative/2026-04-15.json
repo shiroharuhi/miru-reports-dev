@@ -1,0 +1,85 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "米イラン停戦期待高まるもホルムズ海峡封鎖継続で警戒",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "化学",
+        "商社",
+        "海運"
+      ],
+      "detail": "原油・ナフサ調達に深刻な影響、供給不安が継続"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出関連",
+        "自動車",
+        "電機"
+      ],
+      "detail": "FRBの利下げ観測後退、円安・株価下押し圧力"
+    },
+    {
+      "topic": "中国半導体規制",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "製造装置",
+        "電子部品"
+      ],
+      "detail": "米中技術摩擦の長期化、サプライチェーン混乱"
+    },
+    {
+      "topic": "日銀利上げ観測",
+      "severity": "low",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "中東情勢で4月利上げ確率低下、市場予想31%"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン交渉進展",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全般",
+        "ハイテク株"
+      ],
+      "detail": "中東リスク後退期待で海外資金流入、AI関連に買い"
+    },
+    {
+      "topic": "米株高継続",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "ハイテク"
+      ],
+      "detail": "S&P500最高値迫り、日本のハイテク株に恩恵"
+    },
+    {
+      "topic": "円安基調",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出",
+        "製造業"
+      ],
+      "detail": "FRB利下げ観測後退でドル高継続、輸出企業に追い風"
+    }
+  ],
+  "recommendation": "米イラン交渉期待で短期的にリスクオン、ただしホルムズ封鎖継続で原油関連株は警戒。ハイテク株中心の物色継続も中東情勢次第で急変リスク、慎重な立ち回りが必要。",
+  "date": "2026-04-15",
+  "timestamp": "2026-04-15T13:56:56.253998"
+}

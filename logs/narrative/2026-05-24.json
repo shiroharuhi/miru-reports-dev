@@ -1,0 +1,73 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "米イラン和平合意への期待とFRB政策の不確実性",
+  "risks": [
+    {
+      "topic": "FRBとトランプ政権の対立",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "トランプ大統領がFRB議長を批判、パウエル議長の利下げ抵抗が株価下押し要因"
+    },
+    {
+      "topic": "ホルムズ海峡封鎖の長期化",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "エネルギー",
+        "商社",
+        "海運"
+      ],
+      "detail": "原油在庫が需要100日分割れ目前、世界的な供給制約継続"
+    },
+    {
+      "topic": "米中半導体規制強化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電子部品"
+      ],
+      "detail": "MATCH法案により日欧企業への圧力強化、サプライチェーン混乱"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン和平協議進展",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全業種"
+      ],
+      "detail": "パキスタン仲介で合意最終案完成報道、戦闘終結期待で株価上昇"
+    },
+    {
+      "topic": "日銀の利上げスタンス維持",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REITs"
+      ],
+      "detail": "植田総裁が6月利上げ示唆、ベッセント米財務長官も後押し発言"
+    },
+    {
+      "topic": "AI関連株の強さ継続",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "AI関連"
+      ],
+      "detail": "SBG連日大幅高、エヌビディア決算通過でAI相場継続"
+    }
+  ],
+  "recommendation": "中東和平期待で上昇基調も、FRB政策不透明感と日銀利上げ観測が重石。AI関連は堅調維持も、金融・不動産は上値重い展開。材料待ちの中で短期的な変動に注意",
+  "date": "2026-05-24",
+  "timestamp": "2026-05-24T12:12:41.970043"
+}

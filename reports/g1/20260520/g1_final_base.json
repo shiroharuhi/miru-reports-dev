@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-20",
+  "generated_at": "2026-05-20T07:44:16.734191+09:00",
+  "direction": "short",
+  "momentum": "weak",
+  "narrative": "特定イベント該当なし、ナラティブ RED（朝補正：morning=YELLOW, effective=YELLOW）",
+  "representative_set_id": "set_risk_off_defensive",
+  "representative_label": "リスクオフ・ディフェンシブ",
+  "morning_guidance": "寄り後の戻り売り優位、SELL 候補の積極アクティブ化を検討",
+  "g1_score": 0.5,
+  "matched_events": [],
+  "morning_status_input": "YELLOW",
+  "narrative_status_input": "RED",
+  "effective_jiai_input": "YELLOW",
+  "preliminary_score_input": 0.5
+}

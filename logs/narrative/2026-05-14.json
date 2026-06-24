@@ -1,0 +1,89 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "ホルムズ海峡一時停戦とフジクラショック",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖継続",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "石油",
+        "ガス",
+        "化学"
+      ],
+      "detail": "米イラン停戦は脆弱で一時的、海峡封鎖継続でエネルギー価格不安定"
+    },
+    {
+      "topic": "FRB利下げ停止長期化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "成長株"
+      ],
+      "detail": "パウエル議長、トランプ関税によるインフレ懸念で利下げに慎重姿勢"
+    },
+    {
+      "topic": "米中貿易戦争再燃リスク",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "製造業",
+        "商社"
+      ],
+      "detail": "トランプ氏が中国に100%追加関税示唆、レアアース規制への対抗"
+    },
+    {
+      "topic": "AI関連株決算失望",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "AI関連",
+        "半導体",
+        "電子部品"
+      ],
+      "detail": "フジクラ減益見通しでAI関連株急落、材料調達懸念が表面化"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン協議継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "総合商社",
+        "海運",
+        "エネルギー"
+      ],
+      "detail": "停戦協議継続で原油価格安定化期待、ホルムズ正常化への道筋"
+    },
+    {
+      "topic": "中東向け代替ルート開発",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "海運",
+        "物流",
+        "インフラ"
+      ],
+      "detail": "日本郵船など代替輸送ルート開拓、リスク分散進展"
+    },
+    {
+      "topic": "日銀追加利上げ見送り",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "内需株"
+      ],
+      "detail": "植田総裁、中東リスクでデータ見極め慎重姿勢、緩和継続期待"
+    }
+  ],
+  "recommendation": "中東停戦の脆弱性とAI関連株の失速で神経質な展開。ホルムズ海峡情勢の急変リスクに注意しつつ、エネルギー・海運株は選別物色。フジクラショックでハイテク株に調整圧力も、過度な悲観は禁物。",
+  "date": "2026-05-14",
+  "timestamp": "2026-05-14T13:05:36.110912"
+}

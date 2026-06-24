@@ -1,0 +1,92 @@
+{
+  "narrative_status": "RED",
+  "headline": "イラン海峡封鎖継続で原油高、FRB利下げ困難化",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖継続",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "運輸",
+        "海運",
+        "商社"
+      ],
+      "detail": "原油LNG輸送ルート封鎖が長期化、エネルギー価格急騰継続"
+    },
+    {
+      "topic": "米国スタグフレーション懸念",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "電機",
+        "半導体"
+      ],
+      "detail": "トランプ関税とイラン情勢でインフレ加速、FRB利下げ困難"
+    },
+    {
+      "topic": "米中貿易戦争激化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "商社",
+        "機械"
+      ],
+      "detail": "半導体規制強化とレアアース報復、サプライチェーン混乱"
+    },
+    {
+      "topic": "日銀利上げ圧力継続",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "REIT",
+        "建設"
+      ],
+      "detail": "植田総裁が中東情勢下でも追加利上げ示唆、金利負担増"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "原油価格急騰",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "運輸",
+        "航空",
+        "化学",
+        "素材"
+      ],
+      "detail": "ホルムズ封鎖でエネルギーコスト急増、企業業績圧迫"
+    },
+    {
+      "topic": "FRB議長解任リスク",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "トランプ大統領がパウエル解任検討、金融市場大混乱懸念"
+    },
+    {
+      "topic": "円安進行継続",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "電機",
+        "精密機器"
+      ],
+      "detail": "中東リスクで安全資産需要、ドル高円安で輸出企業支援"
+    }
+  ],
+  "recommendation": "中東情勢の長期化とFRBタカ派姿勢でリスクオフ継続。原油高による業績圧迫と金利上昇懸念で売り圧力強い。防御的ポジション推奨、エネルギー関連のみ選別買い。",
+  "date": "2026-05-19",
+  "timestamp": "2026-05-19T14:07:00.210566"
+}

@@ -1,0 +1,80 @@
+{
+  "narrative_status": "RED",
+  "headline": "ホルムズ海峡封鎖継続でエネルギーリスク深刻、米FRB利下げ期待",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "石油・石炭",
+        "海運",
+        "電力・ガス",
+        "石油化学"
+      ],
+      "detail": "事実上封鎖が継続、通航量が通常の3%まで激減し原油価格高止まり"
+    },
+    {
+      "topic": "米中貿易戦争再燃",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "自動車",
+        "商社",
+        "機械"
+      ],
+      "detail": "中国レアアース規制と米国100%関税応酬、貿易戦争懸念"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出関連",
+        "自動車",
+        "電機",
+        "商社"
+      ],
+      "detail": "FRBとの対立で金融政策不透明、関税違法判決も影響限定的"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "FRB利下げ期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "内需株"
+      ],
+      "detail": "市場は年内4回以上の利下げを織り込み、金融緩和観測強まる"
+    },
+    {
+      "topic": "日銀利上げスタンス",
+      "direction": "negative",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "内需株"
+      ],
+      "detail": "植田総裁が中東情勢下でも利上げ継続の可能性示唆"
+    },
+    {
+      "topic": "中国経済持ち直し",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "機械",
+        "化学"
+      ],
+      "detail": "1-3月GDP5.0%成長達成、AI関連半導体需要が好調"
+    }
+  ],
+  "recommendation": "ホルムズ海峡封鎖継続とトランプ関税政策の不透明感で地合い悪化リスクが高い。エネルギー・原材料高による業績下振れ懸念と日米金融政策の方向性違いでセクター選別が重要。短期的には守勢が適切",
+  "date": "2026-05-06",
+  "timestamp": "2026-05-06T13:02:20.530181"
+}

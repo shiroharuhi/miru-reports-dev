@@ -1,0 +1,97 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "ホルムズ海峡封鎖継続とFRB金融政策不透明感",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖長期化",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "商社・卸売",
+        "海運",
+        "石油・石炭",
+        "化学"
+      ],
+      "detail": "原油先物97ドル台、ナフサ・アルミ不足で素材コスト上昇"
+    },
+    {
+      "topic": "FRB政策不確実性",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REITセクター"
+      ],
+      "detail": "トランプ関税でインフレ懸念、パウエル議長への政治圧力"
+    },
+    {
+      "topic": "米中摩擦再燃",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体・電子部品",
+        "精密機器",
+        "工作機械"
+      ],
+      "detail": "対中半導体規制第4弾、AI・HBM関連輸出制限"
+    },
+    {
+      "topic": "日銀4月利上げ見送り",
+      "severity": "low",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "証券"
+      ],
+      "detail": "中東情勢不透明感で追加利上げ6月に先延ばし"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日本株6万円台到達",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体・電子部品",
+        "AI関連",
+        "データセンター関連"
+      ],
+      "detail": "米インテル好決算でSOX指数1万台、AI需要継続"
+    },
+    {
+      "topic": "中東停戦交渉継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "海運",
+        "石油・石炭"
+      ],
+      "detail": "トランプ大統領停戦延長表明、パキスタン仲介継続"
+    },
+    {
+      "topic": "中国1-3月GDP5.0%",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "商社・卸売",
+        "機械",
+        "自動車"
+      ],
+      "detail": "目標上限達成、輸出は半導体・EVが牽引"
+    },
+    {
+      "topic": "原油高による再エネシフト",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "電気機器",
+        "再生可能エネルギー"
+      ],
+      "detail": "化石燃料依存リスクで代替エネルギー注目"
+    }
+  ],
+  "recommendation": "immediate高リスクは回避されているものの、ホルムズ海峡情勢とFRB政策の不透明感が継続。AI・半導体関連の業績相場は堅調も、エネルギーコスト上昇懸念でディフェンシブ戦略を併用すべき。",
+  "date": "2026-04-26",
+  "timestamp": "2026-04-26T11:56:40.810452"
+}

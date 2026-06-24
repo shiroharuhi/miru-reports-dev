@@ -1,0 +1,91 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東情勢悪化とホルムズ海峡封鎖継続で物価・供給リスク高まる",
+  "risks": [
+    {
+      "topic": "中東情勢・ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "商社",
+        "石油精製",
+        "電力"
+      ],
+      "detail": "イランがホルムズ海峡再封鎖を宣言、原油・LNG価格上昇で日本経済への直接影響"
+    },
+    {
+      "topic": "日銀4月利上げ見送り",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "保険",
+        "不動産",
+        "REIT"
+      ],
+      "detail": "中東情勢を受け4月利上げ見送り公算、金利敏感株にとって材料"
+    },
+    {
+      "topic": "トランプ関税とFRB政治介入",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "電機",
+        "半導体"
+      ],
+      "detail": "FRB議長解任検討報道とトランプ関税継続で米経済不安定化懸念"
+    },
+    {
+      "topic": "米中半導体規制継続",
+      "severity": "low",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "製造装置",
+        "電子部品"
+      ],
+      "detail": "対中半導体輸出規制140社追加でサプライチェーン分断進行"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン停戦協議期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全般",
+        "海運",
+        "商社"
+      ],
+      "detail": "トランプ氏が停戦延長発表、2回目協議への期待で地政学リスク緩和"
+    },
+    {
+      "topic": "日本株AIブーム継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "AI関連",
+        "半導体",
+        "IT"
+      ],
+      "detail": "日経平均最高値更新、AIラリー継続でグロース株物色継続"
+    },
+    {
+      "topic": "日銀緩和政策継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "不動産",
+        "REIT",
+        "建設"
+      ],
+      "detail": "利上げ見送りで低金利環境継続、金利敏感セクターに追い風"
+    }
+  ],
+  "recommendation": "中東情勢の不透明感が高まる中、リスクオフ局面では海運・商社など資源関連とディフェンシブ株に注目。一方でAI関連の物色は継続見込み。前場は様子見ムードが強まる可能性が高い。",
+  "date": "2026-04-23",
+  "timestamp": "2026-04-23T12:09:53.707691"
+}

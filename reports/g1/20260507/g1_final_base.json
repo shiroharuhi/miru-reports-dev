@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-07",
+  "generated_at": "2026-05-07T08:19:03.844195+09:00",
+  "direction": "neutral",
+  "momentum": "weak",
+  "narrative": "g1_preliminary 欠損、morning データのみで minimal 構築",
+  "representative_set_id": "set_neutral_default",
+  "representative_label": "デフォルト・中立",
+  "morning_guidance": "寄り後 5 分足 3 本様子見、エントリー判断は個別銘柄の出来高と板を確認",
+  "g1_score": 0.3,
+  "matched_events": [],
+  "morning_status_input": "GREEN",
+  "narrative_status_input": "RED",
+  "effective_jiai_input": "YELLOW",
+  "preliminary_score_input": 0.0
+}

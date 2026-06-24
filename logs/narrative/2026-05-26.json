@@ -1,0 +1,97 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東停戦期待で日経新高値、日銀6月利上げ観測と米関税不安",
+  "risks": [
+    {
+      "topic": "中東情勢の不確実性",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "商社",
+        "海運"
+      ],
+      "detail": "米イラン合意期待だが戦闘終結の詳細未確定、原油価格変動リスク"
+    },
+    {
+      "topic": "日銀6月利上げ観測",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "公益"
+      ],
+      "detail": "複数委員が躊躇なき利上げ主張、物価上振れリスク警戒で早期利上げ圧力"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出関連",
+        "自動車",
+        "電機"
+      ],
+      "detail": "日本24%関税継続、通商法122条で制限あるが企業収益圧迫要因"
+    },
+    {
+      "topic": "米国株トリプル安リスク",
+      "severity": "low",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "テクノロジー"
+      ],
+      "detail": "関税政策で株安・債券安・ドル安同時発生の可能性"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "中東停戦期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "機械"
+      ],
+      "detail": "原油価格下落でインフレ圧力緩和、日経平均6万5千円突破"
+    },
+    {
+      "topic": "AI半導体需要",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "IT"
+      ],
+      "detail": "世界的AI投資拡大でスーパーサイクル突入、関連株物色継続"
+    },
+    {
+      "topic": "米中半導体規制強化",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体製造装置",
+        "材料"
+      ],
+      "detail": "中国企業140社追加制裁で日本企業の競争力相対向上"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "機械"
+      ],
+      "detail": "158円台で輸出企業業績押し上げ効果継続"
+    }
+  ],
+  "recommendation": "中東停戦期待で楽観ムード強いが、日銀6月利上げ観測と原油・為替変動リスクで振れやすい地合い。AI関連は物色継続も利確売り警戒。慎重ながらも押し目買いスタンス推奨",
+  "date": "2026-05-26",
+  "timestamp": "2026-05-26T14:11:10.319400"
+}

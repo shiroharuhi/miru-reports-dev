@@ -1,0 +1,76 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東停戦延長で原油高一服も日銀利上げ見送り観測",
+  "risks": [
+    {
+      "topic": "中東情勢・ホルムズ海峡",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "商社",
+        "海運"
+      ],
+      "detail": "イラン再封鎖後停戦延長発表も協議難航、原油価格不安定"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出関連",
+        "自動車",
+        "電機"
+      ],
+      "detail": "FRB利下げ圧力高まるも関税修正時期不透明"
+    },
+    {
+      "topic": "日銀利上げ見送り",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "金利敏感株"
+      ],
+      "detail": "4月会合で据え置き濃厚、中東情勢踏まえ6月判断へ"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "AI・半導体関連",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "AI関連",
+        "ソフトバンクG"
+      ],
+      "detail": "ソフトバンクG年初来高値更新、AI投資期待継続"
+    },
+    {
+      "topic": "停戦延長期待",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全般",
+        "リスクオン銘柄"
+      ],
+      "detail": "トランプ氏停戦延長発表で地政学リスク一時後退"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出関連",
+        "自動車",
+        "機械"
+      ],
+      "detail": "日銀利上げ見送り観測で円安継続、輸出企業支援"
+    }
+  ],
+  "recommendation": "中東停戦延長で地政学リスクは一時後退するも協議の先行き不透明。日銀利上げ見送り観測で円安継続は輸出株にプラス。AI・半導体関連の物色継続と原油価格動向に注意。全体的には様子見ムードも日米株高を受けたリスクオンの流れ。",
+  "date": "2026-04-22",
+  "timestamp": "2026-04-22T13:08:59.701766"
+}

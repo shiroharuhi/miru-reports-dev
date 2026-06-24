@@ -1,0 +1,92 @@
+{
+  "narrative_status": "RED",
+  "headline": "米イラン戦闘継続・ホルムズ海峡封鎖で原油急騰リスク",
+  "risks": [
+    {
+      "topic": "中東情勢",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社",
+        "航空"
+      ],
+      "detail": "ホルムズ海峡封鎖継続、主要船社航行停止でエネルギー供給リスク深刻化"
+    },
+    {
+      "topic": "米FRB政策",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "関税インフレで利下げ見通し後退、金利上昇圧力が不動産・金融株に重荷"
+    },
+    {
+      "topic": "米中貿易摩擦",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "商社",
+        "輸送"
+      ],
+      "detail": "レアアース規制・100%追加関税リスクで半導体サプライチェーン混乱"
+    },
+    {
+      "topic": "日銀政策",
+      "severity": "low",
+      "timeframe": "medium_term",
+      "sectors": [
+        "金融",
+        "不動産"
+      ],
+      "detail": "植田総裁利上げ継続姿勢も中東情勢で慎重判断の可能性"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "NVIDIA決算",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "AI関連"
+      ],
+      "detail": "好決算で半導体・AI関連株に買い戻し期待、日経平均2000円超反発"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "内需",
+        "食品"
+      ],
+      "detail": "158円台突入で輸入インフレ懸念、内需関連株に売り圧力"
+    },
+    {
+      "topic": "米イラン交渉",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "停戦合意観測でリスクオフ解消、市場全体に買い戻し"
+    },
+    {
+      "topic": "韓国サムスン労組スト",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体"
+      ],
+      "detail": "韓国半導体企業のストで供給懸念、アジア半導体株に波及リスク"
+    }
+  ],
+  "recommendation": "中東情勢緊迫化でエネルギー・物流関連の急騰リスクと金融引き締め懸念が重荷。NVIDIA好決算で半導体株反発も、地政学リスクで上値重い。米イラン交渉進展に注目、合意なら大幅反発も戦闘激化なら急落リスク。",
+  "date": "2026-05-21",
+  "timestamp": "2026-05-21T14:18:43.407958"
+}

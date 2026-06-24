@@ -1,0 +1,96 @@
+{
+  "narrative_status": "RED",
+  "headline": "ホルムズ海峡封鎖継続・原油急騰・日銀タカ派懸念",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社",
+        "化学"
+      ],
+      "detail": "封鎖継続で原油109ドル台急騰、企業業績圧迫懸念"
+    },
+    {
+      "topic": "米FRB利下げ後退",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "成長株全般"
+      ],
+      "detail": "関税インフレでFRB慎重姿勢、金利上昇圧力"
+    },
+    {
+      "topic": "日銀早期利上げ懸念",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "成長株"
+      ],
+      "detail": "委員3人が利上げ提案、物価見通し大幅上方修正"
+    },
+    {
+      "topic": "米中関税摩擦再燃",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "製造業",
+        "輸出関連"
+      ],
+      "detail": "中国100%追加関税検討でサプライチェーン懸念"
+    },
+    {
+      "topic": "米メタ決算失望",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "AI・半導体",
+        "テック株"
+      ],
+      "detail": "OpenAI収益懸念で半導体関連株全面安"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "出光タンカー通峡成功",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運"
+      ],
+      "detail": "ホルムズ海峡一部通航再開の兆し"
+    },
+    {
+      "topic": "決算好調銘柄",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体製造装置",
+        "素材"
+      ],
+      "detail": "信越化、TDK等は業績好調維持"
+    },
+    {
+      "topic": "半導体需要堅調",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "電子部品"
+      ],
+      "detail": "AI需要とウェハ出荷量増加で中期的支援"
+    }
+  ],
+  "recommendation": "immediate級の高リスク要因が複数重なり、明日の前場は大幅続落リスク。原油急騰とトリプル安懸念で防御的運用推奨。利確・損切り徹底し、反発待ちスタンス",
+  "date": "2026-04-30",
+  "timestamp": "2026-04-30T12:55:29.570578"
+}

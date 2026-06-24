@@ -1,0 +1,96 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東停戦延長観測と米ハイテク高で株高続く",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "石油・石炭製品",
+        "化学",
+        "電力・ガス",
+        "海運",
+        "商社"
+      ],
+      "detail": "米・イラン双方向封鎖継続、原油・ナフサ調達困難"
+    },
+    {
+      "topic": "FRB利下げ遅延",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "REIT"
+      ],
+      "detail": "関税インフレ懸念で米利下げ見送り、長期化リスク"
+    },
+    {
+      "topic": "米中貿易戦争",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "自動車",
+        "機械",
+        "電子部品"
+      ],
+      "detail": "追加関税145％、レアアース規制で供給網混乱"
+    },
+    {
+      "topic": "日銀利上げ不透明",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "中東情勢受け4月利上げ確率31％に低下"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米・イラン停戦延長",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "2週間延長検討報道でリスクオフ緩和"
+    },
+    {
+      "topic": "米ハイテク株高",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電子機器",
+        "情報・通信"
+      ],
+      "detail": "SOX指数9連騰で日本半導体株に買い"
+    },
+    {
+      "topic": "日経平均最高値更新",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "58850円突破で投資家心理改善"
+    },
+    {
+      "topic": "中国GDP5.0%成長",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "自動車",
+        "機械",
+        "商社"
+      ],
+      "detail": "輸出・生産堅調で中国関連株に期待"
+    }
+  ],
+  "recommendation": "停戦延長観測で前場は好調維持見込み。ただし中東情勢の不確実性とFRB政策の不透明感から後場は調整リスク要注意。半導体関連の過熱感にも警戒が必要。",
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T13:14:42.075738"
+}

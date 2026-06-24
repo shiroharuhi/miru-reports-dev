@@ -1,0 +1,94 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東停戦延期不透明、日銀利上げ観測後退で地合い複雑化",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡再封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "化学"
+      ],
+      "detail": "イランが18日に再封鎖表明、停戦期限迫り原油価格不安定"
+    },
+    {
+      "topic": "米イラン協議難航",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "石油",
+        "商社",
+        "電力"
+      ],
+      "detail": "22日停戦期限切れ、次回協議開催めど立たず"
+    },
+    {
+      "topic": "トランプ関税継続",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "輸出",
+        "製造業"
+      ],
+      "detail": "インフレ圧力でFRB利下げ停止懸念、円安継続"
+    },
+    {
+      "topic": "米中半導体規制強化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "製造装置"
+      ],
+      "detail": "MATCH法案提出、日本企業への影響拡大懸念"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日銀4月利上げ観測後退",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "REIT",
+        "内需"
+      ],
+      "detail": "植田総裁の慎重発言で利上げ確率60%に低下"
+    },
+    {
+      "topic": "AI・データセンター需要",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "AI関連",
+        "電子部品"
+      ],
+      "detail": "中国のファーウェイ優先配分でも需要は堅調"
+    },
+    {
+      "topic": "春闘賃上げ継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "内需",
+        "消費関連"
+      ],
+      "detail": "中小企業も前年上回る賃上げ実現見込み"
+    },
+    {
+      "topic": "FRB利下げ期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "全般"
+      ],
+      "detail": "9月以降利下げ再開観測、日米金利差縮小期待"
+    }
+  ],
+  "recommendation": "中東情勢は一時的沈静化も不透明性高く、日銀利上げ観測後退で短期的には支援材料。ただし原油価格動向とFRB政策に左右されやすく、様子見姿勢が適当。セクター選別が重要",
+  "date": "2026-04-20",
+  "timestamp": "2026-04-20T13:12:03.643480"
+}

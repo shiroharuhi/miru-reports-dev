@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-08",
+  "generated_at": "2026-05-07T22:03:58.731520+09:00",
+  "direction": "short",
+  "momentum": "weak",
+  "narrative": "メジャーSQ 接近、ナラティブ RED",
+  "representative_set_id": "set_risk_off_defensive",
+  "representative_label": "リスクオフ・ディフェンシブ",
+  "morning_guidance": "寄り後の戻り売り優位、SELL 候補の積極アクティブ化を検討",
+  "g1_score": 0.66,
+  "matched_events": [
+    {
+      "event_id": "msq_2026_05_09",
+      "event_type": "MSQ",
+      "event_name": "メジャーSQ",
+      "delta_days": 1,
+      "lead_factor": 0.8,
+      "weight": 0.32000000000000006,
+      "direction_hint": "neutral",
+      "momentum_hint": "weak"
+    }
+  ],
+  "narrative_status_input": "RED"
+}

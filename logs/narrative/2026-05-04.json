@@ -1,0 +1,89 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東情勢継続とFRB慎重姿勢で原油高・金融政策不透明感",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖継続",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "石油",
+        "電力",
+        "商社"
+      ],
+      "detail": "停戦延長も通航は95%減で事実上封鎖継続、原油・LNG供給制約"
+    },
+    {
+      "topic": "FRB政策金利据置継続",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "REIT"
+      ],
+      "detail": "トランプ関税インフレ懸念で利下げ慎重、年内2回予想も不透明"
+    },
+    {
+      "topic": "米中貿易戦争再燃懸念",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "機械",
+        "商社"
+      ],
+      "detail": "中国レアアース規制に100%追加関税表明、11月実施予定"
+    },
+    {
+      "topic": "日銀利上げ圧力継続",
+      "severity": "low",
+      "timeframe": "medium_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REIT"
+      ],
+      "detail": "植田総裁が追加利上げ示唆も中東情勢で慎重姿勢"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "原油価格高騰",
+      "direction": "negative",
+      "timeframe": "immediate",
+      "sectors": [
+        "運輸",
+        "電力",
+        "小売"
+      ],
+      "detail": "ホルムズ海峡封鎖で供給制約、インフレ再燃懸念"
+    },
+    {
+      "topic": "半導体AI需要堅調",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "AI",
+        "精密機器"
+      ],
+      "detail": "中国輸出増や台湾受注好調で関連銘柄支援"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "機械"
+      ],
+      "detail": "ドル円158円突入、輸出企業収益押上げも輸入コスト増"
+    }
+  ],
+  "recommendation": "immediate級のリスクは限定的だが中東情勢とFRB政策で不透明感継続。エネルギー・インフレ関連は警戒、半導体AI関連は選別物色継続。短期的には様子見姿勢が適切",
+  "date": "2026-05-04",
+  "timestamp": "2026-05-04T12:57:02.894563"
+}

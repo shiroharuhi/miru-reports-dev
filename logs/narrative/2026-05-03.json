@@ -1,0 +1,77 @@
+{
+  "narrative_status": "RED",
+  "headline": "ホルムズ海峡封鎖継続・FRB利下げ圧力・半導体争奪激化",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "石油精製",
+        "海運",
+        "商社"
+      ],
+      "detail": "イラン革命防衛隊による事実上封鎖継続、原油価格高止まりで電力・ガス会社への燃料費圧迫"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "自動車",
+        "機械",
+        "電機"
+      ],
+      "detail": "相互関税15%維持、FRB議長解任リスクで金融市場の混乱懸念"
+    },
+    {
+      "topic": "中国レアアース規制",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "自動車"
+      ],
+      "detail": "米中100%追加関税の報復措置で半導体製造に必要なレアアース供給途絶リスク"
+    },
+    {
+      "topic": "日銀利上げ圧力",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "不動産",
+        "REITs"
+      ],
+      "detail": "3委員が利上げ提案で反対、物価上振れリスクで金融引き締め加速の可能性"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米国決算好調",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "AI関連",
+        "ハイテク"
+      ],
+      "detail": "ナスダック・S&P500連日最高値更新で日本の半導体・AI関連株に波及効果"
+    },
+    {
+      "topic": "商社決算好調",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "総合商社",
+        "資源"
+      ],
+      "detail": "住友商事・三菱商事・伊藤忠の増益見通しで商社株全体への買い期待"
+    }
+  ],
+  "recommendation": "immediateの高リスク複数発生でRED判定。ホルムズ海峡封鎖継続による原油高、FRB政策混乱、米中半導体摩擦激化が重層的に影響。一方で決算好調銘柄は物色継続も、地政学リスクが市場全体の重石となり神経質な展開予想。",
+  "date": "2026-05-03",
+  "timestamp": "2026-05-03T11:58:54.258596"
+}

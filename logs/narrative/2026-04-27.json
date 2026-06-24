@@ -1,0 +1,90 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東停戦協議継続も海峡封鎖長期化懸念、円安原油高リスクが明日影響",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖継続",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "エネルギー",
+        "化学",
+        "素材"
+      ],
+      "detail": "停戦協議難航中、原油輸送の2割停止、供給制約が朝方から影響"
+    },
+    {
+      "topic": "原油価格高止まり",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "運輸",
+        "化学",
+        "電力・ガス",
+        "小売"
+      ],
+      "detail": "90-100ドル台で推移、中東情勢次第で急騰リスク、コスト増圧迫"
+    },
+    {
+      "topic": "トランプ関税不確実性",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "自動車",
+        "機械",
+        "電機",
+        "輸出関連"
+      ],
+      "detail": "通商法122条で15％上限、日本企業への影響限定的も警戒続く"
+    },
+    {
+      "topic": "日銀利上げ観測後退",
+      "severity": "low",
+      "timeframe": "immediate",
+      "sectors": [
+        "銀行",
+        "保険",
+        "不動産"
+      ],
+      "detail": "4月会合は据え置き濃厚、中東情勢見極めで6月に延期"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "AI・半導体関連好調",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "精密機器",
+        "電子部品"
+      ],
+      "detail": "米インテル好決算受け、ファナック等が急伸、日経6万円突破"
+    },
+    {
+      "topic": "中東停戦延長期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "全般",
+        "海運",
+        "エネルギー"
+      ],
+      "detail": "イスラエル・レバノン停戦3週間延長、交渉継続で緊張緩和期待"
+    },
+    {
+      "topic": "決算発表本格化",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "個別企業",
+        "製造業"
+      ],
+      "detail": "企業業績改善期待も中東リスクで保守的見通し懸念"
+    }
+  ],
+  "recommendation": "中東情勢不透明感で慎重な地合い継続。AI・半導体の個別物色は続くが、海運・エネルギー等は中東動向に敏感。原油高・円安進行なら defensive銘柄、停戦進展なら cyclical銘柄に注目。全体としては様子見が適切。",
+  "date": "2026-04-27",
+  "timestamp": "2026-04-27T12:53:40.002451"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-19",
+  "generated_at": "2026-05-19T07:32:26.433233+09:00",
+  "adopted_source": "g1_final_base",
+  "fallback_used": false,
+  "fallback_reason": null,
+  "direction": "neutral",
+  "momentum": "weak",
+  "narrative": "特定イベント該当なし、ナラティブ YELLOW（朝補正：morning=GREEN, effective=GREEN）",
+  "representative_set_id": "set_neutral_default",
+  "representative_label": "デフォルト・中立",
+  "morning_guidance": "寄り後 5 分足 3 本様子見、エントリー判断は個別銘柄の出来高と板を確認",
+  "g1_score": 0.5,
+  "valid": true,
+  "legacy_effective_jiai": "GREEN"
+}

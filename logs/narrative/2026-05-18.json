@@ -1,0 +1,94 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "原油高継続・中東膠着・米国利上げ観測でリスク複合",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖長期化",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社",
+        "化学"
+      ],
+      "detail": "イランの管理メカニズム発表も実効性不透明。エネ庁が１年備蓄と説明も供給制約リスク"
+    },
+    {
+      "topic": "トランプ関税政策とFRB対立",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "自動車",
+        "電機",
+        "精密機器"
+      ],
+      "detail": "パウエル議長解任圧力強化。関税影響のインフレ・景気下押し二重苦でFRBジレンマ継続"
+    },
+    {
+      "topic": "米国半導体規制強化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "半導体装置"
+      ],
+      "detail": "MATCH法案で日欧企業も規制対象。中国AI開発阻止で製造装置輸出に新制約"
+    },
+    {
+      "topic": "日銀利上げ見送り継続",
+      "severity": "low",
+      "timeframe": "medium_term",
+      "sectors": [
+        "金融"
+      ],
+      "detail": "植田総裁は中東情勢を理由に慎重姿勢。６月会合でも据え置き濃厚"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "原油・エネルギー価格高騰",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "石油",
+        "商社",
+        "エネルギー"
+      ],
+      "detail": "WTI原油高止まりでエネルギー関連企業の収益改善期待"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "自動車",
+        "機械",
+        "電機"
+      ],
+      "detail": "日銀の追加利上げ見送りで円安継続。輸出企業の業績押し上げ効果"
+    },
+    {
+      "topic": "AI関連需要継続",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "半導体",
+        "AI関連"
+      ],
+      "detail": "規制強化も世界的AI需要は底堅く。日本製造装置への期待維持"
+    },
+    {
+      "topic": "中東情勢停戦期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "全般"
+      ],
+      "detail": "米中首脳会談でホルムズ海峡正常化への期待残る"
+    }
+  ],
+  "recommendation": "immediate/short_termリスクが複合するため警戒必要。ただし深刻な経済危機は回避される見通しで、エネルギー・円安メリット企業を中心に押し目買い機会",
+  "date": "2026-05-18",
+  "timestamp": "2026-05-18T14:39:12.383658"
+}

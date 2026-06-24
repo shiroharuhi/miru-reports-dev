@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-05-11",
+  "generated_at": "2026-05-10T21:04:33.186024+09:00",
+  "direction": "neutral",
+  "momentum": "weak",
+  "narrative": "特定イベント該当なし、ナラティブ YELLOW",
+  "representative_set_id": "set_neutral_default",
+  "representative_label": "デフォルト・中立",
+  "morning_guidance": "寄り後 5 分足 3 本様子見、エントリー判断は個別銘柄の出来高と板を確認",
+  "g1_score": 0.5,
+  "matched_events": [],
+  "narrative_status_input": "YELLOW"
+}

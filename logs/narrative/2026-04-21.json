@@ -1,0 +1,89 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "ホルムズ海峡再封鎖・日銀利上げ見送りで中東情勢が焦点",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡再封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社",
+        "化学"
+      ],
+      "detail": "イランが18日に再封鎖宣言、原油価格100ドル台で推移、輸送費急騰"
+    },
+    {
+      "topic": "トランプ関税政策",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "自動車",
+        "機械",
+        "電機",
+        "半導体"
+      ],
+      "detail": "FRB議長解任検討報道で米市場不安定化、日米関税協議の不透明感"
+    },
+    {
+      "topic": "中国経済減速",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "化学",
+        "商社",
+        "素材"
+      ],
+      "detail": "PMI8ヵ月連続50割れ、米中関税応酬で対米輸出▲26.5％"
+    },
+    {
+      "topic": "日銀利上げ見送り",
+      "severity": "low",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REIT"
+      ],
+      "detail": "4月会合据え置き濃厚、中東情勢見極めで円安圧力継続懸念"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン停戦協議",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "2週間停戦期限迫る中、2回目協議開催観測でリスクオン期待"
+    },
+    {
+      "topic": "AI関連需要",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "IT",
+        "精密機器"
+      ],
+      "detail": "世界的AI半導体需要で台湾向け+35.2％、韓国向け+19.6％"
+    },
+    {
+      "topic": "円安メリット",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "自動車",
+        "機械",
+        "輸出関連"
+      ],
+      "detail": "日銀利上げ観測後退で円安継続、輸出企業の業績押し上げ効果"
+    }
+  ],
+  "recommendation": "中東情勢の不透明感が最大のリスク要因。ホルムズ海峡再封鎖でエネルギー・素材関連は警戒、一方で停戦協議継続期待もあり振れ幅大きい地合い。セクター選別重要、防御的ポジション推奨。",
+  "date": "2026-04-21",
+  "timestamp": "2026-04-21T13:06:36.101812"
+}

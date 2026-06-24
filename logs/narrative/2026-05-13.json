@@ -1,0 +1,79 @@
+{
+  "narrative_status": "RED",
+  "headline": "ホルムズ海峡封鎖継続、原油高で日本株にdownside圧力",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖継続",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "電力",
+        "石油化学"
+      ],
+      "detail": "イラン革命防衛隊による事実上封鎖が続き原油高継続。日本への供給不安と物価上昇圧力"
+    },
+    {
+      "topic": "米中貿易戦争激化",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "自動車",
+        "機械",
+        "電機"
+      ],
+      "detail": "トランプ大統領の相互関税発表で米中関税率145%まで上昇。日本企業の中国事業に悪影響"
+    },
+    {
+      "topic": "FRB利下げ圧力と円安リスク",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "輸入関連",
+        "内需"
+      ],
+      "detail": "トランプ関税でFRBに利下げ圧力。円安進行なら輸入物価上昇で内需に悪影響"
+    },
+    {
+      "topic": "日銀利上げ不透明化",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "金融",
+        "不動産",
+        "REIT"
+      ],
+      "detail": "中東情勢でリスクシナリオ高まり植田総裁が利上げ慎重姿勢。金融政策の方向感不透明"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "AI・半導体関連株高",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "AI関連",
+        "電子部品"
+      ],
+      "detail": "米SOX指数最高値更新でソフトバンクG、イビデンなどが上昇。AI需要拡大期待継続"
+    },
+    {
+      "topic": "中国GDP底打ち期待",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "自動車",
+        "機械",
+        "商社"
+      ],
+      "detail": "中国Q1GDP5.0%で政府目標達成。対中輸出関連株には中期的な回復期待"
+    }
+  ],
+  "recommendation": "ホルムズ海峡封鎖による原油高と米中貿易戦争の激化で地合い悪化。AI関連の局所的強さはあるものの、全体的にはリスクオフの展開。エネルギー関連株の下落と円安進行に要警戒。",
+  "date": "2026-05-13",
+  "timestamp": "2026-05-13T13:30:06.517583"
+}

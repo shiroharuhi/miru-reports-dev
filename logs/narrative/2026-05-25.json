@@ -1,0 +1,86 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "イラン和平期待でリスクオフ、日銀利上げ圧力高まり",
+  "risks": [
+    {
+      "topic": "中東情勢",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "エネルギー",
+        "商社",
+        "海運"
+      ],
+      "detail": "停戦合意は不安定、原油価格は高止まりで企業コストに影響"
+    },
+    {
+      "topic": "日銀政策",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "不動産",
+        "全体"
+      ],
+      "detail": "6月利上げ観測高まり、政府との対立で不確実性増大"
+    },
+    {
+      "topic": "FRB政策",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "金融",
+        "グロース"
+      ],
+      "detail": "トランプ政権のFRB圧力で金融政策の独立性に懸念"
+    },
+    {
+      "topic": "米中摩擦",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "機械"
+      ],
+      "detail": "レアアース規制と関税で貿易戦争再燃リスク"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "イラン和平",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全体",
+        "AI関連",
+        "半導体"
+      ],
+      "detail": "戦闘終結期待で日経平均6万5千円台、リスクオン継続"
+    },
+    {
+      "topic": "AI需要",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電子部品",
+        "ソフトバンクG"
+      ],
+      "detail": "OpenAI IPO観測とARM急騰でAI関連銘柄続伸"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "自動車",
+        "機械"
+      ],
+      "detail": "日銀利上げ見送り観測で円安継続、輸出企業に追い風"
+    }
+  ],
+  "recommendation": "和平期待でリスクオンは継続するが、日銀利上げ圧力と中東情勢の不安定さが下振れリスク。AI関連銘柄の勢いは継続するものの、高値圏での利益確定売りに注意。",
+  "date": "2026-05-25",
+  "timestamp": "2026-05-25T14:17:54.706495"
+}

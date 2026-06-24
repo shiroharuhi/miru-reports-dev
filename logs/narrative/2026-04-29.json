@@ -1,0 +1,94 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "ホルムズ海峡封鎖長期化と利上げ圧力により地合いに警戒必要",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡封鎖",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社",
+        "化学",
+        "石化"
+      ],
+      "detail": "95%減で通航困難、ナフサ等供給不足が顕在化"
+    },
+    {
+      "topic": "日銀タカ派転換",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "金融",
+        "不動産",
+        "グロース"
+      ],
+      "detail": "委員3人利上げ提案、物価見通し大幅上方修正"
+    },
+    {
+      "topic": "FRB政策停滞",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "グロース",
+        "ハイテク"
+      ],
+      "detail": "トランプ関税でインフレ懸念、利下げ期待後退"
+    },
+    {
+      "topic": "米中貿易戦争",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "製造業",
+        "半導体",
+        "商社"
+      ],
+      "detail": "相互関税145%/125%の異常水準、輸出企業に影響"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "中東情勢緩和",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "停戦延長継続なら原油安とリスクオン"
+    },
+    {
+      "topic": "日銀利上げ先送り",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "グロース",
+        "不動産"
+      ],
+      "detail": "中東情勢を理由とした政策据え置き期待"
+    },
+    {
+      "topic": "決算シーズン",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "個別銘柄"
+      ],
+      "detail": "3月期決算発表で良好な企業は個別買い"
+    },
+    {
+      "topic": "円安進行",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出",
+        "商社"
+      ],
+      "detail": "159円台で輸出企業業績押し上げ"
+    }
+  ],
+  "recommendation": "ホルムズ海峡封鎖の長期化懸念と日銀のタカ派姿勢で上値重い展開。エネルギー・素材関連は供給不足リスク、金融株は利上げ期待で二極化。個別決算重視の選別相場継続。",
+  "date": "2026-04-29",
+  "timestamp": "2026-04-29T12:54:38.733569"
+}
