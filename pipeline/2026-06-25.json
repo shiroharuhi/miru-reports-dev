@@ -2,7 +2,7 @@
   "date": "2026-06-25",
   "pipeline_stage": "stage1_5_fundamental",
   "created_at": "2026-06-24T17:34:24.301759+09:00",
-  "updated_at": "2026-06-24T18:16:40.214339+09:00",
+  "updated_at": "2026-06-24T19:25:26.555103+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": null,
@@ -19,8 +19,8 @@
     "dow_change": "-0.09%",
     "nasdaq_change": null,
     "futures_gap_pct": null,
-    "vix": "19.2",
-    "usdjpy": "0.15円",
+    "vix": "19.4",
+    "usdjpy": "0.17円",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -63,7 +63,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️信用倍率10.73倍"
       ],
       "history": [
         {
@@ -75,6 +76,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️信用倍率10.73倍"
         }
       ],
       "fundamental": {
@@ -84,7 +90,12 @@
         "revenue_growth": -6.8,
         "oi_growth": 1.2,
         "equity_ratio": 40.5,
-        "dividend_yield": 2.53
+        "dividend_yield": 2.53,
+        "margin_ratio": 10.73,
+        "buy_balance": 890200,
+        "sell_balance": 83000,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 6.9
       }
     },
     {
@@ -147,7 +158,12 @@
         "revenue_growth": 12.7,
         "oi_growth": 30.3,
         "equity_ratio": 58.0,
-        "dividend_yield": 0.61
+        "dividend_yield": 0.61,
+        "margin_ratio": 2.36,
+        "buy_balance": 1997800,
+        "sell_balance": 845500,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 39.5
       }
     },
     {
@@ -216,7 +232,12 @@
         "revenue_growth": -14.8,
         "oi_growth": -29.6,
         "equity_ratio": 80.5,
-        "dividend_yield": 2.8
+        "dividend_yield": 2.8,
+        "margin_ratio": 5.88,
+        "buy_balance": 6441400,
+        "sell_balance": 1096100,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": -2.9
       }
     },
     {
@@ -273,7 +294,12 @@
         "revenue_growth": 2.6,
         "oi_growth": 6.5,
         "equity_ratio": 52.1,
-        "dividend_yield": 2.89
+        "dividend_yield": 2.89,
+        "margin_ratio": 3.38,
+        "buy_balance": 71900,
+        "sell_balance": 21300,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 35.9
       }
     },
     {
@@ -310,7 +336,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️信用倍率48.53倍"
       ],
       "history": [
         {
@@ -327,6 +354,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️信用倍率48.53倍"
         }
       ],
       "fundamental": {
@@ -336,7 +368,12 @@
         "revenue_growth": 8.3,
         "oi_growth": 34.1,
         "equity_ratio": 30.5,
-        "dividend_yield": 1.18
+        "dividend_yield": 1.18,
+        "margin_ratio": 48.53,
+        "buy_balance": 1567500,
+        "sell_balance": 32300,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": -6.9
       }
     },
     {
@@ -374,7 +411,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "🔥買残急増4w+77.0%"
       ],
       "history": [
         {
@@ -396,6 +434,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "🔥買残急増4w+77.0%"
         }
       ],
       "fundamental": {
@@ -405,7 +448,12 @@
         "revenue_growth": 6.0,
         "oi_growth": 48.2,
         "equity_ratio": 72.3,
-        "dividend_yield": 1.57
+        "dividend_yield": 1.57,
+        "margin_ratio": 2.56,
+        "buy_balance": 63000,
+        "sell_balance": 24600,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 77.0
       }
     },
     {
@@ -462,7 +510,12 @@
         "revenue_growth": 9.3,
         "oi_growth": 16.1,
         "equity_ratio": 59.9,
-        "dividend_yield": 1.89
+        "dividend_yield": 1.89,
+        "margin_ratio": 9.29,
+        "buy_balance": 471700,
+        "sell_balance": 50800,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": -16.9
       }
     },
     {
@@ -531,7 +584,12 @@
         "revenue_growth": 11.9,
         "oi_growth": 832.4,
         "equity_ratio": 51.3,
-        "dividend_yield": 3.09
+        "dividend_yield": 3.09,
+        "margin_ratio": 1.94,
+        "buy_balance": 979600,
+        "sell_balance": 504400,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 5.2
       }
     },
     {
@@ -588,7 +646,12 @@
         "revenue_growth": 14.9,
         "oi_growth": 12.2,
         "equity_ratio": 63.4,
-        "dividend_yield": 5.12
+        "dividend_yield": 5.12,
+        "margin_ratio": 2.2,
+        "buy_balance": 43800,
+        "sell_balance": 19900,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 20.3
       }
     },
     {
@@ -651,7 +714,12 @@
         "revenue_growth": 7.4,
         "oi_growth": 16.8,
         "equity_ratio": 46.7,
-        "dividend_yield": 1.84
+        "dividend_yield": 1.84,
+        "margin_ratio": 1.57,
+        "buy_balance": 43300,
+        "sell_balance": 27500,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 14.2
       }
     },
     {
@@ -687,7 +755,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️信用倍率10.8倍"
       ],
       "history": [
         {
@@ -704,6 +773,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️信用倍率10.8倍"
         }
       ],
       "fundamental": {
@@ -713,7 +787,12 @@
         "revenue_growth": 9.7,
         "oi_growth": -11.6,
         "equity_ratio": 49.3,
-        "dividend_yield": 4.41
+        "dividend_yield": 4.41,
+        "margin_ratio": 10.8,
+        "buy_balance": 4249200,
+        "sell_balance": 393300,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 30.9
       }
     },
     {
@@ -750,7 +829,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "⚠️信用倍率63.72倍"
       ],
       "history": [
         {
@@ -772,6 +852,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️信用倍率63.72倍"
         }
       ],
       "fundamental": {
@@ -781,7 +866,12 @@
         "revenue_growth": 13.9,
         "oi_growth": 16.1,
         "equity_ratio": 76.3,
-        "dividend_yield": 2.1
+        "dividend_yield": 2.1,
+        "margin_ratio": 63.72,
+        "buy_balance": 159300,
+        "sell_balance": 2500,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 8.7
       }
     },
     {
@@ -820,7 +910,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️信用倍率20.78倍"
       ],
       "history": [
         {
@@ -852,6 +943,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️信用倍率20.78倍"
         }
       ],
       "fundamental": {
@@ -861,7 +957,12 @@
         "revenue_growth": 20.2,
         "oi_growth": 54.9,
         "equity_ratio": 52.0,
-        "dividend_yield": 2.66
+        "dividend_yield": 2.66,
+        "margin_ratio": 20.78,
+        "buy_balance": 521700,
+        "sell_balance": 25100,
+        "margin_date": "2026-06-19",
+        "buy_change_4w": 2.3
       }
     }
   ],
@@ -885,6 +986,16 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 13/13銘柄 決算接近警告0 APIリクエスト52",
       "timestamp": "2026-06-24T18:16:40.214235+09:00"
+    },
+    {
+      "stage": "stage1",
+      "action": "3軸スクリーニング完了: 順張り10 SELL3 逆張り0 (active:10 standby:3)",
+      "timestamp": "2026-06-24T19:24:45.225929+09:00"
+    },
+    {
+      "stage": "stage1.5",
+      "action": "ファンダチェック完了: 0/13銘柄 決算接近警告0 APIリクエスト39",
+      "timestamp": "2026-06-24T19:25:26.555020+09:00"
     }
   ],
   "stage_metadata": {
