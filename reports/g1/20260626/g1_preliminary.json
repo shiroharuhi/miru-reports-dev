@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-06-26",
+  "generated_at": "2026-06-25T22:31:31.724291+09:00",
+  "direction": "long",
+  "momentum": "strong",
+  "narrative": "特定イベント該当なし、ナラティブ GREEN",
+  "representative_set_id": "set_us_growth_high_beta",
+  "representative_label": "米成長株・ハイベータ",
+  "morning_guidance": "寄付き直後の上振れに注意、押し目買い優位",
+  "g1_score": 0.5,
+  "matched_events": [],
+  "narrative_status_input": "GREEN"
+}

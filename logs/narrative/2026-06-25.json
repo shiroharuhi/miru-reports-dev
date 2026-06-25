@@ -1,12 +1,51 @@
 {
-  "narrative_status": "YELLOW",
-  "headline": "LLM disabled",
-  "risks": [],
-  "catalysts": [],
-  "recommendation": "LLM 呼出が無効化されています。手動でニュースを確認してください。",
-  "llm_status": "disabled",
-  "llm_reason": "missing_api_key",
-  "source": "no_llm_fallback",
+  "narrative_status": "GREEN",
+  "headline": "日経平均は最高値更新、AI・半導体主導でリスクオン継続",
+  "risks": [
+    {
+      "topic": "イラン情勢の不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "商社"
+      ],
+      "detail": "停戦覚書合意も、恒久的な平和には至らずホルムズ海峡の物流不安が残る。"
+    },
+    {
+      "topic": "ETF分配金支払い絡みの売り",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "全般"
+      ],
+      "detail": "7月第2週に想定される約1.7兆円規模の分配金支払いに向けた需給調整売りへの警戒。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "AI・半導体需要の拡大",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "半導体",
+        "電機"
+      ],
+      "detail": "米マイクロン好決算を背景とした半導体株の買い戻しが市場センチメントを急改善させた。"
+    },
+    {
+      "topic": "米中貿易協議の進展期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "輸送用機器"
+      ],
+      "detail": "米中が貿易協議会の設立に合意し、関税引き下げ等の協力が期待される。"
+    }
+  ],
+  "recommendation": "日本株は史上最高値を更新し、地合いはリスクオンに傾いています。AI・半導体関連の買い戻しが主導しており、当面はハイテク株を中心に強含みの推移が見込まれます。ただし、過熱感があるため、調整局面での押し目買いを軸にしつつ、需給イベント（ETF分配金）を控えた中・長期的な調整リスクには注意が必要です。",
   "date": "2026-06-25",
-  "timestamp": "2026-06-25T06:27:46.464358"
+  "timestamp": "2026-06-25T13:31:31.715995"
 }
