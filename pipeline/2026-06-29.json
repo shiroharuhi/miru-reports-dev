@@ -1,0 +1,1260 @@
+{
+  "date": "2026-06-29",
+  "pipeline_stage": "stage1_5_fundamental",
+  "created_at": "2026-06-26T19:24:16.771563+09:00",
+  "updated_at": "2026-06-26T19:26:08.838266+09:00",
+  "jiai": {
+    "screening_jiai": "RED",
+    "narrative_status": null,
+    "direction_7am": null,
+    "direction_confidence": null,
+    "morning_jiai": null,
+    "effective_jiai": null,
+    "futures_direction": null,
+    "final_judgment": null
+  },
+  "market": {
+    "nikkei_change": "-4.15%",
+    "topix_change": null,
+    "dow_change": "0.14%",
+    "nasdaq_change": null,
+    "futures_gap_pct": null,
+    "vix": "20.1",
+    "usdjpy": "0.16円",
+    "sector_top3": [],
+    "sector_worst3": []
+  },
+  "narrative": {
+    "headline": null,
+    "risks": [],
+    "catalysts": []
+  },
+  "candidates": [
+    {
+      "code": "7717",
+      "name": "ブイ・テクノロジー",
+      "sector": "精密機器",
+      "type": "順張り",
+      "rank": "厳選",
+      "close": 9380,
+      "day_change": 5.27,
+      "turnover": 171.9,
+      "avg_range": 8.7,
+      "vol_ratio": 3.6,
+      "high52w": 10180,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 5.89,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3847,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(38.5%)",
+      "entry_base": {
+        "low": 9333,
+        "high": 9426
+      },
+      "stop_loss_base": 9201,
+      "target_base": 9661,
+      "lot_base": 447,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り厳選条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 6.6,
+        "operating_margin": 7.1,
+        "revenue_growth": 14.7,
+        "oi_growth": 106.9,
+        "equity_ratio": 49.7,
+        "dividend_yield": 1.94
+      }
+    },
+    {
+      "code": "6701",
+      "name": "日本電気",
+      "sector": "電気機器",
+      "type": "順張り",
+      "rank": "厳選",
+      "close": 3795,
+      "day_change": 1.01,
+      "turnover": 238.6,
+      "avg_range": 3.2,
+      "vol_ratio": 0.8,
+      "high52w": 4707,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 3.26,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 3776,
+        "high": 3813
+      },
+      "stop_loss_base": 3722,
+      "target_base": 3908,
+      "lot_base": 1106,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り厳選条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 13.0,
+        "operating_margin": 10.0,
+        "revenue_growth": 4.7,
+        "oi_growth": 40.3,
+        "equity_ratio": 49.2,
+        "dividend_yield": 0.99
+      }
+    },
+    {
+      "code": "8802",
+      "name": "三菱地所",
+      "sector": "不動産業",
+      "type": "順張り",
+      "rank": "厳選",
+      "close": 4101,
+      "day_change": 2.94,
+      "turnover": 198.0,
+      "avg_range": 3.0,
+      "vol_ratio": 1.1,
+      "high52w": 4804,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 2.0,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3504,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(35.0%)",
+      "entry_base": {
+        "low": 4080,
+        "high": 4121
+      },
+      "stop_loss_base": 4023,
+      "target_base": 4224,
+      "lot_base": 1024,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊高収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り厳選条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 7.9,
+        "operating_margin": 18.9,
+        "revenue_growth": 10.5,
+        "oi_growth": 6.6,
+        "equity_ratio": 33.6,
+        "dividend_yield": 1.06
+      }
+    },
+    {
+      "code": "9843",
+      "name": "ニトリホールディングス",
+      "sector": "小売業",
+      "type": "順張り",
+      "rank": "厳選",
+      "close": 2440,
+      "day_change": 1.79,
+      "turnover": 80.3,
+      "avg_range": 4.1,
+      "vol_ratio": 1.0,
+      "high52w": 2790,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 2.03,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4788,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(47.9%)",
+      "entry_base": {
+        "low": 2427,
+        "high": 2452
+      },
+      "stop_loss_base": 2393,
+      "target_base": 2513,
+      "lot_base": 1721,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り厳選条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 9.4,
+        "operating_margin": 13.8,
+        "revenue_growth": -1.8,
+        "oi_growth": 6.7,
+        "equity_ratio": 62.9,
+        "dividend_yield": 3.67
+      }
+    },
+    {
+      "code": "6740",
+      "name": "ジャパンディスプレイ",
+      "sector": "電気機器",
+      "type": "順張り",
+      "rank": "厳選",
+      "close": 60,
+      "day_change": 9.09,
+      "turnover": 49.6,
+      "avg_range": 12.4,
+      "vol_ratio": 1.1,
+      "high52w": 124,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 11.34,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 59,
+        "high": 60
+      },
+      "stop_loss_base": 58,
+      "target_base": 61,
+      "lot_base": 70000,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "⚠️低収益",
+        "📉減収",
+        "📈増益",
+        "⚠️財務リスク"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り厳選条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️低収益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📉減収"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️財務リスク"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "operating_margin": -14.1,
+        "revenue_growth": -29.6,
+        "oi_growth": 49.6,
+        "equity_ratio": -6.0
+      }
+    },
+    {
+      "code": "3482",
+      "name": "ロードスターキャピタル",
+      "sector": "不動産業",
+      "type": "順張り",
+      "rank": "補欠",
+      "close": 2946,
+      "day_change": 4.95,
+      "turnover": 13.1,
+      "avg_range": 2.8,
+      "vol_ratio": 2.6,
+      "high52w": 3185,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 4.02,
+      "warning_flags": [
+        "jsf_restricted"
+      ],
+      "warning_label": "⚠️日証金規制",
+      "sector_short_ratio": 0.3504,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(35.0%)",
+      "entry_base": {
+        "low": 2931,
+        "high": 2960
+      },
+      "stop_loss_base": 2890,
+      "target_base": 3034,
+      "lot_base": 1425,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊ROE優秀",
+        "📊高収益",
+        "📈高成長"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈高成長"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2025,
+        "roe": 27.2,
+        "operating_margin": 30.1,
+        "revenue_growth": 29.7,
+        "oi_growth": 17.2,
+        "equity_ratio": 26.6,
+        "dividend_yield": 2.85
+      }
+    },
+    {
+      "code": "7733",
+      "name": "オリンパス",
+      "sector": "精密機器",
+      "type": "順張り",
+      "rank": "補欠",
+      "close": 1684,
+      "day_change": 2.97,
+      "turnover": 76.4,
+      "avg_range": 2.7,
+      "vol_ratio": 0.9,
+      "high52w": 1904,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 3.58,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3847,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(38.5%)",
+      "entry_base": {
+        "low": 1675,
+        "high": 1692
+      },
+      "stop_loss_base": 1652,
+      "target_base": 1734,
+      "lot_base": 2494,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "📉減益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📉減益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 8.7,
+        "operating_margin": 9.6,
+        "revenue_growth": 1.3,
+        "oi_growth": -40.2,
+        "equity_ratio": 52.8,
+        "dividend_yield": 2.02
+      }
+    },
+    {
+      "code": "7267",
+      "name": "本田技研工業",
+      "sector": "輸送用機器",
+      "type": "順張り",
+      "rank": "補欠",
+      "close": 1449,
+      "day_change": 2.51,
+      "turnover": 234.1,
+      "avg_range": 2.7,
+      "vol_ratio": 0.9,
+      "high52w": 1537,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 1.81,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4898,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(49.0%)",
+      "entry_base": {
+        "low": 1441,
+        "high": 1456
+      },
+      "stop_loss_base": 1421,
+      "target_base": 1492,
+      "lot_base": 2898,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "⚠️ROE低迷",
+        "⚠️低収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️ROE低迷"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️低収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": -3.5,
+        "operating_margin": -1.9,
+        "revenue_growth": 0.5,
+        "equity_ratio": 35.3
+      }
+    },
+    {
+      "code": "3563",
+      "name": "ＦＯＯＤ　＆　ＬＩＦＥ　ＣＯＭＰＡＮＩＥＳ",
+      "sector": "小売業",
+      "type": "順張り",
+      "rank": "補欠",
+      "close": 9969,
+      "day_change": 0.87,
+      "turnover": 139.1,
+      "avg_range": 4.0,
+      "vol_ratio": 1.2,
+      "high52w": 11175,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 1.11,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4788,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(47.9%)",
+      "entry_base": {
+        "low": 9919,
+        "high": 10018
+      },
+      "stop_loss_base": 9779,
+      "target_base": 10268,
+      "lot_base": 421,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊ROE優秀",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2025,
+        "roe": 26.3,
+        "operating_margin": 8.4,
+        "revenue_growth": 19.0,
+        "oi_growth": 54.3,
+        "equity_ratio": 24.6,
+        "dividend_yield": 0.45
+      }
+    },
+    {
+      "code": "8078",
+      "name": "阪和興業",
+      "sector": "卸売業",
+      "type": "順張り",
+      "rank": "補欠",
+      "close": 1775,
+      "day_change": 6.03,
+      "turnover": 24.6,
+      "avg_range": 2.9,
+      "vol_ratio": 2.1,
+      "high52w": 1927,
+      "backtest_winrate": 65,
+      "backtest_expected": 0.55,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 5.76,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4189,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(41.9%)",
+      "entry_base": {
+        "low": 1766,
+        "high": 1783
+      },
+      "stop_loss_base": 1741,
+      "target_base": 1828,
+      "lot_base": 2366,
+      "status": "standby",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "⚠️低収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage1",
+          "action": "active → standby",
+          "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️低収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 9.3,
+        "operating_margin": 2.2,
+        "revenue_growth": 4.2,
+        "oi_growth": -5.0,
+        "equity_ratio": 35.7
+      }
+    },
+    {
+      "code": "5016",
+      "name": "ＪＸ金属",
+      "sector": "非鉄金属",
+      "type": "SELL",
+      "rank": "厳選",
+      "close": 4553,
+      "day_change": -6.83,
+      "turnover": 1598.4,
+      "avg_range": 6.5,
+      "vol_ratio": 1.3,
+      "high52w": 5828,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -4.8,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3826,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(38.3%)",
+      "entry_base": {
+        "low": 4530,
+        "high": 4575
+      },
+      "stop_loss_base": 4466,
+      "target_base": 4689,
+      "lot_base": 922,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊ROE優秀",
+        "📊高収益",
+        "📈高成長",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL厳選条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈高成長"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 15.6,
+        "operating_margin": 19.8,
+        "revenue_growth": 23.7,
+        "oi_growth": 55.5,
+        "equity_ratio": 48.3,
+        "dividend_yield": 0.94
+      }
+    },
+    {
+      "code": "7735",
+      "name": "ＳＣＲＥＥＮホールディングス",
+      "sector": "電気機器",
+      "type": "SELL",
+      "rank": "厳選",
+      "close": 16535,
+      "day_change": -6.18,
+      "turnover": 588.8,
+      "avg_range": 5.8,
+      "vol_ratio": 1.2,
+      "high52w": 17815,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -3.93,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 16452,
+        "high": 16617
+      },
+      "stop_loss_base": 16220,
+      "target_base": 17031,
+      "lot_base": 254,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊ROE優秀",
+        "📊高収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL厳選条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 20.3,
+        "operating_margin": 20.2,
+        "revenue_growth": -3.1,
+        "oi_growth": -9.7,
+        "equity_ratio": 67.4,
+        "dividend_yield": 3.27
+      }
+    },
+    {
+      "code": "4062",
+      "name": "イビデン",
+      "sector": "電気機器",
+      "type": "SELL",
+      "rank": "厳選",
+      "close": 24000,
+      "day_change": -8.99,
+      "turnover": 2486.0,
+      "avg_range": 8.8,
+      "vol_ratio": 1.1,
+      "high52w": 27285,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -6.74,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 23880,
+        "high": 24119
+      },
+      "stop_loss_base": 23544,
+      "target_base": 24720,
+      "lot_base": 175,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL厳選条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 12.1,
+        "operating_margin": 14.9,
+        "revenue_growth": 12.7,
+        "oi_growth": 30.3,
+        "equity_ratio": 58.0,
+        "dividend_yield": 0.61
+      }
+    },
+    {
+      "code": "1944",
+      "name": "きんでん",
+      "sector": "建設業",
+      "type": "SELL",
+      "rank": "厳選",
+      "close": 8095,
+      "day_change": -0.82,
+      "turnover": 58.5,
+      "avg_range": 3.7,
+      "vol_ratio": 0.8,
+      "high52w": 8572,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -3.63,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3774,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(37.7%)",
+      "entry_base": {
+        "low": 8054,
+        "high": 8135
+      },
+      "stop_loss_base": 7941,
+      "target_base": 8337,
+      "lot_base": 518,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL厳選条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 11.0,
+        "operating_margin": 12.0,
+        "revenue_growth": 6.5,
+        "oi_growth": 48.0,
+        "equity_ratio": 72.4,
+        "dividend_yield": 1.86
+      }
+    },
+    {
+      "code": "6525",
+      "name": "ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ",
+      "sector": "電気機器",
+      "type": "SELL",
+      "rank": "厳選",
+      "close": 9980,
+      "day_change": -1.67,
+      "turnover": 646.6,
+      "avg_range": 6.9,
+      "vol_ratio": 0.9,
+      "high52w": 10710,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": 0.57,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 9930,
+        "high": 10029
+      },
+      "stop_loss_base": 9790,
+      "target_base": 10279,
+      "lot_base": 420,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊財務良好",
+        "📊高収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL厳選条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 14.5,
+        "operating_margin": 17.8,
+        "revenue_growth": -1.6,
+        "oi_growth": -18.5,
+        "equity_ratio": 61.0,
+        "dividend_yield": 0.74
+      }
+    },
+    {
+      "code": "6997",
+      "name": "日本ケミコン",
+      "sector": "電気機器",
+      "type": "SELL",
+      "rank": "補欠",
+      "close": 5590,
+      "day_change": -6.52,
+      "turnover": 64.1,
+      "avg_range": 12.3,
+      "vol_ratio": 0.6,
+      "high52w": 6190,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -4.27,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.3431,
+      "sector_short_status": "空売り低位",
+      "sector_short_label": "📈業種空売り低位(34.3%)",
+      "entry_base": {
+        "low": 5562,
+        "high": 5617
+      },
+      "stop_loss_base": 5483,
+      "target_base": 5757,
+      "lot_base": 751,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "⚠️ROE低迷",
+        "⚠️低収益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL補欠条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️ROE低迷"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️低収益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 4.0,
+        "operating_margin": 2.5,
+        "revenue_growth": 11.5,
+        "oi_growth": -9.9,
+        "equity_ratio": 38.0,
+        "dividend_yield": 1.4
+      }
+    },
+    {
+      "code": "4968",
+      "name": "荒川化学工業",
+      "sector": "化学",
+      "type": "SELL",
+      "rank": "補欠",
+      "close": 2090,
+      "day_change": -5.94,
+      "turnover": 7.2,
+      "avg_range": 7.0,
+      "vol_ratio": 1.2,
+      "high52w": 2625,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -4.92,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(40.0%)",
+      "entry_base": {
+        "low": 2079,
+        "high": 2100
+      },
+      "stop_loss_base": 2050,
+      "target_base": 2152,
+      "lot_base": 2009,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "⚠️ROE低迷",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL補欠条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "⚠️ROE低迷"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2026,
+        "roe": 3.8,
+        "operating_margin": 3.0,
+        "revenue_growth": 2.4,
+        "oi_growth": 136.5,
+        "equity_ratio": 47.0,
+        "dividend_yield": 3.95
+      }
+    },
+    {
+      "code": "6264",
+      "name": "マルマエ",
+      "sector": "機械",
+      "type": "SELL",
+      "rank": "補欠",
+      "close": 2731,
+      "day_change": -5.6,
+      "turnover": 22.1,
+      "avg_range": 7.8,
+      "vol_ratio": 0.7,
+      "high52w": 3220,
+      "backtest_winrate": 68,
+      "backtest_expected": 0.63,
+      "news_sentiment": "neutral",
+      "news_summary": "クラウド・STAGE2で分析",
+      "institution_badge": "",
+      "sector_score": -4.2,
+      "warning_flags": [],
+      "warning_label": "",
+      "sector_short_ratio": 0.4306,
+      "sector_short_status": "中立",
+      "sector_short_label": "📊業種空売り中立(43.1%)",
+      "entry_base": {
+        "low": 2717,
+        "high": 2744
+      },
+      "stop_loss_base": 2679,
+      "target_base": 2812,
+      "lot_base": 1537,
+      "status": "active",
+      "added_at": "stage1_screening",
+      "flags": [
+        "📊ROE優秀",
+        "📊高収益",
+        "📈高成長",
+        "📈増益"
+      ],
+      "history": [
+        {
+          "stage": "stage1_screening",
+          "action": "selected",
+          "reason": "SELL補欠条件クリア"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📊高収益"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈高成長"
+        },
+        {
+          "stage": "stage1.5",
+          "action": "flagged",
+          "reason": "📈増益"
+        }
+      ],
+      "fundamental": {
+        "fiscal_year": 2025,
+        "roe": 17.7,
+        "operating_margin": 18.4,
+        "revenue_growth": 140.1,
+        "oi_growth": 1244.2,
+        "equity_ratio": 32.1,
+        "dividend_yield": 2.47
+      }
+    }
+  ],
+  "history": [
+    {
+      "stage": "stage1",
+      "action": "3軸スクリーニング完了: 順張り10 SELL8 逆張り0 (active:8 standby:10)",
+      "timestamp": "2026-06-26T19:24:16.773295+09:00"
+    },
+    {
+      "stage": "stage1.5",
+      "action": "ファンダチェック完了: 18/18銘柄 決算接近警告0 APIリクエスト72",
+      "timestamp": "2026-06-26T19:26:08.838177+09:00"
+    }
+  ],
+  "stage_metadata": {
+    "stage1_screening": {
+      "started_at": "2026-06-26T19:24:16.771588+09:00",
+      "completed_at": "2026-06-26T19:24:17.428968+09:00"
+    },
+    "stage1_5_fundamental": {
+      "started_at": "2026-06-26T19:24:17.428973+09:00"
+    }
+  }
+}
