@@ -2,7 +2,7 @@
   "date": "2026-06-26",
   "pipeline_stage": "stage5_final",
   "created_at": "2026-06-25T19:20:29.205603+09:00",
-  "updated_at": "2026-06-26T17:27:13.550917+09:00",
+  "updated_at": "2026-06-26T19:13:53.762305+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "GREEN",
@@ -185,14 +185,14 @@
         "dividend_yield": 0.77
       },
       "entry_current": {
-        "est_open": 981,
-        "low": 976,
-        "high": 985
+        "est_open": 976,
+        "low": 971,
+        "high": 980
       },
-      "stop_loss_current": 962,
-      "target_current": 1010,
-      "lot_current": 4281,
-      "gap_pct": -2.39
+      "stop_loss_current": 957,
+      "target_current": 1005,
+      "lot_current": 4303,
+      "gap_pct": -2.89
     },
     {
       "code": "7936",
@@ -269,14 +269,14 @@
         "dividend_yield": 0.75
       },
       "entry_current": {
-        "est_open": 4420,
-        "low": 4397,
-        "high": 4442
+        "est_open": 4395,
+        "low": 4373,
+        "high": 4416
       },
-      "stop_loss_current": 4336,
-      "target_current": 4552,
-      "lot_current": 950,
-      "gap_pct": -2.3
+      "stop_loss_current": 4311,
+      "target_current": 4526,
+      "lot_current": 955,
+      "gap_pct": -2.85
     },
     {
       "code": "5016",
@@ -359,14 +359,14 @@
         "dividend_yield": 0.94
       },
       "entry_current": {
-        "est_open": 4774,
-        "low": 4750,
-        "high": 4797
+        "est_open": 4747,
+        "low": 4723,
+        "high": 4770
       },
-      "stop_loss_current": 4683,
-      "target_current": 4917,
-      "lot_current": 879,
-      "gap_pct": -2.31
+      "stop_loss_current": 4656,
+      "target_current": 4889,
+      "lot_current": 884,
+      "gap_pct": -2.86
     },
     {
       "code": "3563",
@@ -437,14 +437,14 @@
         "dividend_yield": 0.45
       },
       "entry_current": {
-        "est_open": 9656,
-        "low": 9607,
-        "high": 9704
+        "est_open": 9601,
+        "low": 9552,
+        "high": 9649
       },
-      "stop_loss_current": 9472,
-      "target_current": 9945,
-      "lot_current": 434,
-      "gap_pct": -2.3
+      "stop_loss_current": 9418,
+      "target_current": 9889,
+      "lot_current": 437,
+      "gap_pct": -2.85
     },
     {
       "code": "6323",
@@ -533,14 +533,14 @@
         "dividend_yield": 1.04
       },
       "entry_current": {
-        "est_open": 4725,
-        "low": 4701,
-        "high": 4748
+        "est_open": 4698,
+        "low": 4674,
+        "high": 4721
       },
-      "stop_loss_current": 4635,
-      "target_current": 4866,
-      "lot_current": 888,
-      "gap_pct": -2.3
+      "stop_loss_current": 4608,
+      "target_current": 4838,
+      "lot_current": 893,
+      "gap_pct": -2.85
     },
     {
       "code": "4661",
@@ -617,14 +617,14 @@
         "dividend_yield": 0.48
       },
       "entry_current": {
-        "est_open": 2338,
-        "low": 2326,
-        "high": 2349
+        "est_open": 2324,
+        "low": 2312,
+        "high": 2335
       },
-      "stop_loss_current": 2293,
-      "target_current": 2408,
-      "lot_current": 1796,
-      "gap_pct": -2.3
+      "stop_loss_current": 2279,
+      "target_current": 2393,
+      "lot_current": 1807,
+      "gap_pct": -2.88
     },
     {
       "code": "7911",
@@ -695,14 +695,14 @@
         "dividend_yield": 1.41
       },
       "entry_current": {
-        "est_open": 5093,
-        "low": 5067,
-        "high": 5118
+        "est_open": 5064,
+        "low": 5038,
+        "high": 5089
       },
-      "stop_loss_current": 4996,
-      "target_current": 5245,
-      "lot_current": 824,
-      "gap_pct": -2.3
+      "stop_loss_current": 4967,
+      "target_current": 5215,
+      "lot_current": 829,
+      "gap_pct": -2.86
     },
     {
       "code": "6869",
@@ -773,14 +773,14 @@
         "dividend_yield": 2.78
       },
       "entry_current": {
-        "est_open": 1399,
-        "low": 1392,
-        "high": 1405
+        "est_open": 1391,
+        "low": 1384,
+        "high": 1397
       },
-      "stop_loss_current": 1372,
-      "target_current": 1440,
-      "lot_current": 3002,
-      "gap_pct": -2.3
+      "stop_loss_current": 1364,
+      "target_current": 1432,
+      "lot_current": 3019,
+      "gap_pct": -2.86
     },
     {
       "code": "6324",
@@ -857,14 +857,14 @@
         "dividend_yield": 0.58
       },
       "entry_current": {
-        "est_open": 7718,
-        "low": 7679,
-        "high": 7756
+        "est_open": 7675,
+        "low": 7636,
+        "high": 7713
       },
-      "stop_loss_current": 7571,
-      "target_current": 7949,
-      "lot_current": 544,
-      "gap_pct": -2.3
+      "stop_loss_current": 7529,
+      "target_current": 7905,
+      "lot_current": 547,
+      "gap_pct": -2.85
     },
     {
       "code": "6762",
@@ -941,14 +941,14 @@
         "dividend_yield": 1.83
       },
       "entry_current": {
-        "est_open": 3818,
-        "low": 3798,
-        "high": 3837
+        "est_open": 3796,
+        "low": 3777,
+        "high": 3814
       },
-      "stop_loss_current": 3745,
-      "target_current": 3932,
-      "lot_current": 1100,
-      "gap_pct": -2.3
+      "stop_loss_current": 3723,
+      "target_current": 3909,
+      "lot_current": 1106,
+      "gap_pct": -2.87
     }
   ],
   "history": [
@@ -991,6 +991,11 @@
       "stage": "stage5",
       "action": "最終確認: ⚪ 5分足3本まで様子見 先物-2.3% (active:10 standby:0)",
       "timestamp": "2026-06-26T17:26:49.621153+09:00"
+    },
+    {
+      "stage": "stage5",
+      "action": "最終確認: ⚪ 5分足3本まで様子見 先物-2.8% (active:10 standby:0)",
+      "timestamp": "2026-06-26T19:13:29.984609+09:00"
     }
   ],
   "stage_metadata": {
@@ -1035,11 +1040,11 @@
     "adopted_source": "g1_final_base"
   },
   "stage5_adjustment_metadata": {
-    "market_mode": "flat",
-    "adjustment_level": 1,
-    "adjustment_level_label": "minor",
+    "market_mode": "down",
+    "adjustment_level": 2,
+    "adjustment_level_label": "moderate",
     "risk_flags": [],
     "data_quality": "full",
-    "generated_at": "2026-06-26T17:27:13.550417+09:00"
+    "generated_at": "2026-06-26T19:13:53.761804+09:00"
   }
 }
