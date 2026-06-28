@@ -1,13 +1,13 @@
 {
   "date": "2026-06-29",
-  "pipeline_stage": "stage2_narrative",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-06-26T19:24:16.771563+09:00",
-  "updated_at": "2026-06-28T21:45:08.134434+09:00",
+  "updated_at": "2026-06-29T06:15:45.580996+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "RED",
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "BUY",
+    "direction_confidence": "低",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "-4.15%",
     "topix_change": null,
-    "dow_change": "0.14%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "20.1",
-    "usdjpy": "0.16円",
+    "dow_change": "51,876ドル（-0.09%）",
+    "nasdaq_change": "25,298（-0.24%）",
+    "futures_gap_pct": -2.1169213514650216,
+    "vix": "18.4",
+    "usdjpy": "161.72円（-0.09円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -135,7 +135,16 @@
         "oi_growth": 106.9,
         "equity_ratio": 49.7,
         "dividend_yield": 1.94
-      }
+      },
+      "entry_current": {
+        "est_open": 9181,
+        "low": 9135,
+        "high": 9226
+      },
+      "stop_loss_current": 9006,
+      "target_current": 9456,
+      "lot_current": 457,
+      "gap_pct": -2.12
     },
     {
       "code": "6701",
@@ -209,7 +218,16 @@
         "oi_growth": 40.3,
         "equity_ratio": 49.2,
         "dividend_yield": 0.99
-      }
+      },
+      "entry_current": {
+        "est_open": 3714,
+        "low": 3695,
+        "high": 3732
+      },
+      "stop_loss_current": 3643,
+      "target_current": 3825,
+      "lot_current": 1130,
+      "gap_pct": -2.13
     },
     {
       "code": "8802",
@@ -277,7 +295,16 @@
         "oi_growth": 6.6,
         "equity_ratio": 33.6,
         "dividend_yield": 1.06
-      }
+      },
+      "entry_current": {
+        "est_open": 4014,
+        "low": 3993,
+        "high": 4034
+      },
+      "stop_loss_current": 3937,
+      "target_current": 4134,
+      "lot_current": 1046,
+      "gap_pct": -2.12
     },
     {
       "code": "9843",
@@ -345,7 +372,16 @@
         "oi_growth": 6.7,
         "equity_ratio": 62.9,
         "dividend_yield": 3.67
-      }
+      },
+      "entry_current": {
+        "est_open": 2388,
+        "low": 2376,
+        "high": 2399
+      },
+      "stop_loss_current": 2342,
+      "target_current": 2459,
+      "lot_current": 1758,
+      "gap_pct": -2.13
     },
     {
       "code": "6740",
@@ -429,7 +465,16 @@
         "revenue_growth": -29.6,
         "oi_growth": 49.6,
         "equity_ratio": -6.0
-      }
+      },
+      "entry_current": {
+        "est_open": 58,
+        "low": 57,
+        "high": 58
+      },
+      "stop_loss_current": 56,
+      "target_current": 59,
+      "lot_current": 72413,
+      "gap_pct": -3.33
     },
     {
       "code": "3482",
@@ -511,7 +556,16 @@
         "oi_growth": 17.2,
         "equity_ratio": 26.6,
         "dividend_yield": 2.85
-      }
+      },
+      "entry_current": {
+        "est_open": 2883,
+        "low": 2868,
+        "high": 2897
+      },
+      "stop_loss_current": 2828,
+      "target_current": 2969,
+      "lot_current": 1456,
+      "gap_pct": -2.14
     },
     {
       "code": "7733",
@@ -579,7 +633,16 @@
         "oi_growth": -40.2,
         "equity_ratio": 52.8,
         "dividend_yield": 2.02
-      }
+      },
+      "entry_current": {
+        "est_open": 1648,
+        "low": 1639,
+        "high": 1656
+      },
+      "stop_loss_current": 1616,
+      "target_current": 1697,
+      "lot_current": 2548,
+      "gap_pct": -2.14
     },
     {
       "code": "7267",
@@ -645,7 +708,16 @@
         "operating_margin": -1.9,
         "revenue_growth": 0.5,
         "equity_ratio": 35.3
-      }
+      },
+      "entry_current": {
+        "est_open": 1418,
+        "low": 1410,
+        "high": 1425
+      },
+      "stop_loss_current": 1391,
+      "target_current": 1460,
+      "lot_current": 2961,
+      "gap_pct": -2.14
     },
     {
       "code": "3563",
@@ -719,7 +791,16 @@
         "oi_growth": 54.3,
         "equity_ratio": 24.6,
         "dividend_yield": 0.45
-      }
+      },
+      "entry_current": {
+        "est_open": 9757,
+        "low": 9708,
+        "high": 9805
+      },
+      "stop_loss_current": 9571,
+      "target_current": 10049,
+      "lot_current": 430,
+      "gap_pct": -2.13
     },
     {
       "code": "8078",
@@ -786,7 +867,16 @@
         "revenue_growth": 4.2,
         "oi_growth": -5.0,
         "equity_ratio": 35.7
-      }
+      },
+      "entry_current": {
+        "est_open": 1737,
+        "low": 1728,
+        "high": 1745
+      },
+      "stop_loss_current": 1703,
+      "target_current": 1789,
+      "lot_current": 2417,
+      "gap_pct": -2.14
     },
     {
       "code": "5016",
@@ -818,7 +908,7 @@
       "stop_loss_base": 4466,
       "target_base": 4689,
       "lot_base": 922,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -851,6 +941,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -861,7 +956,16 @@
         "oi_growth": 55.5,
         "equity_ratio": 48.3,
         "dividend_yield": 0.94
-      }
+      },
+      "entry_current": {
+        "est_open": 4456,
+        "low": 4433,
+        "high": 4478
+      },
+      "stop_loss_current": 4371,
+      "target_current": 4589,
+      "lot_current": 942,
+      "gap_pct": -2.13
     },
     {
       "code": "7735",
@@ -893,7 +997,7 @@
       "stop_loss_base": 16220,
       "target_base": 17031,
       "lot_base": 254,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -920,6 +1024,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️AI・半導体セクターの需給悪化"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -930,7 +1039,16 @@
         "oi_growth": -9.7,
         "equity_ratio": 67.4,
         "dividend_yield": 3.27
-      }
+      },
+      "entry_current": {
+        "est_open": 16184,
+        "low": 16103,
+        "high": 16264
+      },
+      "stop_loss_current": 15876,
+      "target_current": 16669,
+      "lot_current": 259,
+      "gap_pct": -2.12
     },
     {
       "code": "4062",
@@ -962,7 +1080,7 @@
       "stop_loss_base": 23544,
       "target_base": 24720,
       "lot_base": 175,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -989,6 +1107,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️AI・半導体セクターの需給悪化"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -999,7 +1122,16 @@
         "oi_growth": 30.3,
         "equity_ratio": 58.0,
         "dividend_yield": 0.61
-      }
+      },
+      "entry_current": {
+        "est_open": 23491,
+        "low": 23373,
+        "high": 23608
+      },
+      "stop_loss_current": 23044,
+      "target_current": 24195,
+      "lot_current": 178,
+      "gap_pct": -2.12
     },
     {
       "code": "1944",
@@ -1031,7 +1163,7 @@
       "stop_loss_base": 7941,
       "target_base": 8337,
       "lot_base": 518,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -1052,6 +1184,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -1062,7 +1199,16 @@
         "oi_growth": 48.0,
         "equity_ratio": 72.4,
         "dividend_yield": 1.86
-      }
+      },
+      "entry_current": {
+        "est_open": 7923,
+        "low": 7883,
+        "high": 7962
+      },
+      "stop_loss_current": 7772,
+      "target_current": 8160,
+      "lot_current": 530,
+      "gap_pct": -2.12
     },
     {
       "code": "6525",
@@ -1094,7 +1240,7 @@
       "stop_loss_base": 9790,
       "target_base": 10279,
       "lot_base": 420,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -1121,6 +1267,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️AI・半導体セクターの需給悪化"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -1131,7 +1282,16 @@
         "oi_growth": -18.5,
         "equity_ratio": 61.0,
         "dividend_yield": 0.74
-      }
+      },
+      "entry_current": {
+        "est_open": 9768,
+        "low": 9719,
+        "high": 9816
+      },
+      "stop_loss_current": 9582,
+      "target_current": 10061,
+      "lot_current": 429,
+      "gap_pct": -2.12
     },
     {
       "code": "6997",
@@ -1163,7 +1323,7 @@
       "stop_loss_base": 5483,
       "target_base": 5757,
       "lot_base": 751,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -1190,6 +1350,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️AI・半導体セクターの需給悪化"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -1200,7 +1365,16 @@
         "oi_growth": -9.9,
         "equity_ratio": 38.0,
         "dividend_yield": 1.4
-      }
+      },
+      "entry_current": {
+        "est_open": 5471,
+        "low": 5443,
+        "high": 5498
+      },
+      "stop_loss_current": 5367,
+      "target_current": 5635,
+      "lot_current": 767,
+      "gap_pct": -2.13
     },
     {
       "code": "4968",
@@ -1232,7 +1406,7 @@
       "stop_loss_base": 2050,
       "target_base": 2152,
       "lot_base": 2009,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -1253,6 +1427,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -1263,7 +1442,16 @@
         "oi_growth": 136.5,
         "equity_ratio": 47.0,
         "dividend_yield": 3.95
-      }
+      },
+      "entry_current": {
+        "est_open": 2045,
+        "low": 2034,
+        "high": 2055
+      },
+      "stop_loss_current": 2006,
+      "target_current": 2106,
+      "lot_current": 2053,
+      "gap_pct": -2.15
     },
     {
       "code": "6264",
@@ -1295,7 +1483,7 @@
       "stop_loss_base": 2679,
       "target_base": 2812,
       "lot_base": 1537,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -1328,6 +1516,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -1338,7 +1531,16 @@
         "oi_growth": 1244.2,
         "equity_ratio": 32.1,
         "dividend_yield": 2.47
-      }
+      },
+      "entry_current": {
+        "est_open": 2673,
+        "low": 2659,
+        "high": 2686
+      },
+      "stop_loss_current": 2622,
+      "target_current": 2753,
+      "lot_current": 1571,
+      "gap_pct": -2.12
     }
   ],
   "history": [
@@ -1356,6 +1558,11 @@
       "stage": "stage2",
       "action": "ナラティブ照合完了: RED リスク3件 触媒1件 (active:8 standby:10)",
       "timestamp": "2026-06-28T21:45:08.134410+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: BUY（低）先物-2.1% (active:0 standby:18)",
+      "timestamp": "2026-06-29T06:15:45.580975+09:00"
     }
   ],
   "stage_metadata": {
@@ -1368,7 +1575,11 @@
       "completed_at": "2026-06-28T21:45:08.134313+09:00"
     },
     "stage2_narrative": {
-      "started_at": "2026-06-28T21:45:08.134319+09:00"
+      "started_at": "2026-06-28T21:45:08.134319+09:00",
+      "completed_at": "2026-06-29T06:15:45.580881+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-06-29T06:15:45.580886+09:00"
     }
   }
 }
