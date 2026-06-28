@@ -1,11 +1,11 @@
 {
   "date": "2026-06-29",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-06-26T19:24:16.771563+09:00",
-  "updated_at": "2026-06-26T19:26:08.838266+09:00",
+  "updated_at": "2026-06-28T21:45:08.134434+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,54 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "米イラン軍事衝突再燃とホルムズ海峡の緊張激化",
+    "risks": [
+      {
+        "topic": "中東情勢の急激な悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "航空"
+        ],
+        "detail": "米イラン間の攻撃応酬が継続し、ホルムズ海峡の封鎖懸念からエネルギー供給不安と原油価格の急騰リスクが極めて高い。"
+      },
+      {
+        "topic": "日銀利上げ巡る政府の圧力",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産",
+          "小売"
+        ],
+        "detail": "政府が骨太方針で金融政策をけん制する姿勢を示し、日銀の政策運営の不透明感が強まり市場に動揺を与える可能性がある。"
+      },
+      {
+        "topic": "AI・半導体セクターの需給悪化",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "オープンAIのIPO延期報道等によるAI投資収益性懸念が、高値圏にある半導体関連株のさらなる調整要因となっている。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米雇用関連指標の発表",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "金融",
+          "自動車",
+          "輸出関連"
+        ],
+        "detail": "7月2日発表の米雇用統計が底堅い結果となれば、米国経済の強さが改めて意識され、過度な悲観論を打ち消す可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -126,7 +171,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -148,6 +194,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -193,7 +244,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊高収益"
+        "📊高収益",
+        "⚠️日銀利上げ巡る政府の圧力"
       ],
       "history": [
         {
@@ -210,6 +262,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀利上げ巡る政府の圧力"
         }
       ],
       "fundamental": {
@@ -255,7 +312,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️日銀利上げ巡る政府の圧力"
       ],
       "history": [
         {
@@ -272,6 +330,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀利上げ巡る政府の圧力"
         }
       ],
       "fundamental": {
@@ -320,7 +383,8 @@
         "⚠️低収益",
         "📉減収",
         "📈増益",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -352,6 +416,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -399,7 +468,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈高成長"
+        "📈高成長",
+        "⚠️日銀利上げ巡る政府の圧力"
       ],
       "history": [
         {
@@ -426,6 +496,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈高成長"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀利上げ巡る政府の圧力"
         }
       ],
       "fundamental": {
@@ -606,7 +681,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️日銀利上げ巡る政府の圧力"
       ],
       "history": [
         {
@@ -628,6 +704,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀利上げ巡る政府の圧力"
         }
       ],
       "fundamental": {
@@ -816,7 +897,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📊高収益"
+        "📊高収益",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -833,6 +915,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -879,7 +966,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -896,6 +984,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -1005,7 +1098,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -1022,6 +1116,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -1068,7 +1167,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️低収益"
+        "⚠️低収益",
+        "⚠️AI・半導体セクターの需給悪化"
       ],
       "history": [
         {
@@ -1085,6 +1185,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️低収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI・半導体セクターの需給悪化"
         }
       ],
       "fundamental": {
@@ -1246,6 +1351,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 18/18銘柄 決算接近警告0 APIリクエスト72",
       "timestamp": "2026-06-26T19:26:08.838177+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク3件 触媒1件 (active:8 standby:10)",
+      "timestamp": "2026-06-28T21:45:08.134410+09:00"
     }
   ],
   "stage_metadata": {
@@ -1254,7 +1364,11 @@
       "completed_at": "2026-06-26T19:24:17.428968+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-06-26T19:24:17.428973+09:00"
+      "started_at": "2026-06-26T19:24:17.428973+09:00",
+      "completed_at": "2026-06-28T21:45:08.134313+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-06-28T21:45:08.134319+09:00"
     }
   }
 }
