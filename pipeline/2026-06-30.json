@@ -1,11 +1,11 @@
 {
   "date": "2026-06-30",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-06-29T20:58:33.031105+09:00",
-  "updated_at": "2026-06-29T21:00:50.130483+09:00",
+  "updated_at": "2026-06-29T23:53:55.688574+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,44 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "米イラン攻撃停止とホルムズ海峡協議再開へ",
+    "risks": [
+      {
+        "topic": "ホルムズ海峡の物流停滞",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "化学"
+        ],
+        "detail": "攻撃停止合意も、機雷除去等の実務的正常化には時間を要し、供給コスト高止まりの懸念が残る。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米イランの攻撃停止と対話",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "全般",
+          "自動車",
+          "製造業"
+        ],
+        "detail": "戦闘停止合意による地政学リスクの緩和は、市場の安心感を高めリスクオンの動きを誘発する可能性。"
+      },
+      {
+        "topic": "日銀の追加利上げ観測",
+        "direction": "negative",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "不動産",
+          "小売"
+        ],
+        "detail": "物価上振れによる年内追加利上げ検討が、金利上昇を通じた住宅ローン負担増や企業コスト増を招く。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -139,7 +174,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "📉日銀の追加利上げ観測"
       ],
       "history": [
         {
@@ -161,6 +197,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📉日銀の追加利上げ観測"
         }
       ],
       "fundamental": {
@@ -213,7 +254,8 @@
       "flags": [
         "⚠️ROE低迷",
         "⚠️低収益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "⚠️ホルムズ海峡の物流停滞"
       ],
       "history": [
         {
@@ -235,6 +277,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️ホルムズ海峡の物流停滞"
         }
       ],
       "fundamental": {
@@ -285,7 +332,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "📉日銀の追加利上げ観測"
       ],
       "history": [
         {
@@ -307,6 +355,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📉日銀の追加利上げ観測"
         }
       ],
       "fundamental": {
@@ -501,7 +554,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "⚠️財務リスク",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "📉日銀の追加利上げ観測"
       ],
       "history": [
         {
@@ -528,6 +582,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📉日銀の追加利上げ観測"
         }
       ],
       "fundamental": {
@@ -1281,7 +1340,8 @@
       "flags": [
         "⚠️ROE低迷",
         "📈増益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "⚠️ホルムズ海峡の物流停滞"
       ],
       "history": [
         {
@@ -1308,6 +1368,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️ホルムズ海峡の物流停滞"
         }
       ],
       "fundamental": {
@@ -1566,6 +1631,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 19/20銘柄 決算接近警告0 APIリクエスト79",
       "timestamp": "2026-06-29T21:00:50.130357+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク1件 触媒2件 (active:10 standby:10)",
+      "timestamp": "2026-06-29T23:53:55.688548+09:00"
     }
   ],
   "stage_metadata": {
@@ -1574,7 +1644,11 @@
       "completed_at": "2026-06-29T20:58:33.712266+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-06-29T20:58:33.712271+09:00"
+      "started_at": "2026-06-29T20:58:33.712271+09:00",
+      "completed_at": "2026-06-29T23:53:55.688423+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-06-29T23:53:55.688429+09:00"
     }
   }
 }
