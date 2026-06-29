@@ -2,7 +2,7 @@
   "date": "2026-06-30",
   "pipeline_stage": "stage5_final",
   "created_at": "2026-06-29T20:58:33.031105+09:00",
-  "updated_at": "2026-06-30T08:53:25.848439+09:00",
+  "updated_at": "2026-06-30T08:53:48.118361+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
@@ -1929,6 +1929,11 @@
       "stage": "stage5",
       "action": "最終確認: ⚪ 5分足3本まで様子見 先物+1.2% (active:5 standby:15)",
       "timestamp": "2026-06-30T08:53:18.544458+09:00"
+    },
+    {
+      "stage": "stage5",
+      "action": "最終確認: ⚪ 5分足3本まで様子見 先物+1.2% (active:5 standby:15)",
+      "timestamp": "2026-06-30T08:53:47.492391+09:00"
     }
   ],
   "stage_metadata": {
@@ -1978,6 +1983,6 @@
     "adjustment_level_label": "no_change",
     "risk_flags": [],
     "data_quality": "full",
-    "generated_at": "2026-06-30T08:53:25.847447+09:00"
+    "generated_at": "2026-06-30T08:53:48.118361+09:00"
   }
 }
