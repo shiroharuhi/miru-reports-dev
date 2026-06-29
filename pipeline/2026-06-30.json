@@ -1,15 +1,15 @@
 {
   "date": "2026-06-30",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-06-29T20:58:33.031105+09:00",
-  "updated_at": "2026-06-30T06:42:48.322239+09:00",
+  "updated_at": "2026-06-30T07:36:52.050020+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 1.3463191062732742,
     "vix": "17.6",
     "usdjpy": "161.86円（+0.05円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "機械",
+        "change": 2.22
+      },
+      {
+        "name": "医薬品",
+        "change": 1.82
+      },
+      {
+        "name": "不動産",
+        "change": 1.76
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -2.0
+      },
+      {
+        "name": "銀行",
+        "change": -0.03
+      },
+      {
+        "name": "素材・化学",
+        "change": 0.23
+      }
+    ]
   },
   "narrative": {
     "headline": "米イラン攻撃停止とホルムズ海峡協議再開へ",
@@ -184,7 +210,8 @@
         "📊財務良好",
         "📊高収益",
         "📉買残整理4w-100.0%",
-        "📉日銀の追加利上げ観測"
+        "📉日銀の追加利上げ観測",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -211,6 +238,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📉日銀の追加利上げ観測"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -273,7 +305,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "📉買残整理4w-100.0%",
-        "⚠️ホルムズ海峡の物流停滞"
+        "⚠️ホルムズ海峡の物流停滞",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -300,6 +333,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️ホルムズ海峡の物流停滞"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -526,7 +564,7 @@
       "stop_loss_base": 3236,
       "target_base": 3397,
       "lot_base": 1273,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -547,6 +585,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -602,7 +645,7 @@
       "stop_loss_base": 1345,
       "target_base": 1413,
       "lot_base": 3061,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -641,6 +684,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📉日銀の追加利上げ観測"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -697,7 +745,7 @@
       "stop_loss_base": 3761,
       "target_base": 3949,
       "lot_base": 1095,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -718,6 +766,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -774,7 +827,7 @@
       "stop_loss_base": 2450,
       "target_base": 2572,
       "lot_base": 1681,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -801,6 +854,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -857,7 +915,7 @@
       "stop_loss_base": 3220,
       "target_base": 3381,
       "lot_base": 1279,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -884,6 +942,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -947,7 +1010,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -984,6 +1048,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -1042,7 +1111,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -1059,6 +1129,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -1218,7 +1293,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -1235,6 +1311,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -1485,7 +1566,8 @@
         "⚠️ROE低迷",
         "📈増益",
         "📉買残整理4w-100.0%",
-        "⚠️ホルムズ海峡の物流停滞"
+        "⚠️ホルムズ海峡の物流停滞",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -1517,6 +1599,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️ホルムズ海峡の物流停滞"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -1668,7 +1755,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "📉買残整理4w-100.0%"
+        "📉買残整理4w-100.0%",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -1705,6 +1793,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-100.0%"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -1821,6 +1914,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物+1.3% (active:10 standby:10)",
       "timestamp": "2026-06-30T06:42:48.322211+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:5 standby:15)",
+      "timestamp": "2026-06-30T07:36:52.043759+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.55",
+      "timestamp": "2026-06-30T07:36:52.049988+09:00"
     }
   ],
   "stage_metadata": {
@@ -1837,7 +1940,22 @@
       "completed_at": "2026-06-30T06:42:48.322139+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-06-30T06:42:48.322144+09:00"
+      "started_at": "2026-06-30T06:42:48.322144+09:00",
+      "completed_at": "2026-06-30T07:36:52.043691+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-06-30T07:36:52.043698+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.55,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-06-30T07:36:52.047778+09:00"
   }
 }
