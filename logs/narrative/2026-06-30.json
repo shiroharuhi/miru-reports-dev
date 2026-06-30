@@ -1,0 +1,52 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "円安進行とAI株の調整懸念",
+  "risks": [
+    {
+      "topic": "為替介入警戒感",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "輸出関連",
+        "輸入関連",
+        "金融"
+      ],
+      "detail": "ドル円が162円台に達し、政府・日銀による為替介入への警戒から市場が神経質になっている。"
+    },
+    {
+      "topic": "AI関連株の過熱調整",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "半導体"
+      ],
+      "detail": "AIブームに伴う高水準の株価に対し、利益確定売りや持続可能性への懸念が調整圧力となっている。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米国株の上昇継続",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "電気機器",
+        "ハイテク"
+      ],
+      "detail": "米国市場でのハイテク株買い戻しが日本株の支援材料となり、押し目買いが入りやすい環境にある。"
+    },
+    {
+      "topic": "日銀短観への期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "製造業"
+      ],
+      "detail": "良好な設備投資計画の発表が予想され、製造業株を中心に買い材料となる可能性がある。"
+    }
+  ],
+  "recommendation": "米国株高により地合いは堅調だが、ドル円の162円超えによる介入警戒感とAI関連の過熱感が重石。短期的には上値を追いすぎず、押し目買いの好機を待ちつつ、介入のヘッドラインには最大限の注意を払うべき。",
+  "date": "2026-06-30",
+  "timestamp": "2026-06-30T13:17:33.144785"
+}

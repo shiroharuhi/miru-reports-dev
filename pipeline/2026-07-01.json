@@ -1,11 +1,11 @@
 {
   "date": "2026-07-01",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-06-30T19:42:06.394970+09:00",
-  "updated_at": "2026-06-30T19:43:30.342176+09:00",
+  "updated_at": "2026-06-30T22:17:33.145604+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "円安進行とAI株の調整懸念",
+    "risks": [
+      {
+        "topic": "為替介入警戒感",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "輸出関連",
+          "輸入関連",
+          "金融"
+        ],
+        "detail": "ドル円が162円台に達し、政府・日銀による為替介入への警戒から市場が神経質になっている。"
+      },
+      {
+        "topic": "AI関連株の過熱調整",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "半導体"
+        ],
+        "detail": "AIブームに伴う高水準の株価に対し、利益確定売りや持続可能性への懸念が調整圧力となっている。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米国株の上昇継続",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "電気機器",
+          "ハイテク"
+        ],
+        "detail": "米国市場でのハイテク株買い戻しが日本株の支援材料となり、押し目買いが入りやすい環境にある。"
+      },
+      {
+        "topic": "日銀短観への期待",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "機械",
+          "製造業"
+        ],
+        "detail": "良好な設備投資計画の発表が予想され、製造業株を中心に買い材料となる可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -64,7 +107,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📈増益"
+        "📈増益",
+        "📈日銀短観への期待"
       ],
       "history": [
         {
@@ -81,6 +125,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀短観への期待"
         }
       ],
       "fundamental": {
@@ -136,7 +185,8 @@
         "📈高成長",
         "📈増益",
         "⚠️決算接近（推定14日後・2026-07-15）",
-        "⚠️信用倍率29.68倍"
+        "⚠️信用倍率29.68倍",
+        "📈日銀短観への期待"
       ],
       "history": [
         {
@@ -173,6 +223,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率29.68倍"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀短観への期待"
         }
       ],
       "fundamental": {
@@ -299,7 +354,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📉減益",
-        "⚠️信用倍率13.96倍"
+        "⚠️信用倍率13.96倍",
+        "📈日銀短観への期待"
       ],
       "history": [
         {
@@ -316,6 +372,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率13.96倍"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀短観への期待"
         }
       ],
       "fundamental": {
@@ -368,7 +429,9 @@
       "flags": [
         "⚠️ROE低迷",
         "📈増益",
-        "🔥買残急増4w+62.0%"
+        "🔥買残急増4w+62.0%",
+        "⚠️AI関連株の過熱調整",
+        "📈米国株の上昇継続"
       ],
       "history": [
         {
@@ -390,6 +453,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "🔥買残急増4w+62.0%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI関連株の過熱調整"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米国株の上昇継続"
         }
       ],
       "fundamental": {
@@ -689,7 +762,9 @@
       "flags": [
         "⚠️低収益",
         "📉減益",
-        "🔥買残急増4w+139.1%"
+        "🔥買残急増4w+139.1%",
+        "⚠️AI関連株の過熱調整",
+        "📈米国株の上昇継続"
       ],
       "history": [
         {
@@ -711,6 +786,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "🔥買残急増4w+139.1%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️AI関連株の過熱調整"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米国株の上昇継続"
         }
       ],
       "fundamental": {
@@ -973,6 +1058,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 12/12銘柄 決算接近警告2 APIリクエスト48",
       "timestamp": "2026-06-30T19:43:30.342080+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:12 standby:0)",
+      "timestamp": "2026-06-30T22:17:33.145575+09:00"
     }
   ],
   "stage_metadata": {
@@ -981,7 +1071,11 @@
       "completed_at": "2026-06-30T19:42:07.246713+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-06-30T19:42:07.246719+09:00"
+      "started_at": "2026-06-30T19:42:07.246719+09:00",
+      "completed_at": "2026-06-30T22:17:33.145506+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-06-30T22:17:33.145511+09:00"
     }
   }
 }
