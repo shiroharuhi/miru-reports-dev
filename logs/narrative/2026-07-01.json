@@ -1,0 +1,51 @@
+{
+  "narrative_status": "GREEN",
+  "headline": "日経平均7万円定着とAI・半導体主導の堅調相場",
+  "risks": [
+    {
+      "topic": "FRBのタカ派シフト",
+      "severity": "medium",
+      "timeframe": "medium_term",
+      "sectors": [
+        "電気機器",
+        "ハイテク"
+      ],
+      "detail": "6月にFRBの政策方針がタカ派に傾き、インフレ圧力と利上げ警戒がハイテク株の上値を抑える要因となる。"
+    },
+    {
+      "topic": "円安と日銀政策の不透明感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "162円台の歴史的円安に対し、日銀利上げと政治的圧力の綱引きが続いており、ボラティリティを高める恐れがある。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "堅調な日銀短観",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "製造業",
+        "非製造業"
+      ],
+      "detail": "6月短観が市場予想を上回り、企業の業績改善と景気不安の後退が株価を下支えしている。"
+    },
+    {
+      "topic": "AI産業革命の継続",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "半導体"
+      ],
+      "detail": "米国ハイテク株の強さとAI関連需要が引き続き日本市場の強力な牽引役となっている。"
+    }
+  ],
+  "recommendation": "地合いは日経平均7万円大台を固める強気トレンド。AI・半導体株への資金集中が継続しており、押し目買いが有効。ただし、高値圏での短期的な売り圧力やFRBの動向には留意し、過度な追いかけ買いは避けつつ、業績上振れ銘柄を選別して回転を利かせる戦略を推奨します。",
+  "date": "2026-07-01",
+  "timestamp": "2026-07-01T13:42:31.910534"
+}
