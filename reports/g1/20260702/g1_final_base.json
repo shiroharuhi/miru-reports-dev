@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "target_date": "2026-07-02",
+  "generated_at": "2026-07-02T07:46:59.182947+09:00",
+  "direction": "long",
+  "momentum": "neutral",
+  "narrative": "特定イベント該当なし、ナラティブ GREEN（朝補正：morning=YELLOW, effective=YELLOW）",
+  "representative_set_id": "set_us_growth_high_beta",
+  "representative_label": "米成長株・ハイベータ",
+  "morning_guidance": "寄付き直後の上振れに注意、押し目買い優位",
+  "g1_score": 0.5,
+  "matched_events": [],
+  "morning_status_input": "YELLOW",
+  "narrative_status_input": "GREEN",
+  "effective_jiai_input": "YELLOW",
+  "preliminary_score_input": 0.5
+}
