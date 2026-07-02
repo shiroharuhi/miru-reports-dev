@@ -1,11 +1,11 @@
 {
   "date": "2026-07-03",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-02T19:10:39.819903+09:00",
-  "updated_at": "2026-07-02T19:12:12.324544+09:00",
+  "updated_at": "2026-07-02T22:10:19.126774+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,51 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "米雇用統計と半導体株の動向が市場の焦点",
+    "risks": [
+      {
+        "topic": "米SOX指数急落の影響",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "前日のSOX指数6%超の急落を受け、日本市場の関連銘柄に売り圧力が継続する懸念がある。"
+      },
+      {
+        "topic": "為替介入への警戒感",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "自動車",
+          "輸出関連"
+        ],
+        "detail": "161円台での円高進行に伴い、介入警戒による買い手控えや輸出株の逆風が強まる可能性がある。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米6月雇用統計の発表",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "全セクター"
+        ],
+        "detail": "雇用統計の結果次第で米利上げ観測が調整され、市場の不透明感が払拭される可能性がある。"
+      },
+      {
+        "topic": "バリュー株への資金還流",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "自動車",
+          "銀行",
+          "内需"
+        ],
+        "detail": "半導体からの資金逃避に伴う、割安なバリュー株への循環物色が相場を下支えする動き。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -965,6 +1007,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 14/14銘柄 決算接近警告2 APIリクエスト56",
       "timestamp": "2026-07-02T19:12:12.324454+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:4 standby:10)",
+      "timestamp": "2026-07-02T22:10:19.126751+09:00"
     }
   ],
   "stage_metadata": {
@@ -973,7 +1020,11 @@
       "completed_at": "2026-07-02T19:10:40.306790+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-02T19:10:40.306794+09:00"
+      "started_at": "2026-07-02T19:10:40.306794+09:00",
+      "completed_at": "2026-07-02T22:10:19.126692+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-02T22:10:19.126697+09:00"
     }
   }
 }
