@@ -1,11 +1,11 @@
 {
   "date": "2026-07-06",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-03T19:09:10.388399+09:00",
-  "updated_at": "2026-07-03T19:10:38.324841+09:00",
+  "updated_at": "2026-07-05T21:43:05.638223+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "ホルムズ海峡の緊張と円安進行による相場の不透明感",
+    "risks": [
+      {
+        "topic": "ホルムズ海峡の地政学リスク",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車"
+        ],
+        "detail": "タンカーのUターンやイランの航路警告により物流懸念が再燃。原油価格の急変動や輸送コスト上昇のリスク。"
+      },
+      {
+        "topic": "急激な円安の副作用",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "小売",
+          "内需関連"
+        ],
+        "detail": "161円台の円安は輸出企業に恩恵だが、輸入コスト増による内需圧迫や当局介入警戒でボラティリティが増大。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日本株の底堅い需要",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "金融"
+        ],
+        "detail": "日銀利上げを景気改善と解釈する動きや、7万円台を維持する指数全体の強さが押し目買いを誘発。"
+      },
+      {
+        "topic": "AI関連株のリターンリバーサル",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "6月低迷した中小型株や非AI銘柄への見直し買いが入り、相場の裾野が広がることで下値を支える可能性。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -128,7 +171,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️決算接近（推定11日後・2026-07-15）"
+        "⚠️決算接近（推定11日後・2026-07-15）",
+        "⚠️急激な円安の副作用"
       ],
       "history": [
         {
@@ -150,6 +194,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定11日後・2026-07-15）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️急激な円安の副作用"
         }
       ],
       "fundamental": {
@@ -199,7 +248,8 @@
       "flags": [
         "⚠️ROE低迷",
         "⚠️低収益",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "⚠️急激な円安の副作用"
       ],
       "history": [
         {
@@ -221,6 +271,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️急激な円安の副作用"
         }
       ],
       "fundamental": {
@@ -619,7 +674,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️急激な円安の副作用"
       ],
       "history": [
         {
@@ -636,6 +692,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️急激な円安の副作用"
         }
       ],
       "fundamental": {
@@ -684,7 +745,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "📉減収",
-        "📉減益"
+        "📉減益",
+        "📈AI関連株のリターンリバーサル"
       ],
       "history": [
         {
@@ -716,6 +778,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI関連株のリターンリバーサル"
         }
       ],
       "fundamental": {
@@ -840,7 +907,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "⚠️決算接近（推定11日後・2026-07-15）"
+        "⚠️決算接近（推定11日後・2026-07-15）",
+        "⚠️急激な円安の副作用"
       ],
       "history": [
         {
@@ -857,6 +925,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定11日後・2026-07-15）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️急激な円安の副作用"
         }
       ],
       "fundamental": {
@@ -882,6 +955,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 13/13銘柄 決算接近警告2 APIリクエスト52",
       "timestamp": "2026-07-03T19:10:38.324740+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:3)",
+      "timestamp": "2026-07-05T21:43:05.638197+09:00"
     }
   ],
   "stage_metadata": {
@@ -890,7 +968,11 @@
       "completed_at": "2026-07-03T19:09:11.047898+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-03T19:09:11.047904+09:00"
+      "started_at": "2026-07-03T19:09:11.047904+09:00",
+      "completed_at": "2026-07-05T21:43:05.638110+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-05T21:43:05.638117+09:00"
     }
   }
 }
