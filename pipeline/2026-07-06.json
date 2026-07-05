@@ -1,15 +1,15 @@
 {
   "date": "2026-07-06",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-03T19:09:10.388399+09:00",
-  "updated_at": "2026-07-06T06:16:04.549748+09:00",
+  "updated_at": "2026-07-06T07:30:26.478854+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
     "direction_7am": "SELL",
     "direction_confidence": "中",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "GREEN",
+    "effective_jiai": "GREEN",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 2.2069570301081556,
     "vix": "16.1",
     "usdjpy": "161.27円（-0.18円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "自動車・輸送機",
+        "change": 4.23
+      },
+      {
+        "name": "機械",
+        "change": 2.41
+      },
+      {
+        "name": "小売",
+        "change": 2.22
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "不動産",
+        "change": -0.5
+      },
+      {
+        "name": "食品",
+        "change": 0.1
+      },
+      {
+        "name": "建設・資材",
+        "change": 0.12
+      }
+    ]
   },
   "narrative": {
     "headline": "ホルムズ海峡の緊張と円安進行による相場の不透明感",
@@ -186,7 +212,8 @@
         "📊ROE優秀",
         "📈増益",
         "⚠️決算接近（推定11日後・2026-07-15）",
-        "⚠️急激な円安の副作用"
+        "⚠️急激な円安の副作用",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -218,6 +245,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -277,7 +309,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "⚠️財務リスク",
-        "⚠️急激な円安の副作用"
+        "⚠️急激な円安の副作用",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -309,6 +342,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -363,7 +401,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -380,6 +419,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -571,7 +615,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -588,6 +633,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -730,7 +780,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -747,6 +798,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -801,7 +857,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️急激な円安の副作用"
+        "⚠️急激な円安の副作用",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -828,6 +885,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（中）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -1076,7 +1138,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️決算接近（推定11日後・2026-07-15）",
-        "⚠️急激な円安の副作用"
+        "⚠️急激な円安の副作用",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -1103,6 +1166,11 @@
           "stage": "stage3",
           "action": "standby → active",
           "reason": "SELL判定 → SELL候補をactive化"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -1147,6 +1215,21 @@
       "stage": "stage3",
       "action": "7am判定: SELL（中）先物+2.2% (active:3 standby:10)",
       "timestamp": "2026-07-06T06:16:04.549722+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "数値GREEN + ナラティブYELLOW → GREEN維持（警戒付き）",
+      "timestamp": "2026-07-06T07:30:26.473258+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: GREEN→effective:GREEN (active:3 standby:10)",
+      "timestamp": "2026-07-06T07:30:26.473290+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.5",
+      "timestamp": "2026-07-06T07:30:26.478827+09:00"
     }
   ],
   "stage_metadata": {
@@ -1163,7 +1246,22 @@
       "completed_at": "2026-07-06T06:16:04.549634+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-06T06:16:04.549642+09:00"
+      "started_at": "2026-07-06T06:16:04.549642+09:00",
+      "completed_at": "2026-07-06T07:30:26.473231+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-06T07:30:26.473238+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.5,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-07-06T07:30:26.476791+09:00"
   }
 }
