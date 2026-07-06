@@ -1,13 +1,13 @@
 {
   "date": "2026-07-07",
-  "pipeline_stage": "stage2_narrative",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-07-06T20:39:32.576010+09:00",
-  "updated_at": "2026-07-06T23:38:45.163325+09:00",
+  "updated_at": "2026-07-07T06:45:27.228533+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "NEUTRAL",
+    "direction_confidence": "低",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "-0.01%",
     "topix_change": null,
-    "dow_change": "1.14%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "16.3",
-    "usdjpy": "0.85円",
+    "dow_change": "53,056ドル（+0.29%）",
+    "nasdaq_change": "26,121（+1.12%）",
+    "futures_gap_pct": 2.8135048231511255,
+    "vix": "15.6",
+    "usdjpy": "162.07円（+0.63円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -107,7 +107,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -124,6 +125,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -134,7 +140,16 @@
         "oi_growth": -14.4,
         "equity_ratio": 82.0,
         "dividend_yield": 1.69
-      }
+      },
+      "entry_current": {
+        "est_open": 7623,
+        "low": 7584,
+        "high": 7661
+      },
+      "stop_loss_current": 7478,
+      "target_current": 7851,
+      "lot_current": 550,
+      "gap_pct": 2.81
     },
     {
       "code": "7011",
@@ -171,7 +186,8 @@
       "flags": [
         "📊財務良好",
         "📈増益",
-        "📈セクターローテーションの進展"
+        "📈セクターローテーションの進展",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -193,6 +209,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈セクターローテーションの進展"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -203,7 +224,16 @@
         "oi_growth": 21.8,
         "equity_ratio": 37.3,
         "dividend_yield": 0.59
-      }
+      },
+      "entry_current": {
+        "est_open": 4225,
+        "low": 4203,
+        "high": 4246
+      },
+      "stop_loss_current": 4144,
+      "target_current": 4351,
+      "lot_current": 994,
+      "gap_pct": 2.8
     },
     {
       "code": "6269",
@@ -240,7 +270,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "📈セクターローテーションの進展"
+        "📈セクターローテーションの進展",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -262,6 +293,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈セクターローテーションの進展"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -272,7 +308,16 @@
         "oi_growth": 34.1,
         "equity_ratio": 30.5,
         "dividend_yield": 1.18
-      }
+      },
+      "entry_current": {
+        "est_open": 10528,
+        "low": 10475,
+        "high": 10580
+      },
+      "stop_loss_current": 10327,
+      "target_current": 10843,
+      "lot_current": 398,
+      "gap_pct": 2.81
     },
     {
       "code": "7013",
@@ -308,7 +353,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈セクターローテーションの進展"
+        "📈セクターローテーションの進展",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -325,6 +371,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈セクターローテーションの進展"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -335,7 +386,16 @@
         "oi_growth": 15.3,
         "equity_ratio": 26.9,
         "dividend_yield": 2.55
-      }
+      },
+      "entry_current": {
+        "est_open": 3157,
+        "low": 3141,
+        "high": 3172
+      },
+      "stop_loss_current": 3097,
+      "target_current": 3251,
+      "lot_current": 1330,
+      "gap_pct": 2.8
     },
     {
       "code": "5631",
@@ -371,7 +431,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈セクターローテーションの進展"
+        "📈セクターローテーションの進展",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -388,6 +449,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈セクターローテーションの進展"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -398,7 +464,16 @@
         "oi_growth": 10.9,
         "equity_ratio": 49.7,
         "dividend_yield": 1.1
-      }
+      },
+      "entry_current": {
+        "est_open": 8790,
+        "low": 8746,
+        "high": 8833
+      },
+      "stop_loss_current": 8622,
+      "target_current": 9053,
+      "lot_current": 477,
+      "gap_pct": 2.81
     },
     {
       "code": "4568",
@@ -434,7 +509,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📉減益"
+        "📉減益",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -451,6 +527,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -461,7 +542,16 @@
         "oi_growth": -31.0,
         "equity_ratio": 41.5,
         "dividend_yield": 2.82
-      }
+      },
+      "entry_current": {
+        "est_open": 2835,
+        "low": 2820,
+        "high": 2849
+      },
+      "stop_loss_current": 2781,
+      "target_current": 2920,
+      "lot_current": 1481,
+      "gap_pct": 2.79
     },
     {
       "code": "8473",
@@ -498,7 +588,8 @@
       "flags": [
         "📊ROE優秀",
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -520,6 +611,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -528,7 +624,16 @@
         "revenue_growth": 31.4,
         "equity_ratio": 4.7,
         "dividend_yield": 4.04
-      }
+      },
+      "entry_current": {
+        "est_open": 2830,
+        "low": 2815,
+        "high": 2844
+      },
+      "stop_loss_current": 2776,
+      "target_current": 2914,
+      "lot_current": 1484,
+      "gap_pct": 2.8
     },
     {
       "code": "6501",
@@ -563,7 +668,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -575,6 +681,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -583,7 +694,16 @@
         "revenue_growth": 8.2,
         "equity_ratio": 43.7,
         "dividend_yield": 1.12
-      }
+      },
+      "entry_current": {
+        "est_open": 4940,
+        "low": 4915,
+        "high": 4964
+      },
+      "stop_loss_current": 4846,
+      "target_current": 5088,
+      "lot_current": 850,
+      "gap_pct": 2.81
     },
     {
       "code": "6503",
@@ -618,7 +738,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -630,6 +751,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -640,7 +766,16 @@
         "oi_growth": 10.5,
         "equity_ratio": 60.9,
         "dividend_yield": 1.1
-      }
+      },
+      "entry_current": {
+        "est_open": 6213,
+        "low": 6181,
+        "high": 6244
+      },
+      "stop_loss_current": 6094,
+      "target_current": 6399,
+      "lot_current": 676,
+      "gap_pct": 2.81
     },
     {
       "code": "7532",
@@ -675,7 +810,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "⚠️追いかけ注意"
       ],
       "history": [
         {
@@ -687,6 +823,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage3",
+          "action": "flagged",
+          "reason": "⚠️追いかけ注意"
         }
       ],
       "fundamental": {
@@ -697,7 +838,16 @@
         "oi_growth": 15.8,
         "equity_ratio": 41.3,
         "dividend_yield": 0.71
-      }
+      },
+      "entry_current": {
+        "est_open": 875,
+        "low": 870,
+        "high": 879
+      },
+      "stop_loss_current": 858,
+      "target_current": 901,
+      "lot_current": 4800,
+      "gap_pct": 2.7
     }
   ],
   "history": [
@@ -715,6 +865,11 @@
       "stage": "stage2",
       "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
       "timestamp": "2026-07-06T23:38:45.163293+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: NEUTRAL（低）先物+2.8% (active:10 standby:0)",
+      "timestamp": "2026-07-07T06:45:27.228504+09:00"
     }
   ],
   "stage_metadata": {
@@ -727,7 +882,11 @@
       "completed_at": "2026-07-06T23:38:45.163227+09:00"
     },
     "stage2_narrative": {
-      "started_at": "2026-07-06T23:38:45.163233+09:00"
+      "started_at": "2026-07-06T23:38:45.163233+09:00",
+      "completed_at": "2026-07-07T06:45:27.228428+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-07-07T06:45:27.228434+09:00"
     }
   }
 }
