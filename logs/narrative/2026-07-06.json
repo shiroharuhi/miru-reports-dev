@@ -1,0 +1,52 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "日本株はAIからバリュー株へ資金シフト継続、7万円攻防",
+  "risks": [
+    {
+      "topic": "ETF分配金に伴う換金売り",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "今週発生が見込まれる分配金捻出の換金売り需要が、上値を抑制する需給要因となる。"
+    },
+    {
+      "topic": "米国の対中半導体規制",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電子部品"
+      ],
+      "detail": "AI需要によるメモリ不足の政治問題化や、米中技術競争の激化がハイテク株の重石となる。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "セクターローテーションの進展",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "自動車",
+        "金融",
+        "海運"
+      ],
+      "detail": "半導体株から流出した資金がバリュー株に還流し、TOPIX最高値更新を支える健全な循環。"
+    },
+    {
+      "topic": "金利上昇と経済正常化",
+      "direction": "positive",
+      "timeframe": "medium_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "長期金利の約30年ぶり高水準は日本経済の構造転換を示唆し、金融株への追い風となる。"
+    }
+  ],
+  "recommendation": "日経平均は7万円の節目を巡る攻防が続く。ハイテク株はボラティリティが高く、ETF分配金に絡む換金売りも警戒されるため、デイトレードでは個別決算好材料銘柄や、底堅いバリュー・景気敏感株への資金シフトを意識した順張りが有効。",
+  "date": "2026-07-06",
+  "timestamp": "2026-07-06T14:38:45.162644"
+}

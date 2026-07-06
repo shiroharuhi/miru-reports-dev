@@ -1,11 +1,11 @@
 {
   "date": "2026-07-07",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-06T20:39:32.576010+09:00",
-  "updated_at": "2026-07-06T20:40:40.177688+09:00",
+  "updated_at": "2026-07-06T23:38:45.163325+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "日本株はAIからバリュー株へ資金シフト継続、7万円攻防",
+    "risks": [
+      {
+        "topic": "ETF分配金に伴う換金売り",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "全セクター"
+        ],
+        "detail": "今週発生が見込まれる分配金捻出の換金売り需要が、上値を抑制する需給要因となる。"
+      },
+      {
+        "topic": "米国の対中半導体規制",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電子部品"
+        ],
+        "detail": "AI需要によるメモリ不足の政治問題化や、米中技術競争の激化がハイテク株の重石となる。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "セクターローテーションの進展",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "機械",
+          "自動車",
+          "金融",
+          "海運"
+        ],
+        "detail": "半導体株から流出した資金がバリュー株に還流し、TOPIX最高値更新を支える健全な循環。"
+      },
+      {
+        "topic": "金利上昇と経済正常化",
+        "direction": "positive",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "長期金利の約30年ぶり高水準は日本経済の構造転換を示唆し、金融株への追い風となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -127,7 +170,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "📈セクターローテーションの進展"
       ],
       "history": [
         {
@@ -144,6 +188,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈セクターローテーションの進展"
         }
       ],
       "fundamental": {
@@ -190,7 +239,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "📈セクターローテーションの進展"
       ],
       "history": [
         {
@@ -207,6 +257,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈セクターローテーションの進展"
         }
       ],
       "fundamental": {
@@ -252,7 +307,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈セクターローテーションの進展"
       ],
       "history": [
         {
@@ -264,6 +320,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈セクターローテーションの進展"
         }
       ],
       "fundamental": {
@@ -309,7 +370,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "📈セクターローテーションの進展"
       ],
       "history": [
         {
@@ -321,6 +383,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈セクターローテーションの進展"
         }
       ],
       "fundamental": {
@@ -643,6 +710,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-07-06T20:40:40.177600+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
+      "timestamp": "2026-07-06T23:38:45.163293+09:00"
     }
   ],
   "stage_metadata": {
@@ -651,7 +723,11 @@
       "completed_at": "2026-07-06T20:39:33.162211+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-06T20:39:33.162217+09:00"
+      "started_at": "2026-07-06T20:39:33.162217+09:00",
+      "completed_at": "2026-07-06T23:38:45.163227+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-06T23:38:45.163233+09:00"
     }
   }
 }
