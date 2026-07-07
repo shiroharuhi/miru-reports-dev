@@ -1,15 +1,15 @@
 {
   "date": "2026-07-08",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-07T19:32:40.911093+09:00",
-  "updated_at": "2026-07-08T06:38:47.870012+09:00",
+  "updated_at": "2026-07-08T07:37:12.963301+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "YELLOW",
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "RED",
+    "effective_jiai": "RED",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -3.7611091361535722,
     "vix": "16.1",
     "usdjpy": "162.16円（+0.71円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "小売",
+        "change": 1.85
+      },
+      {
+        "name": "不動産",
+        "change": 1.23
+      },
+      {
+        "name": "銀行",
+        "change": 0.98
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -5.4
+      },
+      {
+        "name": "電機・精密",
+        "change": -2.71
+      },
+      {
+        "name": "素材・化学",
+        "change": -2.31
+      }
+    ]
   },
   "narrative": {
     "headline": "半導体株の調整と中東情勢の緊迫化",
@@ -97,7 +123,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️決算接近（推定7日後・2026-07-15）"
+        "⚠️決算接近（推定7日後・2026-07-15）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -124,6 +151,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-07-15）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -183,7 +215,8 @@
         "📊ROE優秀",
         "📈高成長",
         "⚠️財務リスク",
-        "📈日銀の金融正常化期待"
+        "📈日銀の金融正常化期待",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -215,6 +248,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈日銀の金融正常化期待"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -266,7 +304,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -283,6 +322,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -340,7 +384,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "📉減益",
-        "⚠️半導体市場の不透明感"
+        "⚠️半導体市場の不透明感",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -372,6 +417,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️半導体市場の不透明感"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -428,7 +478,8 @@
         "📊財務良好",
         "📈高成長",
         "⚠️財務リスク",
-        "📈日銀の金融正常化期待"
+        "📈日銀の金融正常化期待",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -460,6 +511,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈日銀の金融正常化期待"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -513,7 +569,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️半導体市場の不透明感"
+        "⚠️半導体市場の不透明感",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -535,6 +592,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️半導体市場の不透明感"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -588,7 +650,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️半導体市場の不透明感"
+        "⚠️半導体市場の不透明感",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -610,6 +673,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️半導体市場の不透明感"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -664,7 +732,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📉減益"
+        "📉減益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -686,6 +755,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -741,7 +815,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -763,6 +838,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -819,7 +899,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️半導体市場の不透明感"
+        "⚠️半導体市場の不透明感",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -846,6 +927,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️半導体市場の不透明感"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -897,10 +983,11 @@
       "stop_loss_base": 3052,
       "target_base": 3205,
       "lot_base": 1349,
-      "status": "standby",
+      "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "⚠️決算接近（推定7日後・2026-07-15）"
+        "⚠️決算接近（推定7日後・2026-07-15）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -917,6 +1004,16 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "BUY判定（低）→ SELL候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "standby → active",
+          "reason": "effective_jiai RED → SELL候補をactive化"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -961,6 +1058,16 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物-3.8% (active:0 standby:11)",
       "timestamp": "2026-07-08T06:38:47.869981+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: RED→effective:RED (active:1 standby:10)",
+      "timestamp": "2026-07-08T07:37:12.957693+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.5",
+      "timestamp": "2026-07-08T07:37:12.963267+09:00"
     }
   ],
   "stage_metadata": {
@@ -977,7 +1084,22 @@
       "completed_at": "2026-07-08T06:38:47.869904+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-08T06:38:47.869911+09:00"
+      "started_at": "2026-07-08T06:38:47.869911+09:00",
+      "completed_at": "2026-07-08T07:37:12.957631+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-08T07:37:12.957637+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.5,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-07-08T07:37:12.961190+09:00"
   }
 }
