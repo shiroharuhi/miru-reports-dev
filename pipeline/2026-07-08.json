@@ -1,11 +1,11 @@
 {
   "date": "2026-07-08",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-07T19:32:40.911093+09:00",
-  "updated_at": "2026-07-07T19:33:57.310411+09:00",
+  "updated_at": "2026-07-07T22:27:47.975230+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,41 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "半導体株の調整と中東情勢の緊迫化",
+    "risks": [
+      {
+        "topic": "半導体市場の不透明感",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "サムスンの決算低迷による半導体セクターの連想売りが加速しており、指数へのマイナス影響が継続中。"
+      },
+      {
+        "topic": "中東リスクと原油価格",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭製品",
+          "海運"
+        ],
+        "detail": "中東緊張の再燃で原油価格が上昇。ホルムズ海峡の情勢次第では供給懸念から市場のボラティリティが増大。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日銀の金融正常化期待",
+        "direction": "positive",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "利上げによる利ざや改善期待が強く、ハイテク株からの資金逃避先として金融株が下支え要因となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -141,7 +173,8 @@
       "flags": [
         "📊ROE優秀",
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "📈日銀の金融正常化期待"
       ],
       "history": [
         {
@@ -168,6 +201,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の金融正常化期待"
         }
       ],
       "fundamental": {
@@ -274,7 +312,8 @@
       "flags": [
         "⚠️ROE低迷",
         "⚠️低収益",
-        "📉減益"
+        "📉減益",
+        "⚠️半導体市場の不透明感"
       ],
       "history": [
         {
@@ -301,6 +340,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️半導体市場の不透明感"
         }
       ],
       "fundamental": {
@@ -347,7 +391,8 @@
       "flags": [
         "📊財務良好",
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "📈日銀の金融正常化期待"
       ],
       "history": [
         {
@@ -374,6 +419,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の金融正常化期待"
         }
       ],
       "fundamental": {
@@ -417,7 +467,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️半導体市場の不透明感"
       ],
       "history": [
         {
@@ -434,6 +485,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️半導体市場の不透明感"
         }
       ],
       "fundamental": {
@@ -477,7 +533,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "⚠️ROE低迷"
+        "⚠️ROE低迷",
+        "⚠️半導体市場の不透明感"
       ],
       "history": [
         {
@@ -494,6 +551,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️ROE低迷"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️半導体市場の不透明感"
         }
       ],
       "fundamental": {
@@ -675,7 +737,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️半導体市場の不透明感"
       ],
       "history": [
         {
@@ -697,6 +760,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️半導体市場の不透明感"
         }
       ],
       "fundamental": {
@@ -779,6 +847,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告2 APIリクエスト44",
       "timestamp": "2026-07-07T19:33:57.310317+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:1 standby:10)",
+      "timestamp": "2026-07-07T22:27:47.975207+09:00"
     }
   ],
   "stage_metadata": {
@@ -787,7 +860,11 @@
       "completed_at": "2026-07-07T19:32:41.495149+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-07T19:32:41.495154+09:00"
+      "started_at": "2026-07-07T19:32:41.495154+09:00",
+      "completed_at": "2026-07-07T22:27:47.975142+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-07T22:27:47.975147+09:00"
     }
   }
 }
