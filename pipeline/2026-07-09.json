@@ -1,11 +1,11 @@
 {
   "date": "2026-07-09",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-08T18:35:02.813304+09:00",
-  "updated_at": "2026-07-08T18:36:14.569430+09:00",
+  "updated_at": "2026-07-08T21:54:32.300857+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,45 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "米イラン軍事衝突で中東リスク再燃、原油高と円安が波及",
+    "risks": [
+      {
+        "topic": "中東地政学リスク",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "鉱業",
+          "海運業",
+          "石油・石炭製品",
+          "電気・ガス業"
+        ],
+        "detail": "ホルムズ海峡での米イランの軍事衝突・報復合戦が激化。原油供給不安によるWTI原油先物の急騰が、国内エネルギーコスト上昇を直撃する。"
+      },
+      {
+        "topic": "FOMC議事要旨と米金利",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "銀行業",
+          "証券業",
+          "保険業"
+        ],
+        "detail": "日本時間9日未明の米FOMC議事要旨でタカ派姿勢が確認されれば、米長期金利上昇を通じ日米金利差拡大と円安が一段と進行する恐れがある。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "市場の過度な悲観の剥落",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "小売業",
+          "情報・通信業",
+          "サービス業"
+        ],
+        "detail": "日経平均が連日の大幅下落で売られ過ぎ水準にある中、押し目買いやバリュー株への資金シフトが意識され、自律反発の契機となり得る。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -64,7 +100,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "📈市場の過度な悲観の剥落"
       ],
       "history": [
         {
@@ -86,6 +123,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈市場の過度な悲観の剥落"
         }
       ],
       "fundamental": {
@@ -132,7 +174,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📈増益"
+        "📈増益",
+        "⚠️中東地政学リスク"
       ],
       "history": [
         {
@@ -154,6 +197,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️中東地政学リスク"
         }
       ],
       "fundamental": {
@@ -200,7 +248,8 @@
       "flags": [
         "📊ROE優秀",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "📈市場の過度な悲観の剥落"
       ],
       "history": [
         {
@@ -227,6 +276,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈市場の過度な悲観の剥落"
         }
       ],
       "fundamental": {
@@ -274,7 +328,8 @@
       "flags": [
         "📊ROE優秀",
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "⚠️FOMC議事要旨と米金利"
       ],
       "history": [
         {
@@ -301,6 +356,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️FOMC議事要旨と米金利"
         }
       ],
       "fundamental": {
@@ -412,7 +472,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定6日後・2026-07-15）"
+        "⚠️決算接近（推定6日後・2026-07-15）",
+        "📈市場の過度な悲観の剥落"
       ],
       "history": [
         {
@@ -434,6 +495,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定6日後・2026-07-15）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈市場の過度な悲観の剥落"
         }
       ],
       "fundamental": {
@@ -483,7 +549,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "📉減収"
+        "📉減収",
+        "⚠️中東地政学リスク"
       ],
       "history": [
         {
@@ -510,6 +577,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減収"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️中東地政学リスク"
         }
       ],
       "fundamental": {
@@ -555,7 +627,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈市場の過度な悲観の剥落"
       ],
       "history": [
         {
@@ -572,6 +645,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈市場の過度な悲観の剥落"
         }
       ],
       "fundamental": {
@@ -618,7 +696,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "📈市場の過度な悲観の剥落"
       ],
       "history": [
         {
@@ -640,6 +719,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈市場の過度な悲観の剥落"
         }
       ],
       "fundamental": {
@@ -684,7 +768,9 @@
       "lot_base": 774,
       "status": "standby",
       "added_at": "stage1_screening",
-      "flags": [],
+      "flags": [
+        "⚠️中東地政学リスク"
+      ],
       "history": [
         {
           "stage": "stage1_screening",
@@ -695,6 +781,11 @@
           "stage": "stage1",
           "action": "active → standby",
           "reason": "RED地合い・順張り候補は待機"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️中東地政学リスク"
         }
       ],
       "fundamental": {
@@ -718,6 +809,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告1 APIリクエスト40",
       "timestamp": "2026-07-08T18:36:14.569329+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:0 standby:10)",
+      "timestamp": "2026-07-08T21:54:32.300833+09:00"
     }
   ],
   "stage_metadata": {
@@ -726,7 +822,11 @@
       "completed_at": "2026-07-08T18:35:03.253318+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-08T18:35:03.253323+09:00"
+      "started_at": "2026-07-08T18:35:03.253323+09:00",
+      "completed_at": "2026-07-08T21:54:32.300759+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-08T21:54:32.300764+09:00"
     }
   }
 }
