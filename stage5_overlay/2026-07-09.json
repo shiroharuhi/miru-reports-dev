@@ -1,0 +1,17 @@
+{
+  "schema_version": "v0",
+  "date": "2026-07-09",
+  "stage5_final": true,
+  "final_judgment": "🟢 エントリーOK",
+  "exec_time": "08:55",
+  "stage5_adjustment_metadata": {
+    "market_mode": "unavailable",
+    "adjustment_level": 1,
+    "adjustment_level_label": "minor",
+    "risk_flags": [
+      "data_quality_partial"
+    ],
+    "data_quality": "failed",
+    "generated_at": "2026-07-09T08:55:16.600055+09:00"
+  }
+}

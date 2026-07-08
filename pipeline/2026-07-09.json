@@ -2,7 +2,7 @@
   "date": "2026-07-09",
   "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-08T18:35:02.813304+09:00",
-  "updated_at": "2026-07-09T07:32:53.528621+09:00",
+  "updated_at": "2026-07-09T08:55:16.600055+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "RED",
@@ -10,7 +10,7 @@
     "direction_confidence": "高",
     "morning_jiai": "YELLOW",
     "effective_jiai": "YELLOW",
-    "futures_direction": null,
+    "futures_direction": "FLAT",
     "final_judgment": null
   },
   "market": {
@@ -166,14 +166,14 @@
         "dividend_yield": 0.45
       },
       "entry_current": {
-        "est_open": 4922,
-        "low": 4897,
-        "high": 4946
+        "est_open": 4941,
+        "low": 4916,
+        "high": 4965
       },
-      "stop_loss_current": 4828,
-      "target_current": 5069,
-      "lot_current": 853,
-      "gap_pct": -0.18
+      "stop_loss_current": 4847,
+      "target_current": 5089,
+      "lot_current": 850,
+      "gap_pct": 0.2
     },
     {
       "code": "9501",
@@ -254,14 +254,14 @@
         "equity_ratio": 21.9
       },
       "entry_current": {
-        "est_open": 478,
-        "low": 475,
-        "high": 480
+        "est_open": 480,
+        "low": 477,
+        "high": 482
       },
-      "stop_loss_current": 468,
-      "target_current": 492,
-      "lot_current": 8786,
-      "gap_pct": -0.21
+      "stop_loss_current": 470,
+      "target_current": 494,
+      "lot_current": 8750,
+      "gap_pct": 0.21
     },
     {
       "code": "4784",
@@ -349,14 +349,14 @@
         "dividend_yield": 2.16
       },
       "entry_current": {
-        "est_open": 499,
-        "low": 496,
-        "high": 501
+        "est_open": 501,
+        "low": 498,
+        "high": 503
       },
-      "stop_loss_current": 489,
-      "target_current": 513,
-      "lot_current": 8416,
-      "gap_pct": -0.2
+      "stop_loss_current": 491,
+      "target_current": 516,
+      "lot_current": 8383,
+      "gap_pct": 0.2
     },
     {
       "code": "5838",
@@ -435,14 +435,14 @@
         "equity_ratio": 2.3
       },
       "entry_current": {
-        "est_open": 5777,
-        "low": 5748,
-        "high": 5805
+        "est_open": 5799,
+        "low": 5770,
+        "high": 5827
       },
-      "stop_loss_current": 5667,
-      "target_current": 5950,
-      "lot_current": 727,
-      "gap_pct": -0.17
+      "stop_loss_current": 5688,
+      "target_current": 5972,
+      "lot_current": 724,
+      "gap_pct": 0.21
     },
     {
       "code": "4968",
@@ -512,14 +512,14 @@
         "dividend_yield": 3.95
       },
       "entry_current": {
-        "est_open": 2097,
-        "low": 2086,
-        "high": 2107
+        "est_open": 2105,
+        "low": 2094,
+        "high": 2115
       },
-      "stop_loss_current": 2057,
-      "target_current": 2159,
-      "lot_current": 2002,
-      "gap_pct": -0.19
+      "stop_loss_current": 2065,
+      "target_current": 2168,
+      "lot_current": 1995,
+      "gap_pct": 0.19
     },
     {
       "code": "7581",
@@ -597,14 +597,14 @@
         "days_to_earnings": 6
       },
       "entry_current": {
-        "est_open": 5760,
-        "low": 5731,
-        "high": 5788
+        "est_open": 5782,
+        "low": 5753,
+        "high": 5810
       },
-      "stop_loss_current": 5650,
-      "target_current": 5932,
-      "lot_current": 729,
-      "gap_pct": -0.17
+      "stop_loss_current": 5672,
+      "target_current": 5955,
+      "lot_current": 726,
+      "gap_pct": 0.21
     },
     {
       "code": "1605",
@@ -686,14 +686,14 @@
         "dividend_yield": 3.18
       },
       "entry_current": {
-        "est_open": 3382,
-        "low": 3365,
-        "high": 3398
+        "est_open": 3395,
+        "low": 3378,
+        "high": 3411
       },
-      "stop_loss_current": 3317,
-      "target_current": 3483,
-      "lot_current": 1241,
-      "gap_pct": -0.18
+      "stop_loss_current": 3330,
+      "target_current": 3496,
+      "lot_current": 1237,
+      "gap_pct": 0.21
     },
     {
       "code": "7532",
@@ -763,14 +763,14 @@
         "dividend_yield": 0.71
       },
       "entry_current": {
-        "est_open": 871,
-        "low": 866,
-        "high": 875
+        "est_open": 874,
+        "low": 869,
+        "high": 878
       },
-      "stop_loss_current": 854,
-      "target_current": 897,
-      "lot_current": 4822,
-      "gap_pct": -0.23
+      "stop_loss_current": 857,
+      "target_current": 900,
+      "lot_current": 4805,
+      "gap_pct": 0.11
     },
     {
       "code": "3415",
@@ -846,14 +846,14 @@
         "dividend_yield": 1.42
       },
       "entry_current": {
-        "est_open": 409,
-        "low": 406,
-        "high": 411
+        "est_open": 410,
+        "low": 407,
+        "high": 412
       },
-      "stop_loss_current": 401,
-      "target_current": 421,
-      "lot_current": 10268,
-      "gap_pct": -0.24
+      "stop_loss_current": 402,
+      "target_current": 422,
+      "lot_current": 10243,
+      "gap_pct": 0.0
     },
     {
       "code": "9104",
@@ -917,14 +917,14 @@
         "dividend_yield": 3.08
       },
       "entry_current": {
-        "est_open": 5411,
-        "low": 5383,
-        "high": 5438
+        "est_open": 5432,
+        "low": 5404,
+        "high": 5459
       },
-      "stop_loss_current": 5308,
-      "target_current": 5573,
-      "lot_current": 776,
-      "gap_pct": -0.18
+      "stop_loss_current": 5328,
+      "target_current": 5594,
+      "lot_current": 773,
+      "gap_pct": 0.2
     }
   ],
   "history": [
@@ -957,6 +957,11 @@
       "stage": "stage4",
       "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=short score=0.5",
       "timestamp": "2026-07-09T07:32:53.528594+09:00"
+    },
+    {
+      "stage": "stage5",
+      "action": "最終確認: 🟢 エントリーOK 先物+0.2% (active:0 standby:10)",
+      "timestamp": "2026-07-09T08:55:16.568706+09:00"
     }
   ],
   "stage_metadata": {
@@ -990,5 +995,10 @@
     "momentum": "weak",
     "representative_set_id": "set_risk_off_defensive",
     "generated_at": "2026-07-09T07:32:53.526636+09:00"
+  },
+  "g1_context_summary": {
+    "applied": 0,
+    "total": 0,
+    "adopted_source": "g1_final_base"
   }
 }
