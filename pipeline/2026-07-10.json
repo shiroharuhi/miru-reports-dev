@@ -1,15 +1,15 @@
 {
   "date": "2026-07-10",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-09T19:30:48.400105+09:00",
-  "updated_at": "2026-07-10T06:39:43.733518+09:00",
+  "updated_at": "2026-07-10T07:50:10.472510+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
     "narrative_status": "RED",
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 1.8345244234878064,
     "vix": "15.8",
     "usdjpy": "162.35円（-0.02円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "電機・精密",
+        "change": 2.19
+      },
+      {
+        "name": "鉄鋼・非鉄",
+        "change": 1.35
+      },
+      {
+        "name": "エネルギー資源",
+        "change": 0.68
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "金融（除く銀行）",
+        "change": -3.37
+      },
+      {
+        "name": "自動車・輸送機",
+        "change": -1.92
+      },
+      {
+        "name": "不動産",
+        "change": -1.72
+      }
+    ]
   },
   "narrative": {
     "headline": "中東紛争激化と原油急騰による市場不安",
@@ -112,7 +138,8 @@
         "📈高成長",
         "📈増益",
         "⚠️信用倍率10.79倍",
-        "📈半導体・AI関連の押し目買い"
+        "📈半導体・AI関連の押し目買い",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -149,6 +176,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈半導体・AI関連の押し目買い"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -210,7 +242,8 @@
       "flags": [
         "⚠️ROE低迷",
         "⚠️低収益",
-        "📈半導体・AI関連の押し目買い"
+        "📈半導体・AI関連の押し目買い",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -232,6 +265,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈半導体・AI関連の押し目買い"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -292,7 +330,8 @@
         "📊財務良好",
         "📊高収益",
         "🔥買残急増4w+67.1%",
-        "📈半導体・AI関連の押し目買い"
+        "📈半導体・AI関連の押し目買い",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -319,6 +358,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈半導体・AI関連の押し目買い"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -383,7 +427,8 @@
         "📈高成長",
         "📈増益",
         "📉買残整理4w-34.5%",
-        "📈半導体・AI関連の押し目買い"
+        "📈半導体・AI関連の押し目買い",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -420,6 +465,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈半導体・AI関連の押し目買い"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -483,7 +533,8 @@
         "📈増益",
         "⚠️決算接近（推定5日後・2026-07-15）",
         "⚠️信用倍率37.82倍",
-        "📈半導体・AI関連の押し目買い"
+        "📈半導体・AI関連の押し目買い",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -515,6 +566,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈半導体・AI関連の押し目買い"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -573,13 +629,14 @@
       "stop_loss_base": 3361,
       "target_base": 3529,
       "lot_base": 1225,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
         "📊高収益",
         "📉減収",
-        "⚠️信用倍率18.44倍"
+        "⚠️信用倍率18.44倍",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -606,6 +663,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率18.44倍"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -738,7 +805,7 @@
       "stop_loss_base": 2681,
       "target_base": 2814,
       "lot_base": 1536,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -765,6 +832,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率26.99倍"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -821,7 +893,7 @@
       "stop_loss_base": 412,
       "target_base": 432,
       "lot_base": 10000,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -854,6 +926,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "📈企業決算の上方修正"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -910,12 +987,13 @@
       "stop_loss_base": 1232,
       "target_base": 1293,
       "lot_base": 3343,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
         "📈増益",
-        "⚠️信用倍率10.83倍"
+        "⚠️信用倍率10.83倍",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -937,6 +1015,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率10.83倍"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -984,6 +1072,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物+1.8% (active:9 standby:1)",
       "timestamp": "2026-07-10T06:39:43.733487+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:5 standby:5)",
+      "timestamp": "2026-07-10T07:50:10.467250+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=short score=0.5",
+      "timestamp": "2026-07-10T07:50:10.472482+09:00"
     }
   ],
   "stage_metadata": {
@@ -1000,7 +1098,22 @@
       "completed_at": "2026-07-10T06:39:43.733423+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-10T06:39:43.733430+09:00"
+      "started_at": "2026-07-10T06:39:43.733430+09:00",
+      "completed_at": "2026-07-10T07:50:10.467196+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-10T07:50:10.467202+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.5,
+    "direction": "short",
+    "momentum": "weak",
+    "representative_set_id": "set_risk_off_defensive",
+    "generated_at": "2026-07-10T07:50:10.470534+09:00"
   }
 }
