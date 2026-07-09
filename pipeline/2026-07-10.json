@@ -1,11 +1,11 @@
 {
   "date": "2026-07-10",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-09T19:30:48.400105+09:00",
-  "updated_at": "2026-07-09T19:31:53.767122+09:00",
+  "updated_at": "2026-07-09T22:59:50.386985+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,53 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東紛争激化と原油急騰による市場不安",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "素材",
+          "商社"
+        ],
+        "detail": "米イランの軍事応酬継続によりホルムズ海峡の不透明感が増し、原油価格急騰と供給網への影響が直撃する。"
+      },
+      {
+        "topic": "インフレ再燃とFRB利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "金融",
+          "ハイテク"
+        ],
+        "detail": "エネルギー高騰に伴うインフレ懸念からFRBのタカ派姿勢が強まり、市場の金利見通しが不安定化している。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "半導体・AI関連の押し目買い",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "直近の急落に対する反動買いが継続し、ハイテク株が市場を下支えする可能性がある。"
+      },
+      {
+        "topic": "企業決算の上方修正",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "小売",
+          "製造業"
+        ],
+        "detail": "ファーストリテイリング等の好決算・業績修正が日本株の個別材料として相場を支える期待がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -67,7 +111,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "⚠️信用倍率10.79倍"
+        "⚠️信用倍率10.79倍",
+        "📈半導体・AI関連の押し目買い"
       ],
       "history": [
         {
@@ -99,6 +144,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率10.79倍"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の押し目買い"
         }
       ],
       "fundamental": {
@@ -150,7 +200,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️低収益"
+        "⚠️低収益",
+        "📈半導体・AI関連の押し目買い"
       ],
       "history": [
         {
@@ -167,6 +218,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️低収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の押し目買い"
         }
       ],
       "fundamental": {
@@ -217,7 +273,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "🔥買残急増4w+67.1%"
+        "🔥買残急増4w+67.1%",
+        "📈半導体・AI関連の押し目買い"
       ],
       "history": [
         {
@@ -239,6 +296,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "🔥買残急増4w+67.1%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の押し目買い"
         }
       ],
       "fundamental": {
@@ -293,7 +355,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "📉買残整理4w-34.5%"
+        "📉買残整理4w-34.5%",
+        "📈半導体・AI関連の押し目買い"
       ],
       "history": [
         {
@@ -325,6 +388,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉買残整理4w-34.5%"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の押し目買い"
         }
       ],
       "fundamental": {
@@ -378,7 +446,8 @@
         "📊ROE優秀",
         "📈増益",
         "⚠️決算接近（推定5日後・2026-07-15）",
-        "⚠️信用倍率37.82倍"
+        "⚠️信用倍率37.82倍",
+        "📈半導体・AI関連の押し目買い"
       ],
       "history": [
         {
@@ -405,6 +474,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率37.82倍"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の押し目買い"
         }
       ],
       "fundamental": {
@@ -534,14 +608,26 @@
       "stop_loss_base": 2531,
       "target_base": 2658,
       "lot_base": 1627,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
-      "flags": [],
+      "flags": [
+        "⚠️中東情勢の緊迫化"
+      ],
       "history": [
         {
           "stage": "stage1_screening",
           "action": "selected",
           "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️中東情勢の緊迫化"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 中東情勢の緊迫化 → 海運業セクター逆風"
         }
       ],
       "fundamental": {
@@ -668,7 +754,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️信用倍率21.48倍"
+        "⚠️信用倍率21.48倍",
+        "📈企業決算の上方修正"
       ],
       "history": [
         {
@@ -690,6 +777,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️信用倍率21.48倍"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の上方修正"
         }
       ],
       "fundamental": {
@@ -792,6 +884,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告1 APIリクエスト40",
       "timestamp": "2026-07-09T19:31:53.767039+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒2件 (active:9 standby:1)",
+      "timestamp": "2026-07-09T22:59:50.386963+09:00"
     }
   ],
   "stage_metadata": {
@@ -800,7 +897,11 @@
       "completed_at": "2026-07-09T19:30:49.055033+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-09T19:30:49.055038+09:00"
+      "started_at": "2026-07-09T19:30:49.055038+09:00",
+      "completed_at": "2026-07-09T22:59:50.386887+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-09T22:59:50.386893+09:00"
     }
   }
 }
