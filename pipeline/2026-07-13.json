@@ -1,11 +1,11 @@
 {
   "date": "2026-07-13",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-10T19:27:29.231714+09:00",
-  "updated_at": "2026-07-10T19:28:32.550278+09:00",
+  "updated_at": "2026-07-12T21:09:14.160667+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,56 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊迫化とトランプ発言が招く市場の激動",
+    "risks": [
+      {
+        "topic": "中東情勢の急激な悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "航空",
+          "輸出関連"
+        ],
+        "detail": "イランと米国の対立激化により、ホルムズ海峡のリスクが再燃。原油先物急騰と供給網の混乱が前場の重石。"
+      },
+      {
+        "topic": "トランプ米大統領の突発的発言",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "全セクター",
+          "半導体",
+          "自動車"
+        ],
+        "detail": "SNSを通じた対イラン強硬姿勢や貿易規制発言が相場を翻弄。予測不能なヘッドラインがボラティリティを拡大。"
+      },
+      {
+        "topic": "米国金融政策とインフレ懸念",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産",
+          "テクノロジー"
+        ],
+        "detail": "FRBのインフレ警戒感と利上げ織り込みによる米金利上昇が、ハイテク株の評価額調整を誘発するリスク。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "AI需要の根強い成長期待",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "機械",
+          "通信"
+        ],
+        "detail": "AI・半導体関連の需要は強固。押し目買い意欲が強く、下げ局面では指数を下支えする可能性が高い。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -408,7 +455,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈AI需要の根強い成長期待"
       ],
       "history": [
         {
@@ -420,6 +468,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI需要の根強い成長期待"
         }
       ],
       "fundamental": {
@@ -693,6 +746,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-07-10T19:28:32.550185+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク3件 触媒1件 (active:10 standby:0)",
+      "timestamp": "2026-07-12T21:09:14.160646+09:00"
     }
   ],
   "stage_metadata": {
@@ -701,7 +759,11 @@
       "completed_at": "2026-07-10T19:27:29.904354+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-10T19:27:29.904359+09:00"
+      "started_at": "2026-07-10T19:27:29.904359+09:00",
+      "completed_at": "2026-07-12T21:09:14.160572+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-12T21:09:14.160578+09:00"
     }
   }
 }
