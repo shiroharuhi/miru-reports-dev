@@ -1,0 +1,51 @@
+{
+  "narrative_status": "RED",
+  "headline": "中東緊迫と米CPI警戒で株価は不安定",
+  "risks": [
+    {
+      "topic": "中東情勢の緊迫化",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "海運",
+        "石油・石炭製品",
+        "空運"
+      ],
+      "detail": "イランによるホルムズ海峡封鎖宣言と米軍との応酬により、供給網遮断とエネルギー価格高騰の懸念が急増。"
+    },
+    {
+      "topic": "米CPI発表への警戒",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "電気機器",
+        "その他製品"
+      ],
+      "detail": "14日発表の米CPIを控え、インフレ粘着性による米利上げ再燃の思惑からグロース株に売りが出やすい。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "銀行株の堅調さ",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行"
+      ],
+      "detail": "金利上昇による利ざや拡大期待から、相場の下支え役として物色が強まっている。"
+    },
+    {
+      "topic": "米企業決算への期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "情報・通信"
+      ],
+      "detail": "JPMなど米大手銀の決算に加え、TSMC等の半導体関連の業績動向がAI・半導体株の反発材料となる可能性がある。"
+    }
+  ],
+  "recommendation": "中東情勢の流動性と米インフレ指標への警戒が重なり、明日は上値の重い展開が予想されます。地政学リスクによりエネルギー価格が急騰する一方、AI・半導体株の需給が不安定です。銀行株の強さを利用しつつ、無理な追撃買いは避け、米CPI結果および決算発表を見極める慎重なスタンスを推奨します。",
+  "date": "2026-07-13",
+  "timestamp": "2026-07-13T13:31:03.971407"
+}

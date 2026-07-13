@@ -1,11 +1,11 @@
 {
   "date": "2026-07-14",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-13T19:20:47.228130+09:00",
-  "updated_at": "2026-07-13T19:22:14.221971+09:00",
+  "updated_at": "2026-07-13T22:31:03.972358+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,51 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊迫と米CPI警戒で株価は不安定",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "海運",
+          "石油・石炭製品",
+          "空運"
+        ],
+        "detail": "イランによるホルムズ海峡封鎖宣言と米軍との応酬により、供給網遮断とエネルギー価格高騰の懸念が急増。"
+      },
+      {
+        "topic": "米CPI発表への警戒",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "電気機器",
+          "その他製品"
+        ],
+        "detail": "14日発表の米CPIを控え、インフレ粘着性による米利上げ再燃の思惑からグロース株に売りが出やすい。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "銀行株の堅調さ",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行"
+        ],
+        "detail": "金利上昇による利ざや拡大期待から、相場の下支え役として物色が強まっている。"
+      },
+      {
+        "topic": "米企業決算への期待",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "情報・通信"
+        ],
+        "detail": "JPMなど米大手銀の決算に加え、TSMC等の半導体関連の業績動向がAI・半導体株の反発材料となる可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -134,7 +176,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "⚠️米CPI発表への警戒"
       ],
       "history": [
         {
@@ -156,6 +199,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米CPI発表への警戒"
         }
       ],
       "fundamental": {
@@ -336,7 +384,8 @@
         "⚠️低収益",
         "📈高成長",
         "📈増益",
-        "⚠️決算接近（推定1日後・2026-07-15）"
+        "⚠️決算接近（推定1日後・2026-07-15）",
+        "📈米企業決算への期待"
       ],
       "history": [
         {
@@ -368,6 +417,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定1日後・2026-07-15）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米企業決算への期待"
         }
       ],
       "fundamental": {
@@ -415,7 +469,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "📈銀行株の堅調さ"
       ],
       "history": [
         {
@@ -432,6 +487,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈銀行株の堅調さ"
         }
       ],
       "fundamental": {
@@ -647,7 +707,8 @@
         "📊財務良好",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️米CPI発表への警戒"
       ],
       "history": [
         {
@@ -674,6 +735,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米CPI発表への警戒"
         }
       ],
       "fundamental": {
@@ -788,7 +854,9 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📊高収益"
+        "📊高収益",
+        "⚠️米CPI発表への警戒",
+        "📈米企業決算への期待"
       ],
       "history": [
         {
@@ -805,6 +873,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米CPI発表への警戒"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米企業決算への期待"
         }
       ],
       "fundamental": {
@@ -927,7 +1005,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈米企業決算への期待"
       ],
       "history": [
         {
@@ -939,6 +1018,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米企業決算への期待"
         }
       ],
       "fundamental": {
@@ -962,6 +1046,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 14/14銘柄 決算接近警告1 APIリクエスト56",
       "timestamp": "2026-07-13T19:22:14.221880+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒2件 (active:14 standby:0)",
+      "timestamp": "2026-07-13T22:31:03.972330+09:00"
     }
   ],
   "stage_metadata": {
@@ -970,7 +1059,11 @@
       "completed_at": "2026-07-13T19:20:47.800945+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-13T19:20:47.800950+09:00"
+      "started_at": "2026-07-13T19:20:47.800950+09:00",
+      "completed_at": "2026-07-13T22:31:03.972244+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-13T22:31:03.972251+09:00"
     }
   }
 }
