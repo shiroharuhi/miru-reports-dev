@@ -13,5 +13,20 @@
   "morning_status_input": "RED",
   "narrative_status_input": "RED",
   "effective_jiai_input": "RED",
-  "preliminary_score_input": 0.5
+  "preliminary_score_input": 0.5,
+  "real_market_internal": {
+    "status": "ok",
+    "used": true,
+    "source_active_date": "2026-07-14",
+    "target_date": "2026-07-15",
+    "breadth": {
+      "advancer_ratio": 0.7607440667094291,
+      "above_ma25_ratio": 0.714377406931964,
+      "ad_ratio_25d": 117.8920160827111
+    },
+    "interpretation": "improving",
+    "degraded_reason": null,
+    "generated_at": "2026-07-14T18:55:24.854035+09:00",
+    "_note": "additive descriptive block; g1_score とは無関係 (混ぜない)"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "date": "2026-07-16",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-15T18:22:49.662608+09:00",
-  "updated_at": "2026-07-15T18:24:06.125211+09:00",
+  "updated_at": "2026-07-15T21:44:34.073510+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,53 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東リスクと米金利動向による綱引き相場",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭製品",
+          "海運",
+          "保険"
+        ],
+        "detail": "ホルムズ海峡周辺での軍事衝突懸念が原油価格を押し上げ、供給リスクと物流コスト増が日本株の上値を抑制。"
+      },
+      {
+        "topic": "米利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電気機器",
+          "グロース株"
+        ],
+        "detail": "米FRBのタカ派的な言及が長期金利上昇を招き、ハイテク株や半導体関連株のバリュエーション調整圧力が継続。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米CPI鈍化とインフレ沈静化",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "全セクター",
+          "ハイテク"
+        ],
+        "detail": "予想を下回るCPI結果により、過度な利上げ懸念が後退。ハイテク株のリバウンドを支える構造的材料。"
+      },
+      {
+        "topic": "半導体大手決算",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "機械"
+        ],
+        "detail": "ASML等の好決算はAI需要の底堅さを示唆し、日本市場の半導体関連株への見直し買いを誘発する可能性。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -63,7 +107,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📉減益"
+        "📉減益",
+        "📈半導体大手決算"
       ],
       "history": [
         {
@@ -75,6 +120,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体大手決算"
         }
       ],
       "fundamental": {
@@ -120,7 +170,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈半導体大手決算"
       ],
       "history": [
         {
@@ -132,6 +183,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体大手決算"
         }
       ],
       "fundamental": {
@@ -178,7 +234,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️米利上げ観測"
       ],
       "history": [
         {
@@ -195,6 +252,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米利上げ観測"
         }
       ],
       "fundamental": {
@@ -243,7 +305,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️米利上げ観測"
       ],
       "history": [
         {
@@ -270,6 +333,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米利上げ観測"
         }
       ],
       "fundamental": {
@@ -509,7 +577,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "⚠️米利上げ観測"
       ],
       "history": [
         {
@@ -526,6 +595,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米利上げ観測"
         }
       ],
       "fundamental": {
@@ -749,6 +823,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-15T18:24:06.125101+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:1)",
+      "timestamp": "2026-07-15T21:44:34.073486+09:00"
     }
   ],
   "stage_metadata": {
@@ -757,7 +836,11 @@
       "completed_at": "2026-07-15T18:22:50.574894+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-15T18:22:50.574899+09:00"
+      "started_at": "2026-07-15T18:22:50.574899+09:00",
+      "completed_at": "2026-07-15T21:44:34.073410+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-15T21:44:34.073416+09:00"
     }
   }
 }
