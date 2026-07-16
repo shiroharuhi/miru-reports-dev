@@ -1,11 +1,11 @@
 {
   "date": "2026-07-17",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-16T18:23:35.642227+09:00",
-  "updated_at": "2026-07-16T18:24:45.674001+09:00",
+  "updated_at": "2026-07-16T21:53:27.120492+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊迫と米中対立で市場不安増大",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車"
+        ],
+        "detail": "イランへの軍事介入強化やホルムズ海峡の混乱リスクが再燃し、原油高騰と供給網への打撃が懸念される。"
+      },
+      {
+        "topic": "半導体株の調整",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "TSMCの好決算の一方で、期待先行だったAI・ハードウェア関連への利益確定売りが加速している。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "中国の景気刺激策",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "素材",
+          "機械",
+          "不動産"
+        ],
+        "detail": "GDP成長率の鈍化を受け、中国政府による追加の景気下支え策への期待が強まっている。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -766,6 +800,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-16T18:24:45.673903+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:1 standby:10)",
+      "timestamp": "2026-07-16T21:53:27.120468+09:00"
     }
   ],
   "stage_metadata": {
@@ -774,7 +813,11 @@
       "completed_at": "2026-07-16T18:23:36.043685+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-16T18:23:36.043689+09:00"
+      "started_at": "2026-07-16T18:23:36.043689+09:00",
+      "completed_at": "2026-07-16T21:53:27.120413+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-16T21:53:27.120419+09:00"
     }
   }
 }
