@@ -1,11 +1,11 @@
 {
   "date": "2026-07-20",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-17T18:18:35.444495+09:00",
-  "updated_at": "2026-07-17T18:19:43.874704+09:00",
+  "updated_at": "2026-07-19T21:07:51.093059+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東情勢緊迫とFRB利上げ観測の揺れ",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "海運",
+          "エネルギー",
+          "商社"
+        ],
+        "detail": "ホルムズ海峡の封鎖リスクが継続し、原油価格高騰と物流停滞が市場の重荷に。"
+      },
+      {
+        "topic": "FRBのタカ派転換",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "ハイテク",
+          "不動産"
+        ],
+        "detail": "米インフレ再燃懸念からFRB利上げ期待が急浮上し、グロース株の逆風となる可能性。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "半導体株の自律反発",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "直近の売られすぎによる値ごろ感に加え、半導体関連の買い戻しが指数を下支え。"
+      },
+      {
+        "topic": "円高圧力の限定化",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "自動車",
+          "輸出関連"
+        ],
+        "detail": "米利上げ観測はあっても、日米金利差縮小期待が円の下値を限定的にし輸出株を支える。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -751,6 +794,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-17T18:19:43.874609+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:1 standby:10)",
+      "timestamp": "2026-07-19T21:07:51.093033+09:00"
     }
   ],
   "stage_metadata": {
@@ -759,7 +807,11 @@
       "completed_at": "2026-07-17T18:18:36.178427+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-17T18:18:36.178432+09:00"
+      "started_at": "2026-07-17T18:18:36.178432+09:00",
+      "completed_at": "2026-07-19T21:07:51.092976+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-19T21:07:51.092982+09:00"
     }
   }
 }
