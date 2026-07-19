@@ -1,15 +1,15 @@
 {
   "date": "2026-07-20",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-17T18:18:35.444495+09:00",
-  "updated_at": "2026-07-20T06:04:02.777688+09:00",
+  "updated_at": "2026-07-20T07:25:51.625795+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "YELLOW",
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "RED",
+    "effective_jiai": "RED",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -1.331719128329298,
     "vix": "18.8",
     "usdjpy": "162.42円（+0.04円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "医薬品",
+        "change": 1.06
+      },
+      {
+        "name": "運輸・物流",
+        "change": 0.95
+      },
+      {
+        "name": "食品",
+        "change": 0.92
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "機械",
+        "change": -5.86
+      },
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -4.88
+      },
+      {
+        "name": "銀行",
+        "change": -4.74
+      }
+    ]
   },
   "narrative": {
     "headline": "中東情勢緊迫とFRB利上げ観測の揺れ",
@@ -846,10 +872,11 @@
       "stop_loss_base": 4321,
       "target_base": 4537,
       "lot_base": 953,
-      "status": "standby",
+      "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -866,6 +893,16 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "BUY判定（低）→ SELL候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "standby → active",
+          "reason": "effective_jiai RED → SELL候補をactive化"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -908,6 +945,16 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物-1.3% (active:0 standby:11)",
       "timestamp": "2026-07-20T06:04:02.777675+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: RED→effective:RED (active:1 standby:10)",
+      "timestamp": "2026-07-20T07:25:51.620759+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-07-20T07:25:51.625769+09:00"
     }
   ],
   "stage_metadata": {
@@ -924,7 +971,22 @@
       "completed_at": "2026-07-20T06:04:02.777627+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-20T06:04:02.777631+09:00"
+      "started_at": "2026-07-20T06:04:02.777631+09:00",
+      "completed_at": "2026-07-20T07:25:51.620711+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-20T07:25:51.620717+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_too_old",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-07-20T07:25:51.625631+09:00"
   }
 }
