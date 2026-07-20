@@ -1,15 +1,15 @@
 {
   "date": "2026-07-21",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-20T19:08:57.394068+09:00",
-  "updated_at": "2026-07-21T06:19:43.657995+09:00",
+  "updated_at": "2026-07-21T07:30:34.446215+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "RED",
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "RED",
+    "effective_jiai": "RED",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -0.046012269938650305,
     "vix": "18.6",
     "usdjpy": "162.47円（+0.09円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "医薬品",
+        "change": 1.06
+      },
+      {
+        "name": "運輸・物流",
+        "change": 0.95
+      },
+      {
+        "name": "食品",
+        "change": 0.92
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "機械",
+        "change": -5.86
+      },
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -4.88
+      },
+      {
+        "name": "銀行",
+        "change": -4.74
+      }
+    ]
   },
   "narrative": {
     "headline": "中東紛争激化とホルムズ海峡危機",
@@ -787,10 +813,11 @@
       "stop_loss_base": 4321,
       "target_base": 4537,
       "lot_base": 953,
-      "status": "standby",
+      "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -807,6 +834,16 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "BUY判定（低）→ SELL候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "standby → active",
+          "reason": "effective_jiai RED → SELL候補をactive化"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -840,6 +877,16 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物-0.0% (active:0 standby:11)",
       "timestamp": "2026-07-21T06:19:43.657969+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: RED→effective:RED (active:1 standby:10)",
+      "timestamp": "2026-07-21T07:30:34.439699+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=short score=0.55",
+      "timestamp": "2026-07-21T07:30:34.446173+09:00"
     }
   ],
   "stage_metadata": {
@@ -856,7 +903,22 @@
       "completed_at": "2026-07-21T06:19:43.657930+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-21T06:19:43.657936+09:00"
+      "started_at": "2026-07-21T06:19:43.657936+09:00",
+      "completed_at": "2026-07-21T07:30:34.439650+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-21T07:30:34.439656+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.55,
+    "direction": "short",
+    "momentum": "weak",
+    "representative_set_id": "set_risk_off_defensive",
+    "generated_at": "2026-07-21T07:30:34.443042+09:00"
   }
 }
