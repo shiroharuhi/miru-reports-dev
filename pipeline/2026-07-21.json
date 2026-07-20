@@ -1,13 +1,13 @@
 {
   "date": "2026-07-21",
-  "pipeline_stage": "stage2_narrative",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-07-20T19:08:57.394068+09:00",
-  "updated_at": "2026-07-20T22:18:56.931250+09:00",
+  "updated_at": "2026-07-21T06:19:43.657995+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": "RED",
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "BUY",
+    "direction_confidence": "低",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "-4.03%",
     "topix_change": null,
-    "dow_change": "-0.77%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "18.5",
-    "usdjpy": "0.03円",
+    "dow_change": "51,839ドル（-0.59%）",
+    "nasdaq_change": "25,508（-0.05%）",
+    "futures_gap_pct": -0.046012269938650305,
+    "vix": "18.6",
+    "usdjpy": "162.47円（+0.09円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -787,7 +787,7 @@
       "stop_loss_base": 4321,
       "target_base": 4537,
       "lot_base": 953,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好"
@@ -802,6 +802,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "BUY判定（低）→ SELL候補は待機"
         }
       ],
       "fundamental": {
@@ -830,6 +835,11 @@
       "stage": "stage2",
       "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:1 standby:10)",
       "timestamp": "2026-07-20T22:18:56.931225+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: BUY（低）先物-0.0% (active:0 standby:11)",
+      "timestamp": "2026-07-21T06:19:43.657969+09:00"
     }
   ],
   "stage_metadata": {
@@ -842,7 +852,11 @@
       "completed_at": "2026-07-20T22:18:56.931160+09:00"
     },
     "stage2_narrative": {
-      "started_at": "2026-07-20T22:18:56.931166+09:00"
+      "started_at": "2026-07-20T22:18:56.931166+09:00",
+      "completed_at": "2026-07-21T06:19:43.657930+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-07-21T06:19:43.657936+09:00"
     }
   }
 }
