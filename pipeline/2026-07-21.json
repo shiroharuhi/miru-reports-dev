@@ -1,11 +1,11 @@
 {
   "date": "2026-07-21",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-20T19:08:57.394068+09:00",
-  "updated_at": "2026-07-20T19:10:13.726666+09:00",
+  "updated_at": "2026-07-20T22:18:56.931250+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東紛争激化とホルムズ海峡危機",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化とホルムズ海峡危機",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "製造業"
+        ],
+        "detail": "イランと米軍の攻撃応酬が激化し、ホルムズ海峡の物流混乱や原油高騰が深刻化しており、市場のボラティリティを急上昇させている。"
+      },
+      {
+        "topic": "米中半導体覇権争い",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "対中輸出規制強化（MATCH法案等）やAI技術を巡る緊張が、関連銘柄の不透明感を強めている。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日銀の金融政策とAI需要による業績期待",
+        "direction": "positive",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "電機",
+          "精密機器"
+        ],
+        "detail": "利上げによる金利収益改善期待と、AI需要を背景とした強固な企業業績見通しが、日本株の下支えとなっている。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -489,7 +523,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "📈日銀の金融政策とAI需要による業績期待"
       ],
       "history": [
         {
@@ -511,6 +546,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の金融政策とAI需要による業績期待"
         }
       ],
       "fundamental": {
@@ -684,7 +724,8 @@
       "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊ROE優秀"
+        "📊ROE優秀",
+        "📈日銀の金融政策とAI需要による業績期待"
       ],
       "history": [
         {
@@ -701,6 +742,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊ROE優秀"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の金融政策とAI需要による業績期待"
         }
       ],
       "fundamental": {
@@ -779,6 +825,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-20T19:10:13.726600+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:1 standby:10)",
+      "timestamp": "2026-07-20T22:18:56.931225+09:00"
     }
   ],
   "stage_metadata": {
@@ -787,7 +838,11 @@
       "completed_at": "2026-07-20T19:08:57.909398+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-20T19:08:57.909403+09:00"
+      "started_at": "2026-07-20T19:08:57.909403+09:00",
+      "completed_at": "2026-07-20T22:18:56.931160+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-20T22:18:56.931166+09:00"
     }
   }
 }
