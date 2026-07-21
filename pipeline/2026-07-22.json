@@ -1,11 +1,11 @@
 {
   "date": "2026-07-22",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-21T18:39:02.344431+09:00",
-  "updated_at": "2026-07-21T18:40:14.058634+09:00",
+  "updated_at": "2026-07-21T21:44:41.723503+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,44 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東の主要海峡同時封鎖で原油供給網が危機的状況に",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化と海上物流網の遮断",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車",
+          "製造業"
+        ],
+        "detail": "ホルムズ海峡に加え、紅海側のバブ・エル・マンデブ海峡もフーシ派の封鎖宣言により供給網が遮断の危機。原油価格の急騰と輸送コスト増大が日本経済を直撃する恐れ。"
+      },
+      {
+        "topic": "米国長期金利の上昇とインフレ再燃懸念",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険",
+          "ハイテク"
+        ],
+        "detail": "原油高によるインフレ再燃で米金利が上昇傾向。FRBの利上げが焦点となり、ハイテク株等のバリュエーション調整を招くリスクがある。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日本株の自律的リバウンド期待",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電機"
+        ],
+        "detail": "前週末の急落を受けた押し目買いや、昨今のAI関連株の自律的な買戻しが地合いを下支えする可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -702,6 +737,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-21T18:40:14.058535+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:10 standby:1)",
+      "timestamp": "2026-07-21T21:44:41.723481+09:00"
     }
   ],
   "stage_metadata": {
@@ -710,7 +750,11 @@
       "completed_at": "2026-07-21T18:39:03.002019+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-21T18:39:03.002024+09:00"
+      "started_at": "2026-07-21T18:39:03.002024+09:00",
+      "completed_at": "2026-07-21T21:44:41.723427+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-21T21:44:41.723433+09:00"
     }
   }
 }
