@@ -1,15 +1,15 @@
 {
   "date": "2026-07-22",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-21T18:39:02.344431+09:00",
-  "updated_at": "2026-07-22T06:23:05.290004+09:00",
+  "updated_at": "2026-07-22T07:27:09.050570+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "RED",
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 3.22234156820623,
     "vix": "17.0",
     "usdjpy": "163.16円（+0.65円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "機械",
+        "change": 5.06
+      },
+      {
+        "name": "エネルギー資源",
+        "change": 4.58
+      },
+      {
+        "name": "金融（除く銀行）",
+        "change": 4.58
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "小売",
+        "change": 0.08
+      },
+      {
+        "name": "医薬品",
+        "change": 0.22
+      },
+      {
+        "name": "運輸・物流",
+        "change": 0.45
+      }
+    ]
   },
   "narrative": {
     "headline": "中東の主要海峡同時封鎖で原油供給網が危機的状況に",
@@ -332,7 +358,8 @@
       "flags": [
         "📊財務良好",
         "📈増益",
-        "⚠️追いかけ注意"
+        "⚠️追いかけ注意",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -354,6 +381,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -483,7 +515,7 @@
       "stop_loss_base": 3151,
       "target_base": 3309,
       "lot_base": 1307,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -510,6 +542,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -559,7 +596,7 @@
       "stop_loss_base": 4575,
       "target_base": 4803,
       "lot_base": 900,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -580,6 +617,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -629,7 +671,7 @@
       "stop_loss_base": 5095,
       "target_base": 5349,
       "lot_base": 808,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -650,6 +692,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -699,7 +746,7 @@
       "stop_loss_base": 4171,
       "target_base": 4379,
       "lot_base": 987,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊高収益",
@@ -720,6 +767,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -771,7 +823,7 @@
       "stop_loss_base": 1543,
       "target_base": 1620,
       "lot_base": 2670,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -792,6 +844,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -906,6 +963,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物+3.2% (active:10 standby:1)",
       "timestamp": "2026-07-22T06:23:05.289969+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:5 standby:6)",
+      "timestamp": "2026-07-22T07:27:09.045409+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-07-22T07:27:09.050544+09:00"
     }
   ],
   "stage_metadata": {
@@ -922,7 +989,22 @@
       "completed_at": "2026-07-22T06:23:05.289835+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-22T06:23:05.289841+09:00"
+      "started_at": "2026-07-22T06:23:05.289841+09:00",
+      "completed_at": "2026-07-22T07:27:09.045353+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-22T07:27:09.045361+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_too_old",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-07-22T07:27:09.050411+09:00"
   }
 }
