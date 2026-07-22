@@ -1,11 +1,11 @@
 {
   "date": "2026-07-23",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-22T18:38:08.072752+09:00",
-  "updated_at": "2026-07-22T18:39:21.856600+09:00",
+  "updated_at": "2026-07-22T21:47:47.302277+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,42 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊迫と原油高、日銀利上げ巡る警戒感",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化と原油急騰",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・鉱業",
+          "海運",
+          "航空"
+        ],
+        "detail": "イランと米軍の交戦継続により供給不安が強まり、原油高が市場全体のリスクオフを招く懸念がある。"
+      },
+      {
+        "topic": "日銀の追加利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産"
+        ],
+        "detail": "物価上振れによる早期利上げ警戒が強く、金融政策決定会合に向けた神経質な展開が続く。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "半導体・AI関連の自律反発",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "半導体"
+        ],
+        "detail": "急落後のリバウンド余地や、決算内容次第でのAI需要再評価が相場の下支えとなる可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -127,7 +160,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "📈半導体・AI関連の自律反発"
       ],
       "history": [
         {
@@ -144,6 +178,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の自律反発"
         }
       ],
       "fundamental": {
@@ -190,7 +229,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📈増益"
+        "📈増益",
+        "📈半導体・AI関連の自律反発"
       ],
       "history": [
         {
@@ -207,6 +247,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の自律反発"
         }
       ],
       "fundamental": {
@@ -253,7 +298,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "📈半導体・AI関連の自律反発"
       ],
       "history": [
         {
@@ -270,6 +316,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の自律反発"
         }
       ],
       "fundamental": {
@@ -316,7 +367,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📈増益"
+        "📈増益",
+        "📈半導体・AI関連の自律反発"
       ],
       "history": [
         {
@@ -333,6 +385,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈半導体・AI関連の自律反発"
         }
       ],
       "fundamental": {
@@ -682,6 +739,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-22T18:39:21.856511+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:11 standby:0)",
+      "timestamp": "2026-07-22T21:47:47.302253+09:00"
     }
   ],
   "stage_metadata": {
@@ -690,7 +752,11 @@
       "completed_at": "2026-07-22T18:38:08.641703+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-22T18:38:08.641707+09:00"
+      "started_at": "2026-07-22T18:38:08.641707+09:00",
+      "completed_at": "2026-07-22T21:47:47.302192+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-22T21:47:47.302197+09:00"
     }
   }
 }
