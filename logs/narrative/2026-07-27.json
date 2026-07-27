@@ -1,0 +1,53 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東緊張緩和と米中関税懸念の狭間で様子見",
+  "risks": [
+    {
+      "topic": "ホルムズ海峡の封鎖継続",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "石油・石炭製品",
+        "海運",
+        "化学"
+      ],
+      "detail": "軍事衝突は一時停止も海峡封鎖は継続。物流停滞とエネルギー調達リスクが残存。"
+    },
+    {
+      "topic": "米国による対中追加関税",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "機械",
+        "輸送用機器"
+      ],
+      "detail": "中国を含む60カ国への新関税発動による貿易摩擦の再燃と世界景気への悪影響懸念。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "米イラン攻撃停止",
+      "direction": "positive",
+      "timeframe": "immediate",
+      "sectors": [
+        "全セクター",
+        "内需株"
+      ],
+      "detail": "軍事衝突の暫定停止による原油価格の落ち着きと市場心理の改善。"
+    },
+    {
+      "topic": "日本企業の決算発表本格化",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "サービス"
+      ],
+      "detail": "足元の企業業績の上方修正期待が半導体関連や出遅れ銘柄の買い戻しを促す可能性。"
+    }
+  ],
+  "recommendation": "中東情勢の小康状態でセンチメントは改善したが、ホルムズ海峡の封鎖継続や関税リスクといった不確実性が根強い。週後半のFOMCと日銀会合を控えており、積極的な買い上がりは避け、決算発表銘柄を中心に選別的な短期売買が賢明。",
+  "date": "2026-07-27",
+  "timestamp": "2026-07-27T13:45:58.086278"
+}

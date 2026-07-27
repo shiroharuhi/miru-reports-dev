@@ -1,11 +1,11 @@
 {
   "date": "2026-07-28",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-27T19:52:19.571771+09:00",
-  "updated_at": "2026-07-27T19:53:24.641572+09:00",
+  "updated_at": "2026-07-27T22:45:58.087000+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,53 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張緩和と米中関税懸念の狭間で様子見",
+    "risks": [
+      {
+        "topic": "ホルムズ海峡の封鎖継続",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "石油・石炭製品",
+          "海運",
+          "化学"
+        ],
+        "detail": "軍事衝突は一時停止も海峡封鎖は継続。物流停滞とエネルギー調達リスクが残存。"
+      },
+      {
+        "topic": "米国による対中追加関税",
+        "severity": "high",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "機械",
+          "輸送用機器"
+        ],
+        "detail": "中国を含む60カ国への新関税発動による貿易摩擦の再燃と世界景気への悪影響懸念。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米イラン攻撃停止",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "全セクター",
+          "内需株"
+        ],
+        "detail": "軍事衝突の暫定停止による原油価格の落ち着きと市場心理の改善。"
+      },
+      {
+        "topic": "日本企業の決算発表本格化",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "サービス"
+        ],
+        "detail": "足元の企業業績の上方修正期待が半導体関連や出遅れ銘柄の買い戻しを促す可能性。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -60,11 +104,12 @@
       "stop_loss_base": 5024,
       "target_base": 5275,
       "lot_base": 819,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️米国による対中追加関税"
       ],
       "history": [
         {
@@ -81,6 +126,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米国による対中追加関税"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 米国による対中追加関税 → 機械セクター逆風"
         }
       ],
       "fundamental": {
@@ -435,11 +490,13 @@
       "stop_loss_base": 3415,
       "target_base": 3586,
       "lot_base": 1206,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️米国による対中追加関税",
+        "📈日本企業の決算発表本格化"
       ],
       "history": [
         {
@@ -456,6 +513,21 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米国による対中追加関税"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 米国による対中追加関税 → 電気機器セクター逆風"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日本企業の決算発表本格化"
         }
       ],
       "fundamental": {
@@ -498,11 +570,13 @@
       "stop_loss_base": 2193,
       "target_base": 2303,
       "lot_base": 1878,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️米国による対中追加関税",
+        "📈日本企業の決算発表本格化"
       ],
       "history": [
         {
@@ -519,6 +593,21 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米国による対中追加関税"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 米国による対中追加関税 → 電気機器セクター逆風"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日本企業の決算発表本格化"
         }
       ],
       "fundamental": {
@@ -561,10 +650,12 @@
       "stop_loss_base": 4927,
       "target_base": 5173,
       "lot_base": 836,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️米国による対中追加関税",
+        "📈日本企業の決算発表本格化"
       ],
       "history": [
         {
@@ -576,6 +667,21 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米国による対中追加関税"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 米国による対中追加関税 → 電気機器セクター逆風"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日本企業の決算発表本格化"
         }
       ],
       "fundamental": {
@@ -616,10 +722,11 @@
       "stop_loss_base": 6769,
       "target_base": 7108,
       "lot_base": 608,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
-        "📊財務良好"
+        "📊財務良好",
+        "⚠️米国による対中追加関税"
       ],
       "history": [
         {
@@ -631,6 +738,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊財務良好"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米国による対中追加関税"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: 米国による対中追加関税 → 機械セクター逆風"
         }
       ],
       "fundamental": {
@@ -652,6 +769,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-07-27T19:53:24.641480+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:5 standby:5)",
+      "timestamp": "2026-07-27T22:45:58.086968+09:00"
     }
   ],
   "stage_metadata": {
@@ -660,7 +782,11 @@
       "completed_at": "2026-07-27T19:52:20.248598+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-27T19:52:20.248603+09:00"
+      "started_at": "2026-07-27T19:52:20.248603+09:00",
+      "completed_at": "2026-07-27T22:45:58.086887+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-27T22:45:58.086893+09:00"
     }
   }
 }
