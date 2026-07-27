@@ -1,0 +1,12 @@
+{
+  "date": "20260728",
+  "type": "7am_check",
+  "direction": "NEUTRAL",
+  "confidence": "低",
+  "reason": "方向感なし→様子見推奨",
+  "dow_chg": 0,
+  "nq_chg": 0,
+  "fut_chg": -0.7759155803848541,
+  "vix_val": 18.670000076293945,
+  "timestamp": "2026-07-28T06:20:47.311944+09:00"
+}
