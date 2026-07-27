@@ -1,0 +1,15 @@
+{
+  "schema_version": "v0",
+  "date": "2026-07-27",
+  "stage5_final": true,
+  "final_judgment": "⚪ 5分足3本まで様子見",
+  "exec_time": "11:37",
+  "stage5_adjustment_metadata": {
+    "market_mode": "up",
+    "adjustment_level": 0,
+    "adjustment_level_label": "no_change",
+    "risk_flags": [],
+    "data_quality": "full",
+    "generated_at": "2026-07-27T11:37:23.405055+09:00"
+  }
+}
