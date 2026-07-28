@@ -1,11 +1,11 @@
 {
   "date": "2026-07-29",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-28T18:45:45.145658+09:00",
-  "updated_at": "2026-07-28T18:46:59.564716+09:00",
+  "updated_at": "2026-07-28T22:03:33.630543+09:00",
   "jiai": {
     "screening_jiai": "RED",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,41 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "AI・半導体株の調整と中東情勢の不透明感",
+    "risks": [
+      {
+        "topic": "半導体・AI関連株の需給悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "電気機器",
+          "その他製品"
+        ],
+        "detail": "AI半導体競争激化と過剰投資懸念から急落が続いており、需給悪化による売り圧力が前場も継続するリスク。"
+      },
+      {
+        "topic": "中東情勢とホルムズ海峡の緊張",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "海運",
+          "石油・石炭製品"
+        ],
+        "detail": "ホルムズ海峡の通行危機が解消されず、原油価格の乱高下や物流網への懸念が地合いを不安定にしている。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "FOMCおよび日銀会合前の様子見",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "政策金利の据え置き観測が強く、過度なパニック売りが収束すれば、割安なバリュー株への見直し買いが期待される。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -736,7 +768,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "📈FOMCおよび日銀会合前の様子見"
       ],
       "history": [
         {
@@ -753,6 +786,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈FOMCおよび日銀会合前の様子見"
         }
       ],
       "fundamental": {
@@ -774,6 +812,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告0 APIリクエスト44",
       "timestamp": "2026-07-28T18:46:59.564577+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:1 standby:10)",
+      "timestamp": "2026-07-28T22:03:33.630530+09:00"
     }
   ],
   "stage_metadata": {
@@ -782,7 +825,11 @@
       "completed_at": "2026-07-28T18:45:45.769235+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-28T18:45:45.769240+09:00"
+      "started_at": "2026-07-28T18:45:45.769240+09:00",
+      "completed_at": "2026-07-28T22:03:33.630483+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-28T22:03:33.630489+09:00"
     }
   }
 }
