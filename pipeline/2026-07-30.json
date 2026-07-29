@@ -1,11 +1,11 @@
 {
   "date": "2026-07-30",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-29T18:49:24.276300+09:00",
-  "updated_at": "2026-07-29T18:50:32.412792+09:00",
+  "updated_at": "2026-07-29T22:11:13.499717+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,41 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と半導体株安が重なる波乱地合い",
+    "risks": [
+      {
+        "topic": "中東地政学リスク",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・エネルギー",
+          "海運",
+          "空運"
+        ],
+        "detail": "ホルムズ海峡の緊張継続とイラン情勢悪化により原油価格が急騰し、サプライチェーンと企業収益に甚大な不透明感。"
+      },
+      {
+        "topic": "半導体セクター調整",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体製造装置",
+          "電機"
+        ],
+        "detail": "米ハイテク株安と中国の半導体装置国産化報道による競争激化懸念が、東京市場のAI関連銘柄に売り圧力を誘発。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米FOMCの結果公表",
+        "direction": "negative",
+        "timeframe": "immediate",
+        "sectors": [
+          "全セクター"
+        ],
+        "detail": "米政策金利の発表とパウエル議長の会見が予定されており、利下げ示唆の有無が市場のボラティリティを左右する。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -653,6 +685,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-07-29T18:50:32.412680+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:10 standby:0)",
+      "timestamp": "2026-07-29T22:11:13.499704+09:00"
     }
   ],
   "stage_metadata": {
@@ -661,7 +698,11 @@
       "completed_at": "2026-07-29T18:49:24.720138+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-29T18:49:24.720143+09:00"
+      "started_at": "2026-07-29T18:49:24.720143+09:00",
+      "completed_at": "2026-07-29T22:11:13.499664+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-29T22:11:13.499669+09:00"
     }
   }
 }
