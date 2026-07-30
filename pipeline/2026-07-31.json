@@ -1,11 +1,11 @@
 {
   "date": "2026-07-31",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-30T18:41:12.579702+09:00",
-  "updated_at": "2026-07-30T18:42:15.935704+09:00",
+  "updated_at": "2026-07-30T21:55:44.095838+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張継続とFOMC後の米金利上昇が重石",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化と原油高",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭",
+          "海運",
+          "食料品"
+        ],
+        "detail": "ホルムズ海峡の封鎖継続と地政学リスクにより原油価格が上昇し、コスト増が企業業績を圧迫。"
+      },
+      {
+        "topic": "FOMC後の米長期金利上昇",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "電気機器",
+          "精密機器",
+          "グロース株"
+        ],
+        "detail": "FRBが金利を据え置く一方、タカ派姿勢が意識され米長期金利が上昇。割高なハイテク株に売り圧力。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日銀金融政策決定会合",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "追加利上げ見送り予想で市場は無風通過の公算だが、総裁会見で今後のタカ派姿勢が示唆されれば金融株に追い風。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -349,14 +383,15 @@
       "stop_loss_base": 47,
       "target_base": 49,
       "lot_base": 87500,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️低収益",
         "📉減収",
         "📈増益",
         "⚠️財務リスク",
-        "⚠️決算接近（推定14日後・2026-08-14）"
+        "⚠️決算接近（推定14日後・2026-08-14）",
+        "⚠️FOMC後の米長期金利上昇"
       ],
       "history": [
         {
@@ -388,6 +423,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定14日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️FOMC後の米長期金利上昇"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: FOMC後の米長期金利上昇 → 電気機器セクター逆風"
         }
       ],
       "fundamental": {
@@ -559,12 +604,13 @@
       "stop_loss_base": 795,
       "target_base": 835,
       "lot_base": 5178,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️決算接近（推定14日後・2026-08-14）"
+        "⚠️決算接近（推定14日後・2026-08-14）",
+        "⚠️FOMC後の米長期金利上昇"
       ],
       "history": [
         {
@@ -586,6 +632,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定14日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️FOMC後の米長期金利上昇"
+        },
+        {
+          "stage": "stage2",
+          "action": "active → standby",
+          "reason": "高リスク: FOMC後の米長期金利上昇 → 電気機器セクター逆風"
         }
       ],
       "fundamental": {
@@ -747,6 +803,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告10 APIリクエスト40",
       "timestamp": "2026-07-30T18:42:15.935599+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:8 standby:2)",
+      "timestamp": "2026-07-30T21:55:44.095815+09:00"
     }
   ],
   "stage_metadata": {
@@ -755,7 +816,11 @@
       "completed_at": "2026-07-30T18:41:12.972145+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-30T18:41:12.972149+09:00"
+      "started_at": "2026-07-30T18:41:12.972149+09:00",
+      "completed_at": "2026-07-30T21:55:44.095751+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-07-30T21:55:44.095756+09:00"
     }
   }
 }
