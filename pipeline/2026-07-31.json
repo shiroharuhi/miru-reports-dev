@@ -1,15 +1,15 @@
 {
   "date": "2026-07-31",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-07-30T18:41:12.579702+09:00",
-  "updated_at": "2026-07-31T06:20:17.776874+09:00",
+  "updated_at": "2026-07-31T07:35:56.265824+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
     "narrative_status": "YELLOW",
     "direction_7am": "BUY",
     "direction_confidence": "中",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 3.871546173282256,
     "vix": "17.1",
     "usdjpy": "159.50円（-4.36円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "電機・精密",
+        "change": 2.52
+      },
+      {
+        "name": "鉄鋼・非鉄",
+        "change": 0.2
+      },
+      {
+        "name": "機械",
+        "change": 0.05
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "銀行",
+        "change": -3.39
+      },
+      {
+        "name": "自動車・輸送機",
+        "change": -2.21
+      },
+      {
+        "name": "金融（除く銀行）",
+        "change": -2.18
+      }
+    ]
   },
   "narrative": {
     "headline": "中東緊張継続とFOMC後の米金利上昇が重石",
@@ -451,7 +477,8 @@
         "📈増益",
         "⚠️財務リスク",
         "⚠️決算接近（推定14日後・2026-08-14）",
-        "⚠️FOMC後の米長期金利上昇"
+        "⚠️FOMC後の米長期金利上昇",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -493,6 +520,11 @@
           "stage": "stage2",
           "action": "active → standby",
           "reason": "高リスク: FOMC後の米長期金利上昇 → 電気機器セクター逆風"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -544,7 +576,7 @@
       "stop_loss_base": 4110,
       "target_base": 4315,
       "lot_base": 1002,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
@@ -571,6 +603,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -623,7 +660,7 @@
       "stop_loss_base": 6499,
       "target_base": 6823,
       "lot_base": 633,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
@@ -650,6 +687,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -709,7 +751,8 @@
         "📊ROE優秀",
         "📈増益",
         "⚠️決算接近（推定14日後・2026-08-14）",
-        "⚠️FOMC後の米長期金利上昇"
+        "⚠️FOMC後の米長期金利上昇",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -741,6 +784,11 @@
           "stage": "stage2",
           "action": "active → standby",
           "reason": "高リスク: FOMC後の米長期金利上昇 → 電気機器セクター逆風"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -794,7 +842,7 @@
       "stop_loss_base": 4385,
       "target_base": 4604,
       "lot_base": 939,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -827,6 +875,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -880,7 +933,7 @@
       "stop_loss_base": 1878,
       "target_base": 1972,
       "lot_base": 2193,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -907,6 +960,11 @@
           "stage": "stage3",
           "action": "flagged",
           "reason": "⚠️追いかけ注意"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -951,6 +1009,16 @@
       "stage": "stage3",
       "action": "7am判定: BUY（中）先物+3.9% (active:8 standby:2)",
       "timestamp": "2026-07-31T06:20:17.776848+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:4 standby:6)",
+      "timestamp": "2026-07-31T07:35:56.259506+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.55",
+      "timestamp": "2026-07-31T07:35:56.265796+09:00"
     }
   ],
   "stage_metadata": {
@@ -967,7 +1035,22 @@
       "completed_at": "2026-07-31T06:20:17.776776+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-07-31T06:20:17.776782+09:00"
+      "started_at": "2026-07-31T06:20:17.776782+09:00",
+      "completed_at": "2026-07-31T07:35:56.259452+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-07-31T07:35:56.259458+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.55,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-07-31T07:35:56.263779+09:00"
   }
 }
