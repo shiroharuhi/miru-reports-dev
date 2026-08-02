@@ -1,11 +1,11 @@
 {
   "date": "2026-08-03",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-07-31T18:54:46.567556+09:00",
-  "updated_at": "2026-07-31T18:55:55.059849+09:00",
+  "updated_at": "2026-08-02T21:16:51.102253+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,53 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と急激な円高による波乱相場への警戒",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "鉱業",
+          "電気・ガス",
+          "空運"
+        ],
+        "detail": "イランとイスラエルの緊張再燃、ホルムズ海峡封鎖リスクが原油価格と物流網を直撃し、日本株を押し下げる要因に。"
+      },
+      {
+        "topic": "急激な円高の進行",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "自動車",
+          "電機",
+          "精密機器"
+        ],
+        "detail": "為替介入による円高加速が、輸出関連企業の業績期待を削ぐ形となり、前場の指数圧迫材料となる。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "主要企業の好決算期待",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "情報・通信"
+        ],
+        "detail": "三菱UFJやトヨタ、ソフトバンクG等の主要決算発表を控え、好業績銘柄への個別物色や下支えが期待される。"
+      },
+      {
+        "topic": "日銀の金融正常化姿勢",
+        "direction": "positive",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "植田総裁が利上げ継続の姿勢を明確にしており、金利上昇による収益改善期待が金融セクターを支える。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -402,7 +446,8 @@
       "flags": [
         "📊財務良好",
         "📈高成長",
-        "⚠️財務リスク"
+        "⚠️財務リスク",
+        "📈日銀の金融正常化姿勢"
       ],
       "history": [
         {
@@ -424,6 +469,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️財務リスク"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の金融正常化姿勢"
         }
       ],
       "fundamental": {
@@ -659,7 +709,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "⚠️決算接近（推定13日後・2026-08-14）"
+        "⚠️決算接近（推定13日後・2026-08-14）",
+        "⚠️急激な円高の進行"
       ],
       "history": [
         {
@@ -676,6 +727,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定13日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️急激な円高の進行"
         }
       ],
       "fundamental": {
@@ -699,6 +755,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告8 APIリクエスト40",
       "timestamp": "2026-07-31T18:55:55.059759+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
+      "timestamp": "2026-08-02T21:16:51.102238+09:00"
     }
   ],
   "stage_metadata": {
@@ -707,7 +768,11 @@
       "completed_at": "2026-07-31T18:54:47.139526+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-07-31T18:54:47.139531+09:00"
+      "started_at": "2026-07-31T18:54:47.139531+09:00",
+      "completed_at": "2026-08-02T21:16:51.102172+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-02T21:16:51.102178+09:00"
     }
   }
 }
