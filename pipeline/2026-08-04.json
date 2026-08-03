@@ -1,11 +1,11 @@
 {
   "date": "2026-08-04",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-03T19:50:47.001533+09:00",
-  "updated_at": "2026-08-03T19:52:14.418657+09:00",
+  "updated_at": "2026-08-03T22:49:24.691640+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,53 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "日米協調介入と中東情勢の緊迫",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化とホルムズ海峡封鎖リスク",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車",
+          "商社"
+        ],
+        "detail": "ホルムズ海峡の大部分が閉鎖中。米イラン協議開始も不透明感強く、供給不安による原油高と物流混乱が日本経済の重石。"
+      },
+      {
+        "topic": "為替介入に伴う円高進行と輸出株への圧力",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "自動車",
+          "精密機器",
+          "機械"
+        ],
+        "detail": "日米協調介入により円高が進行中。輸出企業の業績下方修正懸念が高まり、前場は特に自動車株などの売り圧力が警戒される。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米イラン協議進展の可能性",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "全セクター"
+        ],
+        "detail": "3日午後に始まる米イラン協議で再開放の合意が示されれば、地政学リスクが後退し市場の安心感から急速な買い戻しが期待される。"
+      },
+      {
+        "topic": "日銀の追加利上げ観測",
+        "direction": "positive",
+        "timeframe": "medium_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "協調介入と引き換えに9月会合での追加利上げが意識されており、金利上昇による収益改善期待から金融株の下支え要因となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -561,7 +605,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "⚠️決算接近（推定10日後・2026-08-14）"
+        "⚠️決算接近（推定10日後・2026-08-14）",
+        "⚠️為替介入に伴う円高進行と輸出株への圧力"
       ],
       "history": [
         {
@@ -578,6 +623,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定10日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️為替介入に伴う円高進行と輸出株への圧力"
         }
       ],
       "fundamental": {
@@ -772,7 +822,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️財務リスク",
-        "⚠️決算接近（推定10日後・2026-08-14）"
+        "⚠️決算接近（推定10日後・2026-08-14）",
+        "📈日銀の追加利上げ観測"
       ],
       "history": [
         {
@@ -789,6 +840,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定10日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日銀の追加利上げ観測"
         }
       ],
       "fundamental": {
@@ -979,6 +1035,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/15銘柄 決算接近警告11 APIリクエスト57",
       "timestamp": "2026-08-03T19:52:14.418566+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:15 standby:0)",
+      "timestamp": "2026-08-03T22:49:24.691621+09:00"
     }
   ],
   "stage_metadata": {
@@ -987,7 +1048,11 @@
       "completed_at": "2026-08-03T19:50:47.673091+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-03T19:50:47.673096+09:00"
+      "started_at": "2026-08-03T19:50:47.673096+09:00",
+      "completed_at": "2026-08-03T22:49:24.691561+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-03T22:49:24.691566+09:00"
     }
   }
 }
