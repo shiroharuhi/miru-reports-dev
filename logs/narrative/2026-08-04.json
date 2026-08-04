@@ -1,0 +1,62 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東緊張と日米協調介入の影響、警戒続く",
+  "risks": [
+    {
+      "topic": "中東地政学リスク",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "自動車"
+      ],
+      "detail": "イランと米・イスラエルの緊張継続。ホルムズ海峡封鎖の懸念から原油・物流コスト上昇のリスク。"
+    },
+    {
+      "topic": "日米協調介入の影響",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "輸出関連",
+        "銀行"
+      ],
+      "detail": "急激な円高修正による業績圧迫懸念。投機的な円売り抑制の一方、実需の円安圧力は根強く不透明。"
+    },
+    {
+      "topic": "米中半導体規制",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電気機器"
+      ],
+      "detail": "米国の中国製部品輸入禁止案検討が報じられ、半導体関連株のボラティリティ上昇要因に。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日銀利上げ観測",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "日銀内の早期利上げ提案やタカ派的言及が、円安修正と金利上昇を通じた銀行株支援の材料。"
+    },
+    {
+      "topic": "企業決算の好調",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "機械",
+        "電気機器"
+      ],
+      "detail": "相次ぐ上方修正は日本企業の収益力底堅さを示しており、過度な円高警戒が和らげば下支えとなる。"
+    }
+  ],
+  "recommendation": "地政学リスクと為替介入の余波で不安定な地合い。前場は円高進行リスクを警戒し、輸出株を避けたディフェンシブ寄りか、好決算にも関わらず売られた銘柄の押し目買いが有効。急騰・急落時の逆張りには慎重を期したい。",
+  "date": "2026-08-04",
+  "timestamp": "2026-08-04T13:12:05.976673"
+}

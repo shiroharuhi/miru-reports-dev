@@ -1,11 +1,11 @@
 {
   "date": "2026-08-05",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-04T18:49:18.215811+09:00",
-  "updated_at": "2026-08-04T18:50:53.826200+09:00",
+  "updated_at": "2026-08-04T22:12:05.977432+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,62 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と日米協調介入の影響、警戒続く",
+    "risks": [
+      {
+        "topic": "中東地政学リスク",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車"
+        ],
+        "detail": "イランと米・イスラエルの緊張継続。ホルムズ海峡封鎖の懸念から原油・物流コスト上昇のリスク。"
+      },
+      {
+        "topic": "日米協調介入の影響",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "輸出関連",
+          "銀行"
+        ],
+        "detail": "急激な円高修正による業績圧迫懸念。投機的な円売り抑制の一方、実需の円安圧力は根強く不透明。"
+      },
+      {
+        "topic": "米中半導体規制",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "米国の中国製部品輸入禁止案検討が報じられ、半導体関連株のボラティリティ上昇要因に。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日銀利上げ観測",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "日銀内の早期利上げ提案やタカ派的言及が、円安修正と金利上昇を通じた銀行株支援の材料。"
+      },
+      {
+        "topic": "企業決算の好調",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "機械",
+          "電気機器"
+        ],
+        "detail": "相次ぐ上方修正は日本企業の収益力底堅さを示しており、過度な円高警戒が和らげば下支えとなる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -66,7 +119,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "⚠️決算接近（推定9日後・2026-08-14）"
+        "⚠️決算接近（推定9日後・2026-08-14）",
+        "📈企業決算の好調"
       ],
       "history": [
         {
@@ -93,6 +147,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定9日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の好調"
         }
       ],
       "fundamental": {
@@ -206,7 +265,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "📈企業決算の好調"
       ],
       "history": [
         {
@@ -223,6 +283,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の好調"
         }
       ],
       "fundamental": {
@@ -269,7 +334,9 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定9日後・2026-08-14）"
+        "⚠️決算接近（推定9日後・2026-08-14）",
+        "⚠️米中半導体規制",
+        "📈企業決算の好調"
       ],
       "history": [
         {
@@ -286,6 +353,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定9日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米中半導体規制"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の好調"
         }
       ],
       "fundamental": {
@@ -628,12 +705,25 @@
       "lot_base": 818,
       "status": "active",
       "added_at": "stage1_screening",
-      "flags": [],
+      "flags": [
+        "⚠️米中半導体規制",
+        "📈企業決算の好調"
+      ],
       "history": [
         {
           "stage": "stage1_screening",
           "action": "selected",
           "reason": "順張り補欠条件クリア"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米中半導体規制"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の好調"
         }
       ],
       "fundamental": {
@@ -680,7 +770,9 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定9日後・2026-08-14）"
+        "⚠️決算接近（推定9日後・2026-08-14）",
+        "⚠️米中半導体規制",
+        "📈企業決算の好調"
       ],
       "history": [
         {
@@ -697,6 +789,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定9日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米中半導体規制"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈企業決算の好調"
         }
       ],
       "fundamental": {
@@ -936,6 +1038,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 13/13銘柄 決算接近警告9 APIリクエスト52",
       "timestamp": "2026-08-04T18:50:53.826115+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク3件 触媒2件 (active:10 standby:3)",
+      "timestamp": "2026-08-04T22:12:05.977409+09:00"
     }
   ],
   "stage_metadata": {
@@ -944,7 +1051,11 @@
       "completed_at": "2026-08-04T18:49:18.751132+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-04T18:49:18.751136+09:00"
+      "started_at": "2026-08-04T18:49:18.751136+09:00",
+      "completed_at": "2026-08-04T22:12:05.977325+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-04T22:12:05.977331+09:00"
     }
   }
 }
