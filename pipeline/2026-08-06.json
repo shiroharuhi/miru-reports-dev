@@ -1,11 +1,11 @@
 {
   "date": "2026-08-06",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-05T18:46:31.526869+09:00",
-  "updated_at": "2026-08-05T18:47:49.286311+09:00",
+  "updated_at": "2026-08-05T22:03:58.255505+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "GREEN",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "リスク後退で日経続急騰、9月利上げ警戒も相場は底堅い",
+    "risks": [
+      {
+        "topic": "中東地政学リスクの再燃",
+        "severity": "medium",
+        "timeframe": "medium_term",
+        "sectors": [
+          "石油関連",
+          "海運",
+          "航空"
+        ],
+        "detail": "停戦協議は続くが、ホルムズ海峡情勢やイラン・イスラエル間の緊張は依然として不安定で、突発的な悪化リスクがある。"
+      },
+      {
+        "topic": "日銀の9月利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "金融",
+          "不動産"
+        ],
+        "detail": "日銀は物価上振れを警戒し、展望レポートでタカ派姿勢を示唆。9月利上げの可能性が市場で意識され始めている。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "AI・半導体需要の回復",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "米株高を主導したAI半導体株の買い戻しが東京市場にも波及し、相場全体を押し上げる強力な追い風となっている。"
+      },
+      {
+        "topic": "日米協調介入による円安抑制",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "輸出関連",
+          "小売"
+        ],
+        "detail": "円安是正に向けた日米協調介入が実施され、急激な為替変動リスクが緩和。相場の安定感に寄与している。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -65,7 +108,8 @@
       "flags": [
         "📊財務良好",
         "📈増益",
-        "⚠️決算接近（推定8日後・2026-08-14）"
+        "⚠️決算接近（推定8日後・2026-08-14）",
+        "📈AI・半導体需要の回復"
       ],
       "history": [
         {
@@ -87,6 +131,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定8日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI・半導体需要の回復"
         }
       ],
       "fundamental": {
@@ -206,7 +255,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️決算接近（推定8日後・2026-08-14）"
+        "⚠️決算接近（推定8日後・2026-08-14）",
+        "📈AI・半導体需要の回復"
       ],
       "history": [
         {
@@ -223,6 +273,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定8日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI・半導体需要の回復"
         }
       ],
       "fundamental": {
@@ -270,7 +325,8 @@
       "flags": [
         "⚠️ROE低迷",
         "📈増益",
-        "⚠️決算接近（推定8日後・2026-08-14）"
+        "⚠️決算接近（推定8日後・2026-08-14）",
+        "📈AI・半導体需要の回復"
       ],
       "history": [
         {
@@ -292,6 +348,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定8日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI・半導体需要の回復"
         }
       ],
       "fundamental": {
@@ -470,7 +531,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定8日後・2026-08-14）"
+        "⚠️決算接近（推定8日後・2026-08-14）",
+        "📈日米協調介入による円安抑制"
       ],
       "history": [
         {
@@ -487,6 +549,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定8日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈日米協調介入による円安抑制"
         }
       ],
       "fundamental": {
@@ -794,6 +861,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告10 APIリクエスト44",
       "timestamp": "2026-08-05T18:47:49.286233+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: GREEN リスク2件 触媒2件 (active:10 standby:1)",
+      "timestamp": "2026-08-05T22:03:58.255481+09:00"
     }
   ],
   "stage_metadata": {
@@ -802,7 +874,11 @@
       "completed_at": "2026-08-05T18:46:32.126500+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-05T18:46:32.126504+09:00"
+      "started_at": "2026-08-05T18:46:32.126504+09:00",
+      "completed_at": "2026-08-05T22:03:58.255408+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-05T22:03:58.255414+09:00"
     }
   }
 }
