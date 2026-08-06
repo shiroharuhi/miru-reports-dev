@@ -1,11 +1,11 @@
 {
   "date": "2026-08-07",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-06T18:52:32.661237+09:00",
-  "updated_at": "2026-08-06T18:53:45.575958+09:00",
+  "updated_at": "2026-08-06T22:03:59.582244+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,42 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "米中対立激化と重要決算が重なる不安定な地合い",
+    "risks": [
+      {
+        "topic": "米中サプライチェーン規制の強化",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電機・精密",
+          "機械"
+        ],
+        "detail": "米国が中国製データセンター部品の輸入禁止やポリシリコン規制を強化。関連企業への制裁懸念が広がり、ハイテク株の重石となる。"
+      },
+      {
+        "topic": "為替介入への警戒感",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "自動車",
+          "輸出関連全般"
+        ],
+        "detail": "日米協調介入による急速な円高リスクが依然としてくすぶり、輸出関連株の戻りを鈍くさせる要因。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "ソフトバンクG・レーザーテックの決算反応",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "情報通信",
+          "半導体製造装置"
+        ],
+        "detail": "日本株指数寄与度の高い銘柄の決算発表を受け、市場全体の方向性が定まる重要なトリガーとなる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -64,7 +97,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️米中サプライチェーン規制の強化"
       ],
       "history": [
         {
@@ -81,6 +115,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️米中サプライチェーン規制の強化"
         }
       ],
       "fundamental": {
@@ -788,6 +827,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告10 APIリクエスト44",
       "timestamp": "2026-08-06T18:53:45.575811+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:1)",
+      "timestamp": "2026-08-06T22:03:59.582217+09:00"
     }
   ],
   "stage_metadata": {
@@ -796,7 +840,11 @@
       "completed_at": "2026-08-06T18:52:33.323448+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-06T18:52:33.323452+09:00"
+      "started_at": "2026-08-06T18:52:33.323452+09:00",
+      "completed_at": "2026-08-06T22:03:59.582161+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-06T22:03:59.582167+09:00"
     }
   }
 }
