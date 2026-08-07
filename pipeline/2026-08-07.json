@@ -1,15 +1,15 @@
 {
   "date": "2026-08-07",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-08-06T18:52:32.661237+09:00",
-  "updated_at": "2026-08-07T09:55:21.044399+09:00",
+  "updated_at": "2026-08-07T10:03:41.955858+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "GREEN",
+    "effective_jiai": "GREEN",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -0.6385890223506158,
     "vix": "15.1",
     "usdjpy": "158.50円（+0.90円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "エネルギー資源",
+        "change": 3.23
+      },
+      {
+        "name": "商社・卸売",
+        "change": 2.54
+      },
+      {
+        "name": "医薬品",
+        "change": 1.69
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -1.03
+      },
+      {
+        "name": "電機・精密",
+        "change": -0.94
+      },
+      {
+        "name": "素材・化学",
+        "change": -0.82
+      }
+    ]
   },
   "narrative": {
     "headline": "米中対立激化と重要決算が重なる不安定な地合い",
@@ -177,7 +203,8 @@
       "flags": [
         "⚠️ROE低迷",
         "📈増益",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -199,6 +226,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -336,7 +368,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -353,6 +386,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -408,7 +446,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -425,6 +464,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -482,7 +526,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📈増益",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -499,6 +544,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -633,7 +683,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -655,6 +706,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -712,7 +768,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -729,6 +786,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -785,7 +847,8 @@
       "flags": [
         "📊財務良好",
         "📈増益",
-        "⚠️決算接近（推定7日後・2026-08-14）"
+        "⚠️決算接近（推定7日後・2026-08-14）",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -807,6 +870,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定7日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -936,6 +1004,21 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物-0.6% (active:10 standby:1)",
       "timestamp": "2026-08-07T09:55:21.044372+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "数値GREEN + ナラティブYELLOW → GREEN維持（警戒付き）",
+      "timestamp": "2026-08-07T10:03:41.951327+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: GREEN→effective:GREEN (active:10 standby:1)",
+      "timestamp": "2026-08-07T10:03:41.951361+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-08-07T10:03:41.955837+09:00"
     }
   ],
   "stage_metadata": {
@@ -952,7 +1035,22 @@
       "completed_at": "2026-08-07T09:55:21.044308+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-08-07T09:55:21.044313+09:00"
+      "started_at": "2026-08-07T09:55:21.044313+09:00",
+      "completed_at": "2026-08-07T10:03:41.951294+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-08-07T10:03:41.951304+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_out_of_window",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-08-07T10:03:41.955725+09:00"
   }
 }
