@@ -1,15 +1,15 @@
 {
   "date": "2026-08-11",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-08-10T17:40:38.549019+09:00",
-  "updated_at": "2026-08-11T05:56:41.818878+09:00",
+  "updated_at": "2026-08-11T07:06:44.223915+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "GREEN",
+    "effective_jiai": "GREEN",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 0.6104453990504183,
     "vix": "15.5",
     "usdjpy": "159.29円（+0.88円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "情報通信・サービス",
+        "change": 3.58
+      },
+      {
+        "name": "鉄鋼・非鉄",
+        "change": 3.44
+      },
+      {
+        "name": "電機・精密",
+        "change": 2.04
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "不動産",
+        "change": -2.46
+      },
+      {
+        "name": "電力・ガス",
+        "change": -2.21
+      },
+      {
+        "name": "銀行",
+        "change": -1.88
+      }
+    ]
   },
   "narrative": {
     "headline": "中東緊張と日銀政策、米雇用減による市場の不透明感",
@@ -102,7 +128,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "⚠️決算接近（推定3日後・2026-08-14）"
+        "⚠️決算接近（推定3日後・2026-08-14）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -134,6 +161,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定3日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -277,7 +309,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️決算接近（推定3日後・2026-08-14）"
+        "⚠️決算接近（推定3日後・2026-08-14）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -299,6 +332,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定3日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -495,7 +533,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "⚠️決算接近（推定3日後・2026-08-14）"
+        "⚠️決算接近（推定3日後・2026-08-14）",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -507,6 +546,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定3日後・2026-08-14）"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -949,6 +993,21 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物+0.6% (active:10 standby:1)",
       "timestamp": "2026-08-11T05:56:41.818850+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "数値GREEN + ナラティブYELLOW → GREEN維持（警戒付き）",
+      "timestamp": "2026-08-11T07:06:44.218702+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: GREEN→effective:GREEN (active:10 standby:1)",
+      "timestamp": "2026-08-11T07:06:44.218728+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-08-11T07:06:44.223887+09:00"
     }
   ],
   "stage_metadata": {
@@ -965,7 +1024,22 @@
       "completed_at": "2026-08-11T05:56:41.818773+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-08-11T05:56:41.818782+09:00"
+      "started_at": "2026-08-11T05:56:41.818782+09:00",
+      "completed_at": "2026-08-11T07:06:44.218675+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-08-11T07:06:44.218682+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_too_old",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-08-11T07:06:44.223742+09:00"
   }
 }
