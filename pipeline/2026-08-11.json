@@ -1,11 +1,11 @@
 {
   "date": "2026-08-11",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-10T17:40:38.549019+09:00",
-  "updated_at": "2026-08-10T17:41:47.656542+09:00",
+  "updated_at": "2026-08-10T21:01:45.616750+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,44 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と日銀政策、米雇用減による市場の不透明感",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化と原油価格上昇",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭",
+          "海運",
+          "空運"
+        ],
+        "detail": "ホルムズ海峡の封鎖懸念が再燃し、イラン情勢の緊迫化が原油先物価格を押し上げるリスクがある。"
+      },
+      {
+        "topic": "日銀利上げの前倒し観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険",
+          "不動産"
+        ],
+        "detail": "「主な意見」でのタカ派姿勢が意識され、円高加速による輸出関連株の重石となる可能性がある。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米雇用統計の軟調による利上げ後退",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "精密機器",
+          "グロース株"
+        ],
+        "detail": "米雇用減がFRBの利上げ打ち止めを正当化し、長期金利低下を通じてハイテク株に追い風となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -805,6 +840,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告10 APIリクエスト44",
       "timestamp": "2026-08-10T17:41:47.656451+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:1)",
+      "timestamp": "2026-08-10T21:01:45.616734+09:00"
     }
   ],
   "stage_metadata": {
@@ -813,7 +853,11 @@
       "completed_at": "2026-08-10T17:40:39.291171+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-10T17:40:39.291176+09:00"
+      "started_at": "2026-08-10T17:40:39.291176+09:00",
+      "completed_at": "2026-08-10T21:01:45.616679+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-10T21:01:45.616685+09:00"
     }
   }
 }
