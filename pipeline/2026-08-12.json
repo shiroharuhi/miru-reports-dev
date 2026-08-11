@@ -1,11 +1,11 @@
 {
   "date": "2026-08-12",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-11T17:15:43.486691+09:00",
-  "updated_at": "2026-08-11T17:17:00.157909+09:00",
+  "updated_at": "2026-08-11T20:59:58.253957+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,41 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と米CPI控え神経質な展開",
+    "risks": [
+      {
+        "topic": "中東情勢の長期化",
+        "severity": "medium",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "輸出関連"
+        ],
+        "detail": "ホルムズ海峡の不透明感による原油価格の上昇と物流停滞懸念が投資家心理を圧迫しています。"
+      },
+      {
+        "topic": "米CPI発表前の警戒感",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "全セクター"
+        ],
+        "detail": "8月12日夜の米CPI発表を控え、様子見ムードが強く、利益確定売りが出やすい状況です。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "日本株の値ごろ感",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "直近の調整によるPER低下で、押し目買い意欲が根強く、自律反発の可能性があります。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -817,6 +849,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 11/11銘柄 決算接近警告11 APIリクエスト44",
       "timestamp": "2026-08-11T17:17:00.157818+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:1)",
+      "timestamp": "2026-08-11T20:59:58.253934+09:00"
     }
   ],
   "stage_metadata": {
@@ -825,7 +862,11 @@
       "completed_at": "2026-08-11T17:15:44.400184+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-11T17:15:44.400189+09:00"
+      "started_at": "2026-08-11T17:15:44.400189+09:00",
+      "completed_at": "2026-08-11T20:59:58.253882+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-11T20:59:58.253888+09:00"
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東緊張と米CPI控え神経質な展開",
+  "risks": [
+    {
+      "topic": "中東情勢の長期化",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "輸出関連"
+      ],
+      "detail": "ホルムズ海峡の不透明感による原油価格の上昇と物流停滞懸念が投資家心理を圧迫しています。"
+    },
+    {
+      "topic": "米CPI発表前の警戒感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "全セクター"
+      ],
+      "detail": "8月12日夜の米CPI発表を控え、様子見ムードが強く、利益確定売りが出やすい状況です。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日本株の値ごろ感",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "ハイテク"
+      ],
+      "detail": "直近の調整によるPER低下で、押し目買い意欲が根強く、自律反発の可能性があります。"
+    }
+  ],
+  "recommendation": "中東の地政学リスクと米経済指標待ちで上値は重いものの、押し目買い需要も残る展開です。米CPI発表を控えてリスク管理を優先し、突発的なニュースによるボラティリティの拡大に十分注意してください。",
+  "date": "2026-08-11",
+  "timestamp": "2026-08-11T11:59:58.253309"
+}
