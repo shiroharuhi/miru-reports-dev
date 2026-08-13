@@ -1,11 +1,11 @@
 {
   "date": "2026-08-14",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-13T17:28:25.028410+09:00",
-  "updated_at": "2026-08-13T17:29:57.621893+09:00",
+  "updated_at": "2026-08-13T21:02:15.687780+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "日銀の9-10月利上げ観測と中東緊張",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化と原油供給リスク",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "素材"
+        ],
+        "detail": "ホルムズ海峡の事実上の封鎖継続により、原油供給逼迫と価格高止まりが継続。物流コスト増大が日本企業の収益を圧迫。"
+      },
+      {
+        "topic": "日銀の早期利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産",
+          "保険"
+        ],
+        "detail": "政府が日銀の9-10月利上げを容認との報道により、金融政策の正常化加速が意識され、金利上昇に伴う株価変動リスクが浮上。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "金融株の利上げ期待による上昇",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "銀行",
+          "保険"
+        ],
+        "detail": "早期利上げ観測を背景に、利ザヤ改善期待から銀行株などの金融セクターに買いが先行しやすい環境。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -477,7 +511,8 @@
       "flags": [
         "📊ROE優秀",
         "📈増益",
-        "⚠️決算接近（推定0日後・2026-08-14）"
+        "⚠️決算接近（推定0日後・2026-08-14）",
+        "⚠️日銀の早期利上げ観測"
       ],
       "history": [
         {
@@ -499,6 +534,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️決算接近（推定0日後・2026-08-14）"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀の早期利上げ観測"
         }
       ],
       "fundamental": {
@@ -1014,6 +1054,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 13/14銘柄 決算接近警告13 APIリクエスト55",
       "timestamp": "2026-08-13T17:29:57.621801+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:4)",
+      "timestamp": "2026-08-13T21:02:15.687756+09:00"
     }
   ],
   "stage_metadata": {
@@ -1022,7 +1067,11 @@
       "completed_at": "2026-08-13T17:28:25.765189+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-13T17:28:25.765194+09:00"
+      "started_at": "2026-08-13T17:28:25.765194+09:00",
+      "completed_at": "2026-08-13T21:02:15.687692+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-13T21:02:15.687698+09:00"
     }
   }
 }
