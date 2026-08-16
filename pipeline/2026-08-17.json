@@ -1,11 +1,11 @@
 {
   "date": "2026-08-17",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-14T17:06:45.642251+09:00",
-  "updated_at": "2026-08-14T17:07:51.495762+09:00",
+  "updated_at": "2026-08-16T20:37:01.261493+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,54 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と日銀利上げ観測の綱引き",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化と原油高",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭製品",
+          "空運",
+          "海運"
+        ],
+        "detail": "イランとの対立継続によりホルムズ海峡の封鎖が長期化し、原油供給不安が前場の株価を押し下げるリスク。"
+      },
+      {
+        "topic": "日銀追加利上げの早期観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "保険",
+          "成長株"
+        ],
+        "detail": "9月の追加利上げを巡る思惑が強まっており、金利上昇による成長株の調整と銀行株への資金流入が進行中。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "4-6月期GDP速報値",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "建設",
+          "不動産",
+          "小売"
+        ],
+        "detail": "17日朝発表のGDPで国内景気の底堅さが確認されれば、買い安心感から反発のトリガーとなる可能性がある。"
+      },
+      {
+        "topic": "AI関連銘柄の再評価",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電気機器",
+          "機械"
+        ],
+        "detail": "AIインフラ需要は構造的に堅調であり、過熱感解消後の押し目買いが全体相場を支える要因となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -474,7 +519,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "📉減収"
+        "📉減収",
+        "📈4-6月期GDP速報値"
       ],
       "history": [
         {
@@ -486,6 +532,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減収"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈4-6月期GDP速報値"
         }
       ],
       "fundamental": {
@@ -677,6 +728,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-08-14T17:07:51.495675+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
+      "timestamp": "2026-08-16T20:37:01.261470+09:00"
     }
   ],
   "stage_metadata": {
@@ -685,7 +741,11 @@
       "completed_at": "2026-08-14T17:06:45.791610+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-14T17:06:45.791618+09:00"
+      "started_at": "2026-08-14T17:06:45.791618+09:00",
+      "completed_at": "2026-08-16T20:37:01.261407+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-16T20:37:01.261413+09:00"
     }
   }
 }
