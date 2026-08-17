@@ -1,11 +1,11 @@
 {
   "date": "2026-08-18",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-17T16:44:11.431600+09:00",
-  "updated_at": "2026-08-17T16:45:19.016973+09:00",
+  "updated_at": "2026-08-17T20:43:50.692269+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東リスクと日銀利上げ観測の綱引き",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "航空"
+        ],
+        "detail": "ホルムズ海峡の通航制約が継続し、原油価格の高止まりが世界的な供給網リスクとインフレ懸念を増幅させている。"
+      },
+      {
+        "topic": "日銀追加利上げへの警戒感",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産",
+          "金融"
+        ],
+        "detail": "9月の追加利上げ観測に加え、長期金利が3%に接近。到達点引き上げが企業収益の重荷となる懸念が残る。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "AI・半導体関連の資金流入",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "AIインフラ需要の爆発的成長が輸出規制の影響を相殺し、特定銘柄への買い集中が指数を押し上げている。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -457,7 +491,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "📈AI・半導体関連の資金流入"
       ],
       "history": [
         {
@@ -474,6 +509,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI・半導体関連の資金流入"
         }
       ],
       "fundamental": {
@@ -595,7 +635,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📊高収益"
+        "📊高収益",
+        "📈AI・半導体関連の資金流入"
       ],
       "history": [
         {
@@ -612,6 +653,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈AI・半導体関連の資金流入"
         }
       ],
       "fundamental": {
@@ -699,6 +745,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-08-17T16:45:19.016861+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:0)",
+      "timestamp": "2026-08-17T20:43:50.692246+09:00"
     }
   ],
   "stage_metadata": {
@@ -707,7 +758,11 @@
       "completed_at": "2026-08-17T16:44:11.656538+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-17T16:44:11.656546+09:00"
+      "started_at": "2026-08-17T16:44:11.656546+09:00",
+      "completed_at": "2026-08-17T20:43:50.692189+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-17T20:43:50.692195+09:00"
     }
   }
 }
