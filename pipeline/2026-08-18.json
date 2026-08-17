@@ -1,15 +1,15 @@
 {
   "date": "2026-08-18",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-08-17T16:44:11.431600+09:00",
-  "updated_at": "2026-08-18T05:38:32.596044+09:00",
+  "updated_at": "2026-08-18T06:50:30.646280+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "GREEN",
+    "effective_jiai": "GREEN",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 0.5092020077107733,
     "vix": "15.2",
     "usdjpy": "159.47円（+0.05円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": 4.03
+      },
+      {
+        "name": "建設・資材",
+        "change": 0.62
+      },
+      {
+        "name": "機械",
+        "change": 0.43
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "商社・卸売",
+        "change": -1.75
+      },
+      {
+        "name": "医薬品",
+        "change": -1.56
+      },
+      {
+        "name": "小売",
+        "change": -1.34
+      }
+    ]
   },
   "narrative": {
     "headline": "中東リスクと日銀利上げ観測の綱引き",
@@ -314,7 +340,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -341,6 +368,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -625,7 +657,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -652,6 +685,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -845,6 +883,21 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物+0.5% (active:10 standby:0)",
       "timestamp": "2026-08-18T05:38:32.596015+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "数値GREEN + ナラティブYELLOW → GREEN維持（警戒付き）",
+      "timestamp": "2026-08-18T06:50:30.641051+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: GREEN→effective:GREEN (active:10 standby:0)",
+      "timestamp": "2026-08-18T06:50:30.641076+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-08-18T06:50:30.646210+09:00"
     }
   ],
   "stage_metadata": {
@@ -861,7 +914,22 @@
       "completed_at": "2026-08-18T05:38:32.595960+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-08-18T05:38:32.595966+09:00"
+      "started_at": "2026-08-18T05:38:32.595966+09:00",
+      "completed_at": "2026-08-18T06:50:30.641024+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-08-18T06:50:30.641032+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_too_old",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-08-18T06:50:30.646065+09:00"
   }
 }
