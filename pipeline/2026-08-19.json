@@ -1,11 +1,11 @@
 {
   "date": "2026-08-19",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-18T16:38:05.213895+09:00",
-  "updated_at": "2026-08-18T16:39:50.745324+09:00",
+  "updated_at": "2026-08-18T20:43:43.537731+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "RED",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,42 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊張と金利上昇で日本株急落、不透明感続く",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "航空"
+        ],
+        "detail": "米国とイランの対立激化により原油先物が急騰。ホルムズ海峡の不透明感が高まり供給リスクが深刻化。"
+      },
+      {
+        "topic": "日米長期金利の上昇",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "不動産",
+          "テクノロジー"
+        ],
+        "detail": "日米の金利上昇によるバリュエーション調整圧力に加え、日銀の追加利上げ観測が市場の重荷。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "半導体セクターの底堅さ",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "日本株全体は急落したが、米SOX指数の堅調さは、半導体関連銘柄の反発余地を示唆している。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -1035,6 +1068,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 15/17銘柄 決算接近警告0 APIリクエスト66",
       "timestamp": "2026-08-18T16:39:50.745238+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: RED リスク2件 触媒1件 (active:17 standby:0)",
+      "timestamp": "2026-08-18T20:43:43.537707+09:00"
     }
   ],
   "stage_metadata": {
@@ -1043,7 +1081,11 @@
       "completed_at": "2026-08-18T16:38:05.356980+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-18T16:38:05.356985+09:00"
+      "started_at": "2026-08-18T16:38:05.356985+09:00",
+      "completed_at": "2026-08-18T20:43:43.537648+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-18T20:43:43.537654+09:00"
     }
   }
 }
