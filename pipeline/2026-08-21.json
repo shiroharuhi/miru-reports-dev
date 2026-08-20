@@ -1,11 +1,11 @@
 {
   "date": "2026-08-21",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-20T16:34:09.953611+09:00",
-  "updated_at": "2026-08-20T16:35:20.670021+09:00",
+  "updated_at": "2026-08-20T20:45:41.247677+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東の緊張激化と日銀利上げ観測の綱引き",
+    "risks": [
+      {
+        "topic": "中東情勢と原油高",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "石油・石炭製品",
+          "海運",
+          "空運"
+        ],
+        "detail": "ホルムズ海峡の緊張継続で原油価格が高騰。サプライチェーン混乱とインフレ圧力が日本株の重石に。"
+      },
+      {
+        "topic": "日銀早期利上げ観測",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産"
+        ],
+        "detail": "9月の追加利上げ観測が再燃。長期金利上昇が不動産等のバリュエーションに下押し圧力をかける。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米カナダ関税緩和",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "自動車",
+          "鉄鋼"
+        ],
+        "detail": "北米市場の関税引き下げ合意は、関連セクターにとって不透明感払拭のポジティブ材料。"
+      },
+      {
+        "topic": "米長期金利の低下基調",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "電気機器",
+          "精密機器"
+        ],
+        "detail": "米国債買い戻しによる長期金利低下は、グロース・半導体株の買い戻しを誘発する可能性がある。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -662,6 +705,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-08-20T16:35:20.669926+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
+      "timestamp": "2026-08-20T20:45:41.247653+09:00"
     }
   ],
   "stage_metadata": {
@@ -670,7 +718,11 @@
       "completed_at": "2026-08-20T16:34:10.116135+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-20T16:34:10.116141+09:00"
+      "started_at": "2026-08-20T16:34:10.116141+09:00",
+      "completed_at": "2026-08-20T20:45:41.247597+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-20T20:45:41.247602+09:00"
     }
   }
 }
