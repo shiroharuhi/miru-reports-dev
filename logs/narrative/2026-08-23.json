@@ -1,0 +1,53 @@
+{
+  "narrative_status": "YELLOW",
+  "headline": "中東懸念と米長期金利高で上値重く",
+  "risks": [
+    {
+      "topic": "中東情勢の緊迫化と原油高",
+      "severity": "medium",
+      "timeframe": "immediate",
+      "sectors": [
+        "石油・石炭製品",
+        "電気・ガス",
+        "空運・陸運"
+      ],
+      "detail": "ホルムズ海峡の緊張継続による原油先物高が、国内企業のコスト増とインフレ懸念を強めている。"
+    },
+    {
+      "topic": "米長期金利の上昇",
+      "severity": "high",
+      "timeframe": "short_term",
+      "sectors": [
+        "精密機器",
+        "電気機器",
+        "情報・通信"
+      ],
+      "detail": "米金利高がグロース株のPERを圧迫し、日経平均の上値を抑える要因となっている。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日銀の早期利上げ観測",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "9月の利上げ観測が強まり、金融株への買い要因となっている。"
+    },
+    {
+      "topic": "NVIDIA決算への期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "電気機器",
+        "機械"
+      ],
+      "detail": "26日発表の好決算期待がAI関連株の押し目買いを誘う可能性がある。"
+    }
+  ],
+  "recommendation": "米長期金利の動向と中東情勢による原油価格が市場を左右する。日経平均は65,000円前後の防衛が焦点。グロース株は金利の影響を受けやすく警戒が必要だが、AI関連の押し目買いや、利上げ恩恵を受ける銀行株への分散でリスク管理を優先すべき。",
+  "date": "2026-08-23",
+  "timestamp": "2026-08-23T11:38:29.438588"
+}
