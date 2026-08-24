@@ -1,11 +1,11 @@
 {
   "date": "2026-08-25",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-08-24T16:50:14.080433+09:00",
-  "updated_at": "2026-08-24T16:51:16.116512+09:00",
+  "updated_at": "2026-08-24T20:45:54.437493+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,52 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東情勢と米金利動向を注視する不安定な相場展開",
+    "risks": [
+      {
+        "topic": "中東情勢の緊迫化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "航空"
+        ],
+        "detail": "イランとの対立継続による原油高・供給網混乱リスクが市場心理を冷やし、急激なボラティリティの要因となる。"
+      },
+      {
+        "topic": "米長期金利の高止まり",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "半導体",
+          "ハイテク"
+        ],
+        "detail": "ジャクソンホール会議を控え、米金利上昇がバリュエーション調整を促し、グロース株の重石となる懸念。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "エヌビディア決算発表",
+        "direction": "positive",
+        "timeframe": "immediate",
+        "sectors": [
+          "半導体",
+          "電気機器"
+        ],
+        "detail": "AI需要の強さが再確認されれば、関連銘柄の買い戻しを誘発し、日経平均の反発材料となる可能性がある。"
+      },
+      {
+        "topic": "日銀副総裁講演",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "金融",
+          "銀行"
+        ],
+        "detail": "27日の氷見野副総裁講演にて、追加利上げへの柔軟な姿勢が示唆されれば、金融株を中心に支援材料となる。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -583,6 +626,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 9/9銘柄 決算接近警告0 APIリクエスト36",
       "timestamp": "2026-08-24T16:51:16.116388+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:9 standby:0)",
+      "timestamp": "2026-08-24T20:45:54.437464+09:00"
     }
   ],
   "stage_metadata": {
@@ -591,7 +639,11 @@
       "completed_at": "2026-08-24T16:50:14.225989+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-08-24T16:50:14.225994+09:00"
+      "started_at": "2026-08-24T16:50:14.225994+09:00",
+      "completed_at": "2026-08-24T20:45:54.437389+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-08-24T20:45:54.437395+09:00"
     }
   }
 }
