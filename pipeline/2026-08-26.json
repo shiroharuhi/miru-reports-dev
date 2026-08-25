@@ -1,13 +1,13 @@
 {
   "date": "2026-08-26",
-  "pipeline_stage": "stage2_narrative",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-08-25T16:44:34.204950+09:00",
-  "updated_at": "2026-08-25T20:46:50.828951+09:00",
+  "updated_at": "2026-08-26T05:40:19.389044+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "NEUTRAL",
+    "direction_confidence": "低",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "0.50%",
     "topix_change": null,
-    "dow_change": "0.26%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "15.9",
-    "usdjpy": "0.45円",
+    "dow_change": "53,577ドル（+0.30%）",
+    "nasdaq_change": "26,151（+0.66%）",
+    "futures_gap_pct": 1.2159681859895994,
+    "vix": "15.4",
+    "usdjpy": "159.21円（+0.31円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -140,7 +140,16 @@
         "oi_growth": -2.8,
         "equity_ratio": 52.1,
         "dividend_yield": 3.8
-      }
+      },
+      "entry_current": {
+        "est_open": 9008,
+        "low": 8962,
+        "high": 9053
+      },
+      "stop_loss_current": 8836,
+      "target_current": 9278,
+      "lot_current": 466,
+      "gap_pct": 1.21
     },
     {
       "code": "7762",
@@ -203,7 +212,16 @@
         "oi_growth": 46.9,
         "equity_ratio": 64.5,
         "dividend_yield": 2.82
-      }
+      },
+      "entry_current": {
+        "est_open": 2737,
+        "low": 2723,
+        "high": 2750
+      },
+      "stop_loss_current": 2684,
+      "target_current": 2819,
+      "lot_current": 1534,
+      "gap_pct": 1.18
     },
     {
       "code": "2413",
@@ -244,7 +262,16 @@
           "action": "selected",
           "reason": "順張り厳選条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 1771,
+        "low": 1762,
+        "high": 1779
+      },
+      "stop_loss_current": 1737,
+      "target_current": 1824,
+      "lot_current": 2371,
+      "gap_pct": 1.2
     },
     {
       "code": "4587",
@@ -285,7 +312,16 @@
           "action": "selected",
           "reason": "順張り厳選条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 1127,
+        "low": 1121,
+        "high": 1132
+      },
+      "stop_loss_current": 1105,
+      "target_current": 1160,
+      "lot_current": 3726,
+      "gap_pct": 1.17
     },
     {
       "code": "8267",
@@ -326,7 +362,16 @@
           "action": "selected",
           "reason": "順張り補欠条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 1411,
+        "low": 1403,
+        "high": 1418
+      },
+      "stop_loss_current": 1384,
+      "target_current": 1453,
+      "lot_current": 2976,
+      "gap_pct": 1.15
     },
     {
       "code": "8233",
@@ -367,7 +412,16 @@
           "action": "selected",
           "reason": "順張り補欠条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 2475,
+        "low": 2462,
+        "high": 2487
+      },
+      "stop_loss_current": 2427,
+      "target_current": 2549,
+      "lot_current": 1696,
+      "gap_pct": 1.19
     },
     {
       "code": "1801",
@@ -408,7 +462,16 @@
           "action": "selected",
           "reason": "順張り補欠条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 12960,
+        "low": 12895,
+        "high": 13024
+      },
+      "stop_loss_current": 12713,
+      "target_current": 13348,
+      "lot_current": 324,
+      "gap_pct": 1.21
     },
     {
       "code": "5016",
@@ -449,7 +512,16 @@
           "action": "selected",
           "reason": "順張り補欠条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 3866,
+        "low": 3846,
+        "high": 3885
+      },
+      "stop_loss_current": 3792,
+      "target_current": 3981,
+      "lot_current": 1086,
+      "gap_pct": 1.2
     },
     {
       "code": "8050",
@@ -490,7 +562,16 @@
           "action": "selected",
           "reason": "順張り補欠条件クリア"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 11032,
+        "low": 10976,
+        "high": 11087
+      },
+      "stop_loss_current": 10822,
+      "target_current": 11362,
+      "lot_current": 380,
+      "gap_pct": 1.21
     },
     {
       "code": "6508",
@@ -536,7 +617,16 @@
           "action": "active → standby",
           "reason": "GREEN地合い・SELL候補は待機"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 11720,
+        "low": 11661,
+        "high": 11778
+      },
+      "stop_loss_current": 11497,
+      "target_current": 12071,
+      "lot_current": 358,
+      "gap_pct": 1.21
     },
     {
       "code": "4480",
@@ -582,7 +672,16 @@
           "action": "active → standby",
           "reason": "GREEN地合い・SELL候補は待機"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 2772,
+        "low": 2758,
+        "high": 2785
+      },
+      "stop_loss_current": 2719,
+      "target_current": 2855,
+      "lot_current": 1515,
+      "gap_pct": 1.2
     },
     {
       "code": "4114",
@@ -628,7 +727,16 @@
           "action": "active → standby",
           "reason": "GREEN地合い・SELL候補は待機"
         }
-      ]
+      ],
+      "entry_current": {
+        "est_open": 2671,
+        "low": 2657,
+        "high": 2684
+      },
+      "stop_loss_current": 2620,
+      "target_current": 2751,
+      "lot_current": 1572,
+      "gap_pct": 1.21
     }
   ],
   "history": [
@@ -646,6 +754,11 @@
       "stage": "stage2",
       "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:9 standby:3)",
       "timestamp": "2026-08-25T20:46:50.828933+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: NEUTRAL（低）先物+1.2% (active:9 standby:3)",
+      "timestamp": "2026-08-26T05:40:19.389023+09:00"
     }
   ],
   "stage_metadata": {
@@ -658,7 +771,11 @@
       "completed_at": "2026-08-25T20:46:50.828886+09:00"
     },
     "stage2_narrative": {
-      "started_at": "2026-08-25T20:46:50.828890+09:00"
+      "started_at": "2026-08-25T20:46:50.828890+09:00",
+      "completed_at": "2026-08-26T05:40:19.388971+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-08-26T05:40:19.388976+09:00"
     }
   }
 }
