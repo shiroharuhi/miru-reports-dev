@@ -1,13 +1,13 @@
 {
   "date": "2026-08-27",
-  "pipeline_stage": "stage2_narrative",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-08-26T16:38:27.180296+09:00",
-  "updated_at": "2026-08-26T20:47:58.251382+09:00",
+  "updated_at": "2026-08-27T08:24:40.256418+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": "YELLOW",
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "NEUTRAL",
+    "direction_confidence": "低",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "0.62%",
     "topix_change": null,
-    "dow_change": "0.30%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "15.4",
-    "usdjpy": "0.10円",
+    "dow_change": "53,464ドル（-0.21%）",
+    "nasdaq_change": "26,130（-0.08%）",
+    "futures_gap_pct": 1.6046018770814412,
+    "vix": "15.2",
+    "usdjpy": "159.22円（-0.01円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -153,7 +153,16 @@
         "oi_growth": 118.8,
         "equity_ratio": 67.9,
         "dividend_yield": 0.29
-      }
+      },
+      "entry_current": {
+        "est_open": 36272,
+        "low": 36090,
+        "high": 36453
+      },
+      "stop_loss_current": 35582,
+      "target_current": 37360,
+      "lot_current": 115,
+      "gap_pct": 1.6
     },
     {
       "code": "6787",
@@ -222,7 +231,16 @@
         "oi_growth": 28.8,
         "equity_ratio": 42.9,
         "dividend_yield": 0.48
-      }
+      },
+      "entry_current": {
+        "est_open": 18888,
+        "low": 18793,
+        "high": 18982
+      },
+      "stop_loss_current": 18529,
+      "target_current": 19454,
+      "lot_current": 222,
+      "gap_pct": 1.6
     },
     {
       "code": "5714",
@@ -279,7 +297,16 @@
         "oi_growth": 6.1,
         "equity_ratio": 59.7,
         "dividend_yield": 4.21
-      }
+      },
+      "entry_current": {
+        "est_open": 10617,
+        "low": 10563,
+        "high": 10670
+      },
+      "stop_loss_current": 10415,
+      "target_current": 10935,
+      "lot_current": 395,
+      "gap_pct": 1.6
     },
     {
       "code": "6498",
@@ -342,7 +369,16 @@
         "oi_growth": 8.7,
         "equity_ratio": 65.0,
         "dividend_yield": 3.05
-      }
+      },
+      "entry_current": {
+        "est_open": 2000,
+        "low": 1990,
+        "high": 2009
+      },
+      "stop_loss_current": 1962,
+      "target_current": 2060,
+      "lot_current": 2100,
+      "gap_pct": 1.57
     },
     {
       "code": "6376",
@@ -405,7 +441,16 @@
         "oi_growth": 139.6,
         "equity_ratio": 44.2,
         "dividend_yield": 2.52
-      }
+      },
+      "entry_current": {
+        "est_open": 3683,
+        "low": 3664,
+        "high": 3701
+      },
+      "stop_loss_current": 3613,
+      "target_current": 3793,
+      "lot_current": 1140,
+      "gap_pct": 1.6
     },
     {
       "code": "6526",
@@ -468,7 +513,16 @@
         "oi_growth": -50.6,
         "equity_ratio": 79.4,
         "dividend_yield": 2.67
-      }
+      },
+      "entry_current": {
+        "est_open": 2036,
+        "low": 2025,
+        "high": 2046
+      },
+      "stop_loss_current": 1997,
+      "target_current": 2097,
+      "lot_current": 2062,
+      "gap_pct": 1.6
     },
     {
       "code": "7532",
@@ -525,7 +579,16 @@
         "oi_growth": 15.8,
         "equity_ratio": 41.3,
         "dividend_yield": 0.71
-      }
+      },
+      "entry_current": {
+        "est_open": 837,
+        "low": 832,
+        "high": 841
+      },
+      "stop_loss_current": 821,
+      "target_current": 862,
+      "lot_current": 5017,
+      "gap_pct": 1.58
     },
     {
       "code": "5706",
@@ -594,7 +657,16 @@
         "oi_growth": 75.1,
         "equity_ratio": 60.3,
         "dividend_yield": 0.87
-      }
+      },
+      "entry_current": {
+        "est_open": 29490,
+        "low": 29342,
+        "high": 29637
+      },
+      "stop_loss_current": 28929,
+      "target_current": 30374,
+      "lot_current": 142,
+      "gap_pct": 1.6
     },
     {
       "code": "4901",
@@ -642,7 +714,16 @@
         "revenue_growth": 5.0,
         "equity_ratio": 63.4,
         "dividend_yield": 2.36
-      }
+      },
+      "entry_current": {
+        "est_open": 3352,
+        "low": 3335,
+        "high": 3368
+      },
+      "stop_loss_current": 3288,
+      "target_current": 3452,
+      "lot_current": 1252,
+      "gap_pct": 1.58
     },
     {
       "code": "3663",
@@ -697,7 +778,16 @@
         "revenue_growth": 15.4,
         "equity_ratio": 54.8,
         "dividend_yield": 2.16
-      }
+      },
+      "entry_current": {
+        "est_open": 1954,
+        "low": 1944,
+        "high": 1963
+      },
+      "stop_loss_current": 1916,
+      "target_current": 2012,
+      "lot_current": 2149,
+      "gap_pct": 1.56
     }
   ],
   "history": [
@@ -715,6 +805,11 @@
       "stage": "stage2",
       "action": "ナラティブ照合完了: YELLOW リスク2件 触媒2件 (active:10 standby:0)",
       "timestamp": "2026-08-26T20:47:58.251359+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: NEUTRAL（低）先物+1.6% (active:10 standby:0)",
+      "timestamp": "2026-08-27T08:24:40.256397+09:00"
     }
   ],
   "stage_metadata": {
@@ -727,7 +822,11 @@
       "completed_at": "2026-08-26T20:47:58.251295+09:00"
     },
     "stage2_narrative": {
-      "started_at": "2026-08-26T20:47:58.251301+09:00"
+      "started_at": "2026-08-26T20:47:58.251301+09:00",
+      "completed_at": "2026-08-27T08:24:40.256342+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-08-27T08:24:40.256348+09:00"
     }
   }
 }
