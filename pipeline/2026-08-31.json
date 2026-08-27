@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-31",
+  "pipeline_stage": "stage1_screening",
+  "created_at": "2026-08-28T03:07:59.039362+09:00",
+  "updated_at": "2026-08-28T03:07:59.039481+09:00",
+  "jiai": {
+    "screening_jiai": "GREEN",
+    "narrative_status": null,
+    "direction_7am": null,
+    "direction_confidence": null,
+    "morning_jiai": null,
+    "effective_jiai": null,
+    "futures_direction": null,
+    "final_judgment": null
+  },
+  "market": {
+    "nikkei_change": "0.62%",
+    "topix_change": null,
+    "dow_change": "0.32%",
+    "nasdaq_change": null,
+    "futures_gap_pct": null,
+    "vix": "14.7",
+    "usdjpy": "0.16円",
+    "sector_top3": [],
+    "sector_worst3": []
+  },
+  "narrative": {
+    "headline": null,
+    "risks": [],
+    "catalysts": []
+  },
+  "candidates": [],
+  "history": [
+    {
+      "stage": "stage1",
+      "action": "3軸スクリーニング完了: 順張り0 SELL0 逆張り0 (active:0 standby:0)",
+      "timestamp": "2026-08-28T03:07:59.039448+09:00"
+    }
+  ],
+  "stage_metadata": {
+    "stage1_screening": {
+      "started_at": "2026-08-28T03:07:59.039382+09:00"
+    }
+  }
+}
