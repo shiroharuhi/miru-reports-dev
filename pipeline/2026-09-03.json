@@ -1,15 +1,15 @@
 {
   "date": "2026-09-03",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-09-02T20:48:36.735391+09:00",
-  "updated_at": "2026-09-03T07:33:29.104406+09:00",
+  "updated_at": "2026-09-03T08:29:20.355251+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": null,
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -0.43156596794081376,
     "vix": "15.2",
     "usdjpy": "158.77円（-0.97円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "銀行",
+        "change": -0.36
+      },
+      {
+        "name": "運輸・物流",
+        "change": -1.1
+      },
+      {
+        "name": "金融（除く銀行）",
+        "change": -1.26
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -5.19
+      },
+      {
+        "name": "電機・精密",
+        "change": -3.8
+      },
+      {
+        "name": "自動車・輸送機",
+        "change": -3.6
+      }
+    ]
   },
   "narrative": {
     "headline": null,
@@ -128,6 +154,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物-0.4% (active:0 standby:1)",
       "timestamp": "2026-09-03T07:33:29.104381+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:0 standby:1)",
+      "timestamp": "2026-09-03T08:29:20.350713+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.3",
+      "timestamp": "2026-09-03T08:29:20.355228+09:00"
     }
   ],
   "stage_metadata": {
@@ -140,7 +176,22 @@
       "completed_at": "2026-09-03T07:33:29.104348+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-09-03T07:33:29.104353+09:00"
+      "started_at": "2026-09-03T07:33:29.104353+09:00",
+      "completed_at": "2026-09-03T08:29:20.350678+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-09-03T08:29:20.350686+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.3,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-09-03T08:29:20.353390+09:00"
   }
 }
