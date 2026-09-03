@@ -1,13 +1,13 @@
 {
   "date": "2026-09-04",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-09-03T20:48:40.688282+09:00",
-  "updated_at": "2026-09-03T20:49:25.118680+09:00",
+  "updated_at": "2026-09-04T07:30:37.633166+09:00",
   "jiai": {
     "screening_jiai": "RED",
     "narrative_status": null,
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "BUY",
+    "direction_confidence": "中",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "-0.17%",
     "topix_change": null,
-    "dow_change": "0.56%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
-    "vix": "15.2",
-    "usdjpy": "4.01円",
+    "dow_change": "53,686ドル（+1.18%）",
+    "nasdaq_change": "26,584（+1.40%）",
+    "futures_gap_pct": -0.02316423442205235,
+    "vix": "14.3",
+    "usdjpy": "155.88円（-4.32円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -490,6 +490,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 7/7銘柄 決算接近警告0 APIリクエスト28",
       "timestamp": "2026-09-03T20:49:25.118589+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: BUY（中）先物-0.0% (active:0 standby:7)",
+      "timestamp": "2026-09-04T07:30:37.633146+09:00"
     }
   ],
   "stage_metadata": {
@@ -498,7 +503,11 @@
       "completed_at": "2026-09-03T20:48:40.890891+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-09-03T20:48:40.890897+09:00"
+      "started_at": "2026-09-03T20:48:40.890897+09:00",
+      "completed_at": "2026-09-04T07:30:37.633110+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-09-04T07:30:37.633118+09:00"
     }
   }
 }
