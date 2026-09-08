@@ -1,13 +1,13 @@
 {
   "date": "2026-09-09",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage3_7am",
   "created_at": "2026-09-08T20:50:36.176425+09:00",
-  "updated_at": "2026-09-08T20:50:49.917724+09:00",
+  "updated_at": "2026-09-09T07:34:33.350673+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": null,
-    "direction_7am": null,
-    "direction_confidence": null,
+    "direction_7am": "SELL",
+    "direction_confidence": "高",
     "morning_jiai": null,
     "effective_jiai": null,
     "futures_direction": null,
@@ -16,11 +16,11 @@
   "market": {
     "nikkei_change": "-1.70%",
     "topix_change": null,
-    "dow_change": "-0.51%",
-    "nasdaq_change": null,
-    "futures_gap_pct": null,
+    "dow_change": "52,786ドル（-1.18%）",
+    "nasdaq_change": "26,421（-0.32%）",
+    "futures_gap_pct": -1.2078395624430265,
     "vix": "15.7",
-    "usdjpy": "1.94円",
+    "usdjpy": "153.66円（-2.53円）",
     "sector_top3": [],
     "sector_worst3": []
   },
@@ -60,7 +60,7 @@
       "stop_loss_base": 12895,
       "target_base": 13539,
       "lot_base": 319,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -81,6 +81,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "SELL判定（高）→ 順張り候補は待機"
         }
       ],
       "fundamental": {
@@ -91,7 +96,16 @@
         "oi_growth": 56.4,
         "equity_ratio": 36.5,
         "dividend_yield": 1.93
-      }
+      },
+      "entry_current": {
+        "est_open": 12986,
+        "low": 12921,
+        "high": 13050
+      },
+      "stop_loss_current": 12739,
+      "target_current": 13375,
+      "lot_current": 323,
+      "gap_pct": -1.21
     },
     {
       "code": "3064",
@@ -123,7 +137,7 @@
       "stop_loss_base": 1925,
       "target_base": 2021,
       "lot_base": 2139,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -144,6 +158,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage3",
+          "action": "active → standby",
+          "reason": "SELL判定（高）→ 順張り候補は待機"
         }
       ],
       "fundamental": {
@@ -154,7 +173,16 @@
         "oi_growth": 24.6,
         "equity_ratio": 63.6,
         "dividend_yield": 1.32
-      }
+      },
+      "entry_current": {
+        "est_open": 1939,
+        "low": 1929,
+        "high": 1948
+      },
+      "stop_loss_current": 1902,
+      "target_current": 1997,
+      "lot_current": 2166,
+      "gap_pct": -1.22
     }
   ],
   "history": [
@@ -167,6 +195,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 2/2銘柄 決算接近警告0 APIリクエスト8",
       "timestamp": "2026-09-08T20:50:49.917624+09:00"
+    },
+    {
+      "stage": "stage3",
+      "action": "7am判定: SELL（高）先物-1.2% (active:0 standby:2)",
+      "timestamp": "2026-09-09T07:34:33.350638+09:00"
     }
   ],
   "stage_metadata": {
@@ -175,7 +208,11 @@
       "completed_at": "2026-09-08T20:50:36.411398+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-09-08T20:50:36.411404+09:00"
+      "started_at": "2026-09-08T20:50:36.411404+09:00",
+      "completed_at": "2026-09-09T07:34:33.350567+09:00"
+    },
+    "stage3_7am": {
+      "started_at": "2026-09-09T07:34:33.350578+09:00"
     }
   }
 }
