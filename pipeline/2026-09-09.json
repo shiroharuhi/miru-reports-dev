@@ -1,15 +1,15 @@
 {
   "date": "2026-09-09",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-09-08T20:50:36.176425+09:00",
-  "updated_at": "2026-09-09T07:34:33.350673+09:00",
+  "updated_at": "2026-09-09T08:31:55.757046+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": null,
     "direction_7am": "SELL",
     "direction_confidence": "高",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "RED",
+    "effective_jiai": "RED",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -1.2078395624430265,
     "vix": "15.7",
     "usdjpy": "153.66円（-2.53円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "不動産",
+        "change": 1.26
+      },
+      {
+        "name": "小売",
+        "change": 1.07
+      },
+      {
+        "name": "情報通信・サービス",
+        "change": 0.92
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "自動車・輸送機",
+        "change": -4.41
+      },
+      {
+        "name": "電機・精密",
+        "change": -3.91
+      },
+      {
+        "name": "機械",
+        "change": -2.77
+      }
+    ]
   },
   "narrative": {
     "headline": null,
@@ -141,7 +167,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -163,6 +190,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "SELL判定（高）→ 順張り候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -200,6 +232,16 @@
       "stage": "stage3",
       "action": "7am判定: SELL（高）先物-1.2% (active:0 standby:2)",
       "timestamp": "2026-09-09T07:34:33.350638+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: RED→effective:RED (active:0 standby:2)",
+      "timestamp": "2026-09-09T08:31:55.753184+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=short score=0.3",
+      "timestamp": "2026-09-09T08:31:55.757020+09:00"
     }
   ],
   "stage_metadata": {
@@ -212,7 +254,22 @@
       "completed_at": "2026-09-09T07:34:33.350567+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-09-09T07:34:33.350578+09:00"
+      "started_at": "2026-09-09T07:34:33.350578+09:00",
+      "completed_at": "2026-09-09T08:31:55.753141+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-09-09T08:31:55.753149+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.3,
+    "direction": "short",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-09-09T08:31:55.755270+09:00"
   }
 }
