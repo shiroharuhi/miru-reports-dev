@@ -1,0 +1,54 @@
+{
+  "narrative_status": "RED",
+  "headline": "中東情勢緊迫と日米中銀会合控え不安定な地合い",
+  "risks": [
+    {
+      "topic": "中東情勢の悪化と原油高",
+      "severity": "high",
+      "timeframe": "immediate",
+      "sectors": [
+        "エネルギー",
+        "海運",
+        "航空",
+        "素材"
+      ],
+      "detail": "サウジ重要インフラ攻撃とホルムズ海峡協議延期による原油価格の急騰が市場全体の重石。"
+    },
+    {
+      "topic": "米FOMCと日銀会合前の警戒感",
+      "severity": "medium",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "金融",
+        "全業種"
+      ],
+      "detail": "米利上げと日銀追加利上げが確実視され、金利上昇に伴う調整売り圧力が持続。"
+    }
+  ],
+  "catalysts": [
+    {
+      "topic": "日銀追加利上げへの織り込み",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "銀行",
+        "保険"
+      ],
+      "detail": "0.25%利上げの確実視により、悪材料出尽くし感からのリバウンドの可能性がある。"
+    },
+    {
+      "topic": "AI関連株の底打ち期待",
+      "direction": "positive",
+      "timeframe": "short_term",
+      "sectors": [
+        "半導体",
+        "電気機器"
+      ],
+      "detail": "過度な減速懸念が和らぎ、割安感からの自律反発が期待される。"
+    }
+  ],
+  "recommendation": "中東情勢と日米中銀イベントを控え、市場は極めて神経質です。前場は原油高を受けた売りが先行する恐れが高く、逆張りは避け様子見を推奨します。FOMCの結果判明後のアク抜けを待ち、リスクを限定した短期売買に徹すべきです。",
+  "date": "2026-09-14",
+  "timestamp": "2026-09-14T16:58:45.935173"
+}
