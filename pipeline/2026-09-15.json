@@ -1,15 +1,15 @@
 {
   "date": "2026-09-15",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-09-14T22:40:40.421662+09:00",
-  "updated_at": "2026-09-15T08:05:38.205396+09:00",
+  "updated_at": "2026-09-15T08:57:14.056572+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
     "narrative_status": null,
     "direction_7am": "BUY",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -2.0746245548846574,
     "vix": "17.1",
     "usdjpy": "154.21円（+0.79円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "金融（除く銀行）",
+        "change": 1.03
+      },
+      {
+        "name": "自動車・輸送機",
+        "change": 0.89
+      },
+      {
+        "name": "商社・卸売",
+        "change": 0.76
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": -3.51
+      },
+      {
+        "name": "電機・精密",
+        "change": -1.78
+      },
+      {
+        "name": "情報通信・サービス",
+        "change": -1.67
+      }
+    ]
   },
   "narrative": {
     "headline": null,
@@ -65,7 +91,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -92,6 +119,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -152,7 +184,8 @@
         "⚠️ROE低迷",
         "⚠️低収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -184,6 +217,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -241,7 +279,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -263,6 +302,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -319,7 +363,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -351,6 +396,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -408,7 +458,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -440,6 +491,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -495,7 +551,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -517,6 +574,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -572,7 +634,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📉減益"
+        "📉減益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -594,6 +657,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -649,7 +717,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈高成長"
+        "📈高成長",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -676,6 +745,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -809,7 +883,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -836,6 +911,11 @@
           "stage": "stage3",
           "action": "active → standby",
           "reason": "先物-2.1%急落 → 順張り待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -951,6 +1031,16 @@
       "stage": "stage3",
       "action": "7am判定: BUY（低）先物-2.1% (active:0 standby:11)",
       "timestamp": "2026-09-15T08:05:38.205369+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:0 standby:11)",
+      "timestamp": "2026-09-15T08:57:14.051306+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=legacy_stage4 valid=False direction=None score=None",
+      "timestamp": "2026-09-15T08:57:14.056544+09:00"
     }
   ],
   "stage_metadata": {
@@ -963,7 +1053,22 @@
       "completed_at": "2026-09-15T08:05:38.205263+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-09-15T08:05:38.205269+09:00"
+      "started_at": "2026-09-15T08:05:38.205269+09:00",
+      "completed_at": "2026-09-15T08:57:14.051248+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-09-15T08:57:14.051255+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "legacy_stage4",
+    "fallback_used": true,
+    "fallback_reason": "g1_generated_out_of_window",
+    "valid": false,
+    "g1_score": null,
+    "direction": null,
+    "momentum": null,
+    "representative_set_id": null,
+    "generated_at": "2026-09-15T08:57:14.056399+09:00"
   }
 }
