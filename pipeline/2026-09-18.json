@@ -1,15 +1,15 @@
 {
   "date": "2026-09-18",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-09-17T21:09:37.507686+09:00",
-  "updated_at": "2026-09-18T07:49:59.175409+09:00",
+  "updated_at": "2026-09-18T08:36:37.780189+09:00",
   "jiai": {
     "screening_jiai": "GREEN",
     "narrative_status": null,
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "GREEN",
+    "effective_jiai": "GREEN",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": 1.0055343362693896,
     "vix": "15.4",
     "usdjpy": "155.95円（+0.68円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "不動産",
+        "change": 2.35
+      },
+      {
+        "name": "医薬品",
+        "change": 2.35
+      },
+      {
+        "name": "情報通信・サービス",
+        "change": 2.01
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "エネルギー資源",
+        "change": -0.53
+      },
+      {
+        "name": "小売",
+        "change": -0.52
+      },
+      {
+        "name": "素材・化学",
+        "change": -0.22
+      }
+    ]
   },
   "narrative": {
     "headline": null,
@@ -131,7 +157,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -153,6 +180,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -207,7 +239,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📉減収",
-        "📉減益"
+        "📉減益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -224,6 +257,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -282,7 +320,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -299,6 +338,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -353,7 +397,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -370,6 +415,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -425,7 +475,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📉減益"
+        "📉減益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -442,6 +493,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -497,7 +553,8 @@
       "flags": [
         "⚠️ROE低迷",
         "⚠️低収益",
-        "📉減益"
+        "📉減益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -519,6 +576,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📉減益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -573,7 +635,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📈増益"
+        "📈増益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -590,6 +653,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -645,7 +713,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️低収益"
+        "⚠️低収益",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -662,6 +731,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️低収益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -716,7 +790,8 @@
       "flags": [
         "📊財務良好",
         "📊高収益",
-        "📈高成長"
+        "📈高成長",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -738,6 +813,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈高成長"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -775,6 +855,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物+1.0% (active:10 standby:0)",
       "timestamp": "2026-09-18T07:49:59.175393+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: GREEN→effective:GREEN (active:10 standby:0)",
+      "timestamp": "2026-09-18T08:36:37.775082+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=long score=0.3",
+      "timestamp": "2026-09-18T08:36:37.780158+09:00"
     }
   ],
   "stage_metadata": {
@@ -787,7 +877,22 @@
       "completed_at": "2026-09-18T07:49:59.175347+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-09-18T07:49:59.175351+09:00"
+      "started_at": "2026-09-18T07:49:59.175351+09:00",
+      "completed_at": "2026-09-18T08:36:37.775029+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-09-18T08:36:37.775035+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.3,
+    "direction": "long",
+    "momentum": "strong",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-09-18T08:36:37.778157+09:00"
   }
 }
