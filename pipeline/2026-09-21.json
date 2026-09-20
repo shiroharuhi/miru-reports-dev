@@ -1,15 +1,15 @@
 {
   "date": "2026-09-21",
-  "pipeline_stage": "stage3_7am",
+  "pipeline_stage": "stage4_morning",
   "created_at": "2026-09-18T21:07:56.310975+09:00",
-  "updated_at": "2026-09-21T07:23:10.438941+09:00",
+  "updated_at": "2026-09-21T08:21:35.841494+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
     "narrative_status": "YELLOW",
     "direction_7am": "NEUTRAL",
     "direction_confidence": "低",
-    "morning_jiai": null,
-    "effective_jiai": null,
+    "morning_jiai": "YELLOW",
+    "effective_jiai": "YELLOW",
     "futures_direction": null,
     "final_judgment": null
   },
@@ -21,8 +21,34 @@
     "futures_gap_pct": -0.02306805074971165,
     "vix": "14.8",
     "usdjpy": "156.90円（+0.77円）",
-    "sector_top3": [],
-    "sector_worst3": []
+    "sector_top3": [
+      {
+        "name": "鉄鋼・非鉄",
+        "change": 1.44
+      },
+      {
+        "name": "電機・精密",
+        "change": 1.44
+      },
+      {
+        "name": "医薬品",
+        "change": 0.52
+      }
+    ],
+    "sector_worst3": [
+      {
+        "name": "電力・ガス",
+        "change": -2.6
+      },
+      {
+        "name": "食品",
+        "change": -1.6
+      },
+      {
+        "name": "不動産",
+        "change": -1.42
+      }
+    ]
   },
   "narrative": {
     "headline": "中東緊迫と日銀利上げの余波、連休明け相場の不透明感",
@@ -236,7 +262,8 @@
       "flags": [
         "📊ROE優秀",
         "📊高収益",
-        "📈増益"
+        "📈増益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -258,6 +285,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -304,7 +336,8 @@
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "📊高収益"
+        "📊高収益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -321,6 +354,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -369,7 +407,8 @@
         "📊高収益",
         "📈高成長",
         "📈増益",
-        "⚠️日銀追加利上げの余波"
+        "⚠️日銀追加利上げの余波",
+        "⚠️セクター弱"
       ],
       "history": [
         {
@@ -401,6 +440,11 @@
           "stage": "stage2",
           "action": "flagged",
           "reason": "⚠️日銀追加利上げの余波"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "⚠️セクター弱"
         }
       ],
       "fundamental": {
@@ -443,11 +487,12 @@
       "stop_loss_base": 1344,
       "target_base": 1412,
       "lot_base": 3063,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "⚠️ROE低迷",
-        "⚠️低収益"
+        "⚠️低収益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -464,6 +509,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️低収益"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -504,11 +559,12 @@
       "stop_loss_base": 22450,
       "target_base": 23571,
       "lot_base": 183,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊財務良好",
-        "📊高収益"
+        "📊高収益",
+        "💪セクター強"
       ],
       "history": [
         {
@@ -525,6 +581,16 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📊高収益"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
+        },
+        {
+          "stage": "stage4",
+          "action": "flagged",
+          "reason": "💪セクター強"
         }
       ],
       "fundamental": {
@@ -567,7 +633,7 @@
       "stop_loss_base": 6483,
       "target_base": 6807,
       "lot_base": 635,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -594,6 +660,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -636,7 +707,7 @@
       "stop_loss_base": 529,
       "target_base": 556,
       "lot_base": 7777,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊ROE優秀",
@@ -663,6 +734,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -705,7 +781,7 @@
       "stop_loss_base": 2054,
       "target_base": 2156,
       "lot_base": 2005,
-      "status": "active",
+      "status": "standby",
       "added_at": "stage1_screening",
       "flags": [
         "📊高収益",
@@ -726,6 +802,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage4",
+          "action": "active → standby",
+          "reason": "YELLOW → 補欠候補は待機"
         }
       ],
       "fundamental": {
@@ -759,6 +840,16 @@
       "stage": "stage3",
       "action": "7am判定: NEUTRAL（低）先物-0.0% (active:10 standby:0)",
       "timestamp": "2026-09-21T07:23:10.438922+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "地合い確定: YELLOW→effective:YELLOW (active:5 standby:5)",
+      "timestamp": "2026-09-21T08:21:35.837648+09:00"
+    },
+    {
+      "stage": "stage4",
+      "action": "G1 Resolver 完了: adopted_source=g1_final_base valid=True direction=neutral score=0.55",
+      "timestamp": "2026-09-21T08:21:35.841476+09:00"
     }
   ],
   "stage_metadata": {
@@ -775,7 +866,22 @@
       "completed_at": "2026-09-21T07:23:10.438897+09:00"
     },
     "stage3_7am": {
-      "started_at": "2026-09-21T07:23:10.438901+09:00"
+      "started_at": "2026-09-21T07:23:10.438901+09:00",
+      "completed_at": "2026-09-21T08:21:35.837598+09:00"
+    },
+    "stage4_morning": {
+      "started_at": "2026-09-21T08:21:35.837606+09:00"
     }
+  },
+  "g1_adopted_metadata": {
+    "adopted_source": "g1_final_base",
+    "fallback_used": false,
+    "fallback_reason": null,
+    "valid": true,
+    "g1_score": 0.55,
+    "direction": "neutral",
+    "momentum": "weak",
+    "representative_set_id": "set_neutral_default",
+    "generated_at": "2026-09-21T08:21:35.839985+09:00"
   }
 }
