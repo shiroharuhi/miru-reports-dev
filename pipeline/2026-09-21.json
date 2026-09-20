@@ -1,11 +1,11 @@
 {
   "date": "2026-09-21",
-  "pipeline_stage": "stage1_5_fundamental",
+  "pipeline_stage": "stage2_narrative",
   "created_at": "2026-09-18T21:07:56.310975+09:00",
-  "updated_at": "2026-09-18T21:09:06.566507+09:00",
+  "updated_at": "2026-09-20T23:43:13.432620+09:00",
   "jiai": {
     "screening_jiai": "YELLOW",
-    "narrative_status": null,
+    "narrative_status": "YELLOW",
     "direction_7am": null,
     "direction_confidence": null,
     "morning_jiai": null,
@@ -25,9 +25,43 @@
     "sector_worst3": []
   },
   "narrative": {
-    "headline": null,
-    "risks": [],
-    "catalysts": []
+    "headline": "中東緊迫と日銀利上げの余波、連休明け相場の不透明感",
+    "risks": [
+      {
+        "topic": "中東情勢の悪化",
+        "severity": "high",
+        "timeframe": "immediate",
+        "sectors": [
+          "エネルギー",
+          "海運",
+          "自動車"
+        ],
+        "detail": "ホルムズ海峡封鎖リスクと原油高が継続。供給網への打撃とコスト増が輸出企業の重石となる。"
+      },
+      {
+        "topic": "日銀追加利上げの余波",
+        "severity": "medium",
+        "timeframe": "short_term",
+        "sectors": [
+          "銀行",
+          "不動産"
+        ],
+        "detail": "利上げ決定後の円安進行は、市場の織り込み修正と政策の先行き不透明感を露呈させた。"
+      }
+    ],
+    "catalysts": [
+      {
+        "topic": "米中首脳会談の開催",
+        "direction": "positive",
+        "timeframe": "short_term",
+        "sectors": [
+          "電機",
+          "半導体",
+          "機械"
+        ],
+        "detail": "24日の会談で関税・ハイテク規制の管理された競争が確認されれば、投資家心理の改善に寄与する。"
+      }
+    ]
   },
   "candidates": [
     {
@@ -65,7 +99,8 @@
       "flags": [
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "📈米中首脳会談の開催"
       ],
       "history": [
         {
@@ -87,6 +122,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米中首脳会談の開催"
         }
       ],
       "fundamental": {
@@ -132,7 +172,8 @@
       "status": "active",
       "added_at": "stage1_screening",
       "flags": [
-        "⚠️ROE低迷"
+        "⚠️ROE低迷",
+        "📈米中首脳会談の開催"
       ],
       "history": [
         {
@@ -144,6 +185,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "⚠️ROE低迷"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "📈米中首脳会談の開催"
         }
       ],
       "fundamental": {
@@ -322,7 +368,8 @@
         "📊ROE優秀",
         "📊高収益",
         "📈高成長",
-        "📈増益"
+        "📈増益",
+        "⚠️日銀追加利上げの余波"
       ],
       "history": [
         {
@@ -349,6 +396,11 @@
           "stage": "stage1.5",
           "action": "flagged",
           "reason": "📈増益"
+        },
+        {
+          "stage": "stage2",
+          "action": "flagged",
+          "reason": "⚠️日銀追加利上げの余波"
         }
       ],
       "fundamental": {
@@ -697,6 +749,11 @@
       "stage": "stage1.5",
       "action": "ファンダチェック完了: 10/10銘柄 決算接近警告0 APIリクエスト40",
       "timestamp": "2026-09-18T21:09:06.566345+09:00"
+    },
+    {
+      "stage": "stage2",
+      "action": "ナラティブ照合完了: YELLOW リスク2件 触媒1件 (active:10 standby:0)",
+      "timestamp": "2026-09-20T23:43:13.432595+09:00"
     }
   ],
   "stage_metadata": {
@@ -705,7 +762,11 @@
       "completed_at": "2026-09-18T21:07:56.490818+09:00"
     },
     "stage1_5_fundamental": {
-      "started_at": "2026-09-18T21:07:56.490824+09:00"
+      "started_at": "2026-09-18T21:07:56.490824+09:00",
+      "completed_at": "2026-09-20T23:43:13.432535+09:00"
+    },
+    "stage2_narrative": {
+      "started_at": "2026-09-20T23:43:13.432541+09:00"
     }
   }
 }
